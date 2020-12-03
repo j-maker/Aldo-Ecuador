@@ -1,0 +1,155 @@
+/*top-header*/
+.label {
+    font-size: .75rem;
+    text-transform: capitalize;
+    color: rgb(59, 59, 59);
+    padding: 0;
+    margin-top: 2px;
+}
+
+.label::before {
+    content: " ";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/user.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 999;
+    padding-top: 3px;
+    padding-left: 18px;
+    margin-right: 5px;
+}
+
+.container :global(.vtex-button__label) {
+    width: 120px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button__label),
+.accessCodeOptionBtn :global(.vtex-button__label) {
+    text-transform: initial;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button),
+.accessCodeOptionBtn :global(.vtex-button) {
+    border-radius: unset;
+    background: #685bc7;
+    color: #fff;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button):hover,
+.accessCodeOptionBtn :global(.vtex-button):hover {
+    background: #ce0f69;
+}
+
+.contentAlwaysWithOptions {
+    background: #efecf0;
+    max-width: unset;
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainerEmail :global(.vtex-styleguide-9-x-input) {
+    background: #efecf0;
+}
+
+.profile {
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contentForm,
+.optionsSticky {
+    margin: 30px;
+}
+
+.inputContainerPassword :global(.vtex-input-prefix__group),
+.inputContainerEmail :global(.vtex-input-prefix__group) {
+    border: unset;
+    border-radius: unset;
+    border-bottom: 1px solid #000;
+}
+
+.inputContainerPassword :global(.vtex-styleguide-9-x-input),
+.inputContainerEmail :global(.vtex-styleguide-9-x-input) {
+    background: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.inputContainerEmail,
+.inputContainerPassword {
+    margin-top: 20px;
+}
+
+.sendButton {
+    width: 100%;
+}
+
+.sendButton :global(.vtex-button) {
+    border: unset;
+    border-radius: unset;
+    background: #b9b9b9;
+    width: 100%;
+    color: #262626;
+}
+
+.sendButton :global(.vtex-button):hover {
+    background: #ce0f69;
+    color: #fff;
+}
+
+.dontHaveAccount {
+    text-decoration: underline;
+    color: #3a2e2c;
+    margin-top: 30px;
+    font-size: 0.75rem;
+}
+
+.dontHaveAccount:hover {
+    color: #3300ad;
+}
+
+.accountOptions :global(.vtex-button),
+.button,
+.container :global(.vtex-button) {
+    outline: 0 !important;
+}
+
+.forgotPasswordLink,
+.dontHaveAccount{
+    font-size: 0;
+}
+
+.dontHaveAccount::before{
+    font-size: 14px;
+    content: "¿No tienes una cuenta? Regístrate";
+    color: #121314;
+}
+
+.forgotPasswordLink::before{
+    font-size: 14px;
+    content: "¿Olvidaste tu contrase""ñ""a?";
+    color: #121314;
+}

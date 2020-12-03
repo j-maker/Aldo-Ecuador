@@ -1,0 +1,56 @@
+{
+  "store.custom#helpCenterAccount": {
+    "blocks": [
+      "tab-layout#helpCenterAccount"
+    ]
+  },
+  "tab-layout#helpCenterAccount": {
+    "children": [
+      "tab-list#helpcenter",
+      "tab-content#helpcenter"
+    ],
+    "props": {
+      "blockClass": "helpcenter",
+      "defaultActiveTabId": "helpcenter9"
+    }
+  },
+  "tab-list.item#helpcenter9": {
+    "props": {
+      "blockClass": "listItemHelpCenterList2",
+      "tabId": "helpcenter9",
+      "label": "Cuenta"
+    }
+  },
+  "tab-content.item#helpcenter9": {
+    "children": [
+      "flex-layout.row#topContentInfoHelpCenter",
+      "rich-text#textContent-3",
+      "rich-text#textContent-2",
+      "flex-layout.row#wrapperQuestionAccountInfoHelpCenter",
+      "rich-text#InfoGeneralFooterTextTitle",
+      "flex-layout.row#WrapperInfoGeneralFooter"
+    ],
+    "props": {
+      "tabId": "helpcenter9"
+    }
+  },
+  //question
+  "flex-layout.row#wrapperQuestionAccountInfoHelpCenter": {
+    "children": [
+      "flex-layout.col#wrapperQuestionAccountInfoHelpCenter"
+    ],
+    "props": {
+      "blockClass": "WrapperRowQuestion"
+    }
+  },
+  "flex-layout.col#wrapperQuestionAccountInfoHelpCenter": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount-1",
+      "vtex.menu@2.x:menu#questionAccount-2",
+      "vtex.menu@2.x:menu#questionAccount-3"
+    ],
+    "props": {
+      "blockClass": "WrapperColQuestion"
+    }
+  }
+}

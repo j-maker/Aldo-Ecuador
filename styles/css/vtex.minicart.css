@@ -1,0 +1,141 @@
+.minicartQuantityBadgeDefault {
+    background: unset;
+    color: #3a2e2c;
+    font-size: 14px;
+    padding: 12px 42px;
+    margin-right: -60px;
+    margin-top: -1px;
+}
+
+.minicartQuantityBadgeDefault::after {
+    content: "Art""í""culos";
+    font-size: 14px;
+    color: #3a2e2c;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.minicartIconContainer--minicart::before {
+    width: 20px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/bagAldo.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 999;
+    padding-top: 18px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.minicartContainer--minicart {
+    margin-top: 3px;
+}
+
+.minicartWrapperContainer--minicart {
+    width: auto !important;
+    min-width: 120px;
+    border-left: 1px solid #ddd;
+    height: 80%;
+}
+
+.cartIcon--minicart {
+    width: 0;
+}
+
+.openIconContainer--minicart {
+    padding: 0;
+}
+
+.closeIconContainer--minicart {
+    position: fixed;
+    right: 15px;
+    top: 10px;
+}
+
+.closeIcon--minicart {
+    opacity: 0.5;
+}
+
+.minicartTitle {
+    font-size: 0;
+    padding: 30px 30px 15px;
+    margin: 0;
+    line-height: 1.3125rem;
+    border-bottom: 1px solid #efecf0;
+}
+
+.minicartTitle::after {
+    content: "Carrito";
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.minicartEmptyStateContainer {
+    justify-content: flex-start;
+}
+
+.opened--minicart {
+    width: 33% !important;
+    max-width: unset !important;
+}
+
+.closeIconButton,
+.minicartCheckoutButton :global(.vtex-button),
+.openIconContainer--minicart :global(.vtex-button) {
+    outline: 0 !important;
+}
+
+.minicartIconContainer--minicart {
+    margin-top: -1px;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productPriceContainer--price-test){
+    margin: 0;
+    width: auto;
+    height: 20px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .minicartTitle {
+        padding: 20px;
+    }
+
+    .opened--minicart {
+        width: 100% !important;
+    }
+
+    .minicartWrapperContainer--minicart {
+        border: unset;
+        min-width: unset;
+        height: unset;
+        margin-left: 7.5px;
+        margin-right: 5px;
+    }
+
+    .openIconContainer--minicart :global(.vtex-button__label) {
+        padding: 14px 0;
+        margin-top: 13px;
+    }
+
+    .minicartQuantityBadgeDefault {
+        padding: 0;
+        margin-right: 0px;
+        margin-top: -4px;
+        font-size: 12px;
+    }
+
+    .minicartQuantityBadgeDefault::after {
+        display: none;
+    }
+
+    .minicartIconContainer--minicart::before {
+        margin-right: unset;
+    }
+
+    .cartIcon--minicart {
+        display: none;
+    }
+}

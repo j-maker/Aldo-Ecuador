@@ -1,0 +1,53 @@
+{
+    "modal-trigger#disponibility": {
+        "children": [
+            "rich-text#disponibility-title-popup",
+            "modal-layout#disponibility"
+        ],
+        "props": {
+            "blockClass": "btn-disponibility"
+        }
+    },
+    "rich-text#disponibility-title-popup": {
+        "title":"Buscar en tienda",
+        "props": {
+            "text": "Buscar en tienda",
+            "blockClass": "btn-disponibility"
+        }
+    },
+    "modal-layout#disponibility": {
+        "children": [
+            "modal-header#disponibility"
+        ],
+        "props": {
+            "blockClass": "modal-disponibility",
+            "fullSreen": true
+        }
+    },
+    "modal-header#disponibility": {
+        "children": [
+            "flex-layout.row#disponibility-modal-content"
+        ],
+        "props": {
+            "blockClass": "disponibility-modal-header",
+            "showCloseButton": true,
+            "iconCloseSize": 24
+        }
+    },
+    "flex-layout.row#disponibility-modal-content": {
+        "props": {
+            "blockClass": "disponibility-modal-content"
+        },
+        "children": [
+            "flex-layout.col#disponibility-modal-content"
+        ]
+    },
+    "flex-layout.col#disponibility-modal-content": {
+        "props": {
+            "blockClass": "disponibility-modal-content"
+        },
+        "children": [
+            "custom-disponibility-in-shop"
+        ]
+    }
+}

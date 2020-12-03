@@ -1,0 +1,59 @@
+/*header*/
+
+
+.styledLinkContainer--category-text-principal {
+    margin: 0;
+    padding: 20px 30px 38px 0;
+}
+
+.wrapper--sticky-header--stuck {
+    height: 64px;
+}
+
+.wrapper--sticky-header--stuck :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wrapper--sticky-header--stuck :global(.vtex-menu-2-x-submenuContainer--wrapperMenuWomen),
+.wrapper--sticky-header--stuck :global(.vtex-menu-2-x-submenuContainer--wrapperMenuArrivals) {
+    margin-top: 70px;
+}
+
+/*header/*/
+/*home*/
+.container--sticky-header .flexRow--wrapper-home {
+    margin: 10px auto;
+    min-width: 1140px;
+    width: 100%;
+}
+
+.container--sticky-header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: unset;
+    background: #fff
+}
+
+.wrapper--sticky-header--stuck :global(.vtex-store-components-3-x-logoImage) {
+    height: 18px !important;
+    width: 86px !important;
+    margin-top: 10px !important;
+    transition: 0.4s;
+}
+
+.wrapper--sticky-header--stuck :global(.vtex-flex-layout-0-x-flexRow--header) {
+    max-width: 98.125rem;
+    margin: 0 auto;
+    padding: 0 6.125rem;
+}
+
+/*MOBILW*/
+.wrapper--stickyMobile {
+    height: 3.125rem !important;
+}
+
+.container--stickyMobile {
+    background: #fff;
+    height: 3.125rem;
+}

@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#product-imagesMobile": {
+        "children": [
+            "flex-layout.col#descriptionMobile"
+        ],
+        "props": {
+            "blockClass": "ProductDescriptionMobile"
+        }
+    },
+    "flex-layout.col#descriptionMobile": {
+        "children": [
+            "product-description",
+            "product-specifications#product"
+        ],
+        "props": {
+            "blockClass": "wrapperContentRightTopMobile"
+        }
+    },
+    "breadcrumb#productMobile": {
+        "title":"Breadcrumb Movile",
+        "props": {
+            "showOnMobile": true,
+            "blockClass": "breadCrumbProductMobile",
+            "initialSelection": "empty"
+        }
+    }
+}

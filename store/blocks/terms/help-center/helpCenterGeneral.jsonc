@@ -1,0 +1,56 @@
+{
+  "store.custom#helpCenterGeneral": {
+    "blocks": [
+      "tab-layout#helpCenterGeneral"
+    ]
+  },
+  "tab-layout#helpCenterGeneral": {
+    "children": [
+      "tab-list#helpcenter",
+      "tab-content#helpcenter"
+    ],
+    "props": {
+      "blockClass": "helpcenter",
+      "defaultActiveTabId": "helpcenter2"
+    }
+  },
+  "tab-list.item#helpcenter2": {
+    "props": {
+      "blockClass": "listItemHelpCenter",
+      "tabId": "helpcenter2",
+      "label": "General"
+    }
+  },
+  "tab-content.item#helpcenter2": {
+    "children": [
+      "flex-layout.row#topContentInfoHelpCenter",
+      "rich-text#textContent-1",
+      "rich-text#textContent-2",
+      "rich-text#textContent-4",
+      "rich-text#textContent-3",
+      "flex-layout.row#wrapperQuestionGeneralInfoHelpCenter",
+      "rich-text#InfoGeneralFooterTextTitle",
+      "flex-layout.row#WrapperInfoGeneralFooter"
+    ],
+    "props": {
+      "tabId": "helpcenter2"
+    }
+  },
+  //question
+  "flex-layout.row#wrapperQuestionGeneralInfoHelpCenter": {
+    "children": [
+      "flex-layout.col#wrapperQuestionGeneralInfoHelpCenter"
+    ],
+    "props": {
+      "blockClass": "WrapperRowQuestion"
+    }
+  },
+  "flex-layout.col#wrapperQuestionGeneralInfoHelpCenter": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount-1"
+    ],
+    "props": {
+      "blockClass": "WrapperColQuestion"
+    }
+  }
+}

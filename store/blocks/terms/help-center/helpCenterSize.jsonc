@@ -1,0 +1,38 @@
+{
+  "store.custom#helpCenterSize": {
+    "blocks": [
+      "tab-layout#helpCenterSize"
+    ]
+  },
+  "tab-layout#helpCenterSize": {
+    "children": [
+      "tab-list#helpcenter",
+      "tab-content#helpcenter"
+    ],
+    "props": {
+      "blockClass": "helpcenter",
+      "defaultActiveTabId": "helpcenter6"
+    }
+  },
+  "tab-list.item#helpcenter6": {
+    "props": {
+      "blockClass": "listItemHelpCenter",
+      "tabId": "helpcenter6",
+      "label": "Guía de tallas"
+    }
+  },
+  "tab-content.item#helpcenter6": {
+    "children": [
+      "flex-layout.row#topContentInfoHelpCenter",
+      "rich-text#textContent-3",
+      "list-context.image-list#sizeGuidePDPMen",
+      "rich-text#textContent-2",
+      "list-context.image-list#sizeGuidePDPMen",
+      "rich-text#InfoGeneralFooterTextTitle",
+      "flex-layout.row#WrapperInfoGeneralFooter"
+    ],
+    "props": {
+      "tabId": "helpcenter6"
+    }
+  }
+}

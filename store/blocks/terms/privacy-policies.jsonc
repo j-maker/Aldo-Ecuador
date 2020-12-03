@@ -1,0 +1,10 @@
+{
+    "store.custom#privacy-policies": {
+        "blocks": [
+            "flex-layout.row#breadcrumb",
+            "flex-layout.row#titleTextPrivacy",
+            "flex-layout.row#subitilePrivacyPolicies",
+            "flex-layout.row#contentPrivacyPolicies"
+        ]
+    }
+}

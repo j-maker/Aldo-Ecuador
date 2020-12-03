@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#home-newArrivalsMobile": {
+    "children": [
+      "image#home-newArrivalsMobile"
+    ],
+    "props": {
+      "blockClass": "wrapperNewArrivalsMobile"
+    }
+  },
+  "image#home-newArrivalsMobile": {
+    "props": {
+      "blockClass": "home-newArrivalsMobile",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/newarrivals-mobile.gif",
+      "url": "/mujer"
+    }
+  },
+  "flex-layout.row#home-image-topMobile": {
+    "children": [
+      "flex-layout.col#contentRightMobile"
+    ],
+    "props": {
+      "blockClass": "homeImageTopMobile"
+    }
+  },
+  "flex-layout.col#contentRightMobile": {
+    "children": [
+      "rich-text#contentRightTop",
+      "flex-layout.row#rightTop&andOff",
+      //"rich-text#rightTopSubtitle",
+      "rich-text#rightTopContent",
+      "link#home-top-link-1",
+      "link#home-top-link-2",
+      "rich-text#rightTopFooter",
+      "back-to-top-button"
+    ],
+    "props": {
+      "blockClass": "homeImageTopMobile",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  }
+}

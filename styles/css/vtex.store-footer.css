@@ -1,0 +1,15 @@
+.footerLayout {
+    margin: 0px auto;
+    min-width: 768px;
+    width: 100%;
+}
+
+.footerLayout :global(.vtex-store-components-3-x-container) {
+    max-width: unset;
+}
+
+@media screen and (max-width:1024px) {
+    .footerLayout {
+        min-width: unset;
+    }
+}

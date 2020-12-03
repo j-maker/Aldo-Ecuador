@@ -1,0 +1,60 @@
+{
+  "store.custom#helpCenterProductsCare": {
+    "blocks": [
+      "tab-layout#helpCenterProductsCare"
+    ]
+  },
+  "tab-layout#helpCenterProductsCare": {
+    "children": [
+      "tab-list#helpcenter",
+      "tab-content#helpcenter"
+    ],
+    "props": {
+      "blockClass": "helpcenter",
+      "defaultActiveTabId": "helpcenter7"
+    }
+  },
+  "tab-list.item#helpcenter7": {
+    "props": {
+      "blockClass": "listItemHelpCenterList1",
+      "tabId": "helpcenter7",
+      "label": "Cuidados del Producto"
+    }
+  },
+  "tab-content.item#helpcenter7": {
+    "children": [
+      "flex-layout.row#topContentInfoHelpCenter",
+      "rich-text#textContent-3",
+      "rich-text#textContent-2",
+      "flex-layout.row#wrapperQuestionProductCareInfoHelpCenter",
+      "rich-text#InfoGeneralFooterTextTitle",
+      "flex-layout.row#WrapperInfoGeneralFooter"
+    ],
+    "props": {
+      "tabId": "helpcenter7"
+    }
+  },
+  //question
+  "flex-layout.row#wrapperQuestionProductCareInfoHelpCenter": {
+    "children": [
+      "flex-layout.col#wrapperQuestionProductCareInfoHelpCenter"
+    ],
+    "props": {
+      "blockClass": "WrapperRowQuestion"
+    }
+  },
+  "flex-layout.col#wrapperQuestionProductCareInfoHelpCenter": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount-1",
+      "vtex.menu@2.x:menu#questionAccount-2",
+      "vtex.menu@2.x:menu#questionAccount-3",
+      "vtex.menu@2.x:menu#questionAccount-4",
+      "vtex.menu@2.x:menu#questionAccount-5",
+      "vtex.menu@2.x:menu#questionAccount-6",
+      "vtex.menu@2.x:menu#questionAccount-7"
+    ],
+    "props": {
+      "blockClass": "WrapperColQuestion"
+    }
+  }
+}

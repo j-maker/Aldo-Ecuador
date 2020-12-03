@@ -1,0 +1,30 @@
+.boxContainer {
+    border: 1px solid #000;
+    border-radius: unset;
+
+}
+
+.boxContainerBody :global(.vtex-address-form__street) {
+    margin-top: 24px;
+
+}
+
+.boxContainerBody :global(.vtex-address-form__street) :global(.vtex-input__label) {
+    font-size: 0;
+}
+
+.boxContainerBody :global(.vtex-address-form__street) :global(.vtex-input__label)::after {
+    content: "Calle principal";
+    font-size: .875rem;
+    color: #3f3f40;
+}
+
+.boxContainerBody :global(.vtex-address-form__number) :global(.vtex-input__label) {
+    font-size: 0;
+}
+
+.boxContainerBody :global(.vtex-address-form__number) :global(.vtex-input__label)::after {
+    content: "Calle secundaria";
+    font-size: .875rem;
+    color: #3f3f40;
+}

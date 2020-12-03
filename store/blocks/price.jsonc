@@ -1,0 +1,51 @@
+{
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": [
+      //"product-selling-price#summary",
+      "custom-summary-price-iva",
+      "product-price-savings#summary"
+    ]
+  },
+  "product-installments#Shelf": {
+    "props": {
+      "blockClass": "Shelf"
+    }
+  },
+  "product-selling-price#Shelf": {
+    "props": {
+      "blockClass": "Shelf"
+    }
+  },
+  "product-price-savings#Shelf": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "Shelf"
+    }
+  }
+}

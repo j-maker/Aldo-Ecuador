@@ -1,0 +1,59 @@
+.productImage {
+    border-radius: unset;
+}
+
+.productBrandName {
+    display: none;
+}
+
+.productName {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.productVariationsItem {
+    line-height: 1.125rem;
+    font-size: 1rem;
+    color: #7d7373;
+    font-weight: lighter;
+}
+
+.quantitySelectorContainer {
+    display: none;
+}
+
+.productPriceContainer {
+    margin-top: -35px;
+}
+
+.price {
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.removeButton :global(.vtex__icon-delete) {
+    width: 0;
+}
+
+.removeButton::after {
+    width: 16px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/hidex.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 999;
+    padding-top: 3px;
+    padding-left: 13px;
+}
+
+.deleteIcon {
+    width: 0;
+}
+
+.price--price-test{
+    color: #e90000;
+}

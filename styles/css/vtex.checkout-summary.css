@@ -1,0 +1,45 @@
+/*Minicart*/
+.summaryItemLabel {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.summaryItemLabel::after {
+    content: " (USD) Incluido impuestos";
+    font-size: 0.85rem;
+    font-weight: 100;
+    margin-left: 0.3125rem;
+    color: #7d7373;
+    line-height: 0.8125rem;
+}
+
+.summarySmallDisclaimer {
+    display: none;
+}
+
+.price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.summarySmallContent {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.summarySmallContent::before {
+    content: "Total";
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: auto;
+
+}
+
+@media screen and (max-width:1024px) {
+    .summaryItemLabel {
+        width: 70%;
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "modal-trigger#store-locator": {
+        "children": [
+            "rich-text#store-locator-btn-popup",
+            "modal-layout#store-locator"
+        ],
+        "props": {
+            "blockClass": "btn-diponibility"
+        }
+    },
+    "rich-text#store-locator-btn-popup": {
+        "title":"Localizador de tienda",
+        "props": {
+            "text": "Tiendas",
+            "blockClass": [
+                "btn-store-locator"
+            ]
+        }
+    },
+    "modal-layout#store-locator": {
+        "children": [
+            "modal-header#store-locator"
+        ],
+        "props": {
+            "blockClass": "modal-disponibility",
+            "fullSreen": true
+        }
+    },
+    "modal-header#store-locator": {
+        "children": [
+            "flex-layout.row#store-locator-modal-content"
+        ],
+        "props": {
+            "blockClass": "disponibility-modal-header",
+            "showCloseButton": true,
+            "iconCloseSize": 24
+        }
+    },
+    "flex-layout.row#store-locator-modal-content": {
+        "props": {
+            "blockClass": "disponibility-modal-content"
+        },
+        "children": [
+            "flex-layout.col#store-locator-modal-content"
+        ]
+    },
+    "flex-layout.col#store-locator-modal-content": {
+        "props": {
+            "blockClass": "disponibility-modal-content"
+        },
+        "children": [
+            "custom-store-locator"
+        ]
+    }
+}

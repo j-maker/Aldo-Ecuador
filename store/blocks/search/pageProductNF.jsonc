@@ -1,0 +1,12 @@
+{
+    "store.not-found#product": {
+        "blocks": [
+            //"rich-text#modal-content"
+        ]
+    },
+    "rich-text#modal-content": {
+        "props": {
+            "text": "EN PRUEBAS"
+        }
+    }
+}

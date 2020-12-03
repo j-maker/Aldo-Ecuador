@@ -1,0 +1,717 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#wrapperHome"
+    ]
+  },
+  "flex-layout.row#wrapperHome": {
+    "children": [
+      "flex-layout.col#wrapperHome"
+    ],
+    "props": {
+      "blockClass": "wrapperMain"
+    }
+  },
+  "flex-layout.col#wrapperHome": {
+    "children": [
+      //"flex-layout.row#home-top-link",
+      "flex-layout.row#home-image-top",
+      "flex-layout.row#home-image-topMobile",
+      "flex-layout.row#home-new&now",
+      "flex-layout.row#home-newArrivals",
+      "flex-layout.row#home-newArrivalsMobile",
+      //"flex-layout.row#home-editorial",
+      "flex-layout.row#home-info-cards",
+      //"flex-layout.row#home-social-network"
+      "back-to-top-button"
+    ],
+    "props": {
+      "blockClass": "wrapperMain"
+    }
+  },
+  "flex-layout.row#home-social-network": {
+    "children": [
+      "flex-layout.col#home-social-network"
+    ],
+    "props": {
+      "blockClass": "wrapper-social"
+    }
+  },
+  "flex-layout.col#home-social-network": {
+    "children": [
+      "rich-text#title-social",
+      "flex-layout.row#home-social-network-1",
+      "flex-layout.row#home-social-network-2"
+    ]
+  },
+  "flex-layout.row#home-social-network-1": {
+    "children": [
+      "flex-layout.col#home-social-network-1",
+      "flex-layout.col#home-social-network-2",
+      "flex-layout.col#home-social-network-3"
+    ]
+  },
+  "rich-text#title-social": {
+    "title":"Header Our #ALDOCrew",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Our #ALDOCrew HomeStyle Inspo",
+      "blockClass": "title-social"
+    }
+  },
+  "flex-layout.col#home-social-network-1": {
+    "children": [
+      "image#social-1",
+      "link#social-1"
+    ],
+    "props": {
+      "blockClass": "wrapper-content-social"
+    }
+  },
+  "image#social-1": {
+    "props": {
+      "blockClass": "",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/social-1.jpg",
+      "href": "/"
+    }
+  },
+  "link#social-1": {
+    "props": {
+      "blockClass": "social-link",
+      "href": "/",
+      "label": "@lifestylemarco__"
+    }
+  },
+  "flex-layout.col#home-social-network-2": {
+    "children": [
+      "image#social-2",
+      "link#social-2"
+    ],
+    "props": {
+      "blockClass": "wrapper-content-social"
+    }
+  },
+  "image#social-2": {
+    "props": {
+      "blockClass": "",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/social-2.jpg",
+      "href": "/"
+    }
+  },
+  "link#social-2": {
+    "props": {
+      "blockClass": "social-link",
+      "href": "/",
+      "label": "@ALDO shoes"
+    }
+  },
+  "flex-layout.col#home-social-network-3": {
+    "children": [
+      "image#social-3",
+      "link#social-3"
+    ],
+    "props": {
+      "blockClass": "wrapper-content-social"
+    }
+  },
+  "image#social-3": {
+    "props": {
+      "blockClass": "",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/social-3.jpg",
+      "href": "/"
+    }
+  },
+  "link#social-3": {
+    "props": {
+      "blockClass": "social-link",
+      "href": "/",
+      "label": "@ALDO shoes"
+    }
+  },
+  "flex-layout.row#home-social-network-2": {
+    "children": [
+      "flex-layout.col#home-social-network-4",
+      "flex-layout.col#home-social-network-5",
+      "flex-layout.col#home-social-network-6"
+    ]
+  },
+  "flex-layout.col#home-social-network-4": {
+    "children": [
+      "image#social-4",
+      "link#social-4"
+    ],
+    "props": {
+      "blockClass": "wrapper-content-social"
+    }
+  },
+  "image#social-4": {
+    "props": {
+      "blockClass": "",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/social-4.jpg",
+      "href": "/"
+    }
+  },
+  "link#social-4": {
+    "props": {
+      "blockClass": "social-link",
+      "href": "/",
+      "label": "@rocky_barnes"
+    }
+  },
+  "flex-layout.col#home-social-network-5": {
+    "children": [
+      "image#social-5",
+      "link#social-5"
+    ],
+    "props": {
+      "blockClass": "wrapper-content-social"
+    }
+  },
+  "image#social-5": {
+    "props": {
+      "blockClass": "",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/social-5.jpg",
+      "href": "/"
+    }
+  },
+  "link#social-5": {
+    "props": {
+      "blockClass": "social-link",
+      "href": "/",
+      "label": "@the_reak_chi"
+    }
+  },
+  "flex-layout.col#home-social-network-6": {
+    "children": [
+      "image#social-6",
+      "link#social-6"
+    ],
+    "props": {
+      "blockClass": "wrapper-content-social"
+    }
+  },
+  "image#social-6": {
+    "props": {
+      "blockClass": "",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/social-6.jpg",
+      "href": "/"
+    }
+  },
+  "link#social-6": {
+    "props": {
+      "blockClass": "social-link",
+      "href": "/",
+      "label": "@walkinwonderland"
+    }
+  },
+  "flex-layout.row#home-image-top": {
+    "children": [
+      "flex-layout.col#contentLeft",
+      "flex-layout.col#contentRight"
+      //"image#home-top"
+    ],
+    "props": {
+      "blockClass": "home-image-top"
+    }
+  },
+  "flex-layout.col#contentLeft": {
+    "children": [
+      "rich-text#contentLeftTop",
+      "flex-layout.row#home-link"
+    ]
+  },
+  "rich-text#contentLeftTop": {
+    "title":"Home Banner Principal Contenido",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Fin de temporada",
+      "blockClass": "rightTopContent"
+    }
+  },
+  "flex-layout.col#contentRight": {
+    "children": [
+      "flex-layout.row#rightTopTitleImage",
+      "flex-layout.row#rightTop&andOff",
+      "rich-text#rightTopContent",
+      "rich-text#rightTopFooter"
+    ],
+    "props": {
+      "blockClass": "wrapperRightTopContetn",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#rightTopTitleImage": {
+    "children": [
+      "rich-text#contentRightTop",
+      "image#query"
+    ]
+  },
+  "rich-text#contentRightTop": {
+    "title":"Home Banner Principal Contenido Derecha",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Hasta",
+      "blockClass": "rightTextTittleHeader"
+    }
+  },
+  "image#query": {
+    "title":"Home Banner Image Query",
+    "props": {
+      "blockClass": "homeRightTopImage",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/query-white.svg",
+      "width": 28
+    }
+  },
+  "flex-layout.row#rightTop&andOff":{
+    "children":[
+      "rich-text#rightTopSubtitle",
+      "flex-layout.col#rightTop&andOff"
+    ],
+    "props":{
+      "blockClass":"wrapperOff",
+      "colSizing":"auto"
+    }
+  },
+  "rich-text#rightTopSubtitle": {
+    "title":"Home Banner Principal Contenido %",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "70",
+      "blockClass": "rightSubtitleTopHeader"
+    }
+  },
+  "flex-layout.col#rightTop&andOff":{
+    "children":[
+      "rich-text#rightTop%",
+      "rich-text#rightTopOff"
+    ]
+  },
+  "rich-text#rightTop%": {
+    "title":"Home Banner Principal %",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "%",
+      "blockClass": "textDiscount"
+    }
+  },
+  "rich-text#rightTopOff": {
+    "title":"Home Banner Principal Contenido Off",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Off",
+      "blockClass": "TextOff"
+    }
+  },
+  "rich-text#rightTopContent": {
+    "title":"Home Banner Principal Estilos",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Estilos seleccionados",
+      "blockClass": "rightContentTopHome"
+    }
+  },
+  "rich-text#rightTopFooter": {
+    "title":"Home Banner Principal Info General",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Venta de fin de temporada | Precios como se muestran",
+      "blockClass": "rightTopFooterHome"
+    }
+  },
+  "flex-layout.row#home-top-link": {
+    "children": [
+      "link#home-top-link"
+    ],
+    "props": {
+      "blockClass": "home-top-link",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#home-link": {
+    "children": [
+      "link#home-top-link-1",
+      "link#home-top-link-2"
+    ],
+    "props": {
+      "blockClass": "home-top-line",
+      "colSizing": "auto"
+    }
+  },
+  "image#home-top": {
+    "props": {
+      "blockClass": "home-image-top",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "href": "/"
+    }
+  },
+  "link#home-top-link": {
+    "props": {
+      "blockClass": "home-top",
+      "href": "/",
+      "label": "Rastrea tu envío"
+    }
+  },
+  "link#home-top-link-1": {
+    "title":"Home Banner Botton Mujer",
+    "props": {
+      "blockClass": "home-top-link",
+      "href": "/mujer",
+      "label": "Comprar en Mujer"
+    }
+  },
+  "link#home-top-link-2": {
+    "title":"Home Banner Botton Hombre",
+    "props": {
+      "blockClass": "home-top-link",
+      "href": "/hombre",
+      "label": "Comprar en Hombre"
+    }
+  },
+  "flex-layout.row#home-editorial": {
+    "children": [
+      "image#home-editorial",
+      "flex-layout.col#wrapper-content-right"
+    ],
+    "props": {
+      "blockClass": "wrapper-home-editorial"
+    }
+  },
+  "image#home-editorial": {
+    "title":"Home Editorial",
+    "props": {
+      "blockClass": "home-editorial",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/editorial.jpg",
+      "href": "/"
+    }
+  },
+  "flex-layout.col#wrapper-content-right": {
+    "children": [
+      "flex-layout.row#content-right"
+    ],
+    "props": {
+      "blockClass": "content-editorial"
+    }
+  },
+  "flex-layout.row#content-right": {
+    "children": [
+      "flex-layout.col#content-right"
+    ],
+    "props": {
+      "blockClass": "editorial-title",
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#content-right": {
+    "children": [
+      "rich-text#editorial-title",
+      "rich-text#editorial-subtitle",
+      "rich-text#editorial-text",
+      "flex-layout.row#content-links"
+    ],
+    "props": {
+      "blockClass": "editorial-subtitle",
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "rich-text#editorial-title": {
+    "title":"Home Disney por Ado",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Disney x ALDO",
+      "blockClass": "content-title"
+    }
+  },
+  "rich-text#editorial-subtitle": {
+    "title":"Home Coleccion cindirela",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "La colección Cinderella ha vuelto!",
+      "blockClass": "content-subtitle"
+    }
+  },
+  "rich-text#editorial-text": {
+    "title":"Home Contenido cindirela",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "¡Los sueños se hacen realidad! Estamos emocionados de compartir nuestra segunda muestra de la mágica Colección Cinderella. Todos tus favoritos están de vuelta. No te pierdas esta colección de edición limitada.",
+      "blockClass": "content-text"
+    }
+  },
+  "flex-layout.row#content-links": {
+    "children": [
+      "link#content-link-1",
+      "link#content-link-2"
+    ],
+    "props": {
+      "blockClass": "editorial-footer-links",
+      "colSizing": "auto"
+    }
+  },
+  "link#content-link-1": {
+    "title":"Home Boton Cindirela",
+    "props": {
+      "blockClass": "home-editorial",
+      "href": "/",
+      "label": "Compra la colección"
+    }
+  },
+  "link#content-link-2": {
+    "title":"Home Detras de camaras",
+    "props": {
+      "blockClass": "home-editorial",
+      "href": "/",
+      "label": "Mira nuestro detrás de cámaras"
+    }
+  },
+  "flex-layout.row#home-new&now": {
+    "children": [
+      "flex-layout.col#home-new&now",
+      "flex-layout.col#home-new&nowLink"
+    ],
+    "props": {
+      "blockClass": "wrapperHomeNewNow"
+    }
+  },
+  "flex-layout.col#home-new&now": {
+    "children": [
+      "rich-text#homeTitleNew&Now",
+      "rich-text#homeSubTitleNew&Now"
+    ],
+    "props": {}
+  },
+  "rich-text#homeTitleNew&Now": {
+    "title":"Home Titulo New Now",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "New & now",
+      "blockClass": "titleExpressYourself"
+    }
+  },
+  "rich-text#homeSubTitleNew&Now": {
+    "title":"Home Contenido New Now",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Desde fabricantes de atuendos instantáneos hasta artículos imprescindibles para todos los días, nuestras últimas llegadas harán que tu look suba un poco (o diez).",
+      "blockClass": "subTitleExpressYourself"
+    }
+  },
+  "flex-layout.col#home-new&nowLink": {
+    "children": [
+      "link#homeTitleNew&NowLink1",
+      "link#homeTitleNew&NowLink2"
+    ],
+    "props": {
+      "blockClass": "wrapperExpressYourselfLink",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "link#homeTitleNew&NowLink1": {
+    "title":"Home Boton New Now Mujer",
+    "props": {
+      "blockClass": "ExpressYourselfLink",
+      "href": "/mujer",
+      "label": "Mujer"
+    }
+  },
+  "link#homeTitleNew&NowLink2": {
+    "title":"Home Boton New Now Hombre",
+    "props": {
+      "blockClass": "ExpressYourselfLink",
+      "href": "/hombre",
+      "label": "Hombre"
+    }
+  },
+  "flex-layout.row#home-newArrivals": {
+    "children": [
+      "image#home-newArrivals"
+    ],
+    "props": {
+      "blockClass": "wrapperNewArrivals"
+    }
+  },
+  "image#home-newArrivals": {
+    "title":"Home Gif NewArrivals ",
+    "props": {
+      "blockClass": "home-newArrivals",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/newarrivals-editop.gif",
+      "url": "/mujer"
+    }
+  },
+  "flex-layout.row#home-info-cards": {
+    "children": [
+      "flex-layout.col#home-info-cards-1",
+      "flex-layout.col#home-info-cards-2",
+      "flex-layout.col#home-info-cards-3"
+    ],
+    "props": {
+      "blockClass": "info-cards"
+    }
+  },
+  "flex-layout.col#home-info-cards-1": {
+    "children": [
+      "image#home-infocard-1",
+      "rich-text#home-infocard-title-1",
+      "rich-text#home-infocard-subtitle-1",
+      "link#home-infocard-1"
+    ],
+    "props": {
+      "blockClass": "home-info-cards"
+    }
+  },
+  "flex-layout.col#home-info-cards-2": {
+    "children": [
+      "image#home-infocard-2",
+      "rich-text#home-infocard-title-2",
+      "rich-text#home-infocard-subtitle-2",
+      "link#home-infocard-2"
+    ],
+    "props": {
+      "blockClass": "home-info-cards"
+    }
+  },
+  "flex-layout.col#home-info-cards-3": {
+    "children": [
+      "image#home-infocard-3",
+      "rich-text#home-infocard-title-3",
+      "rich-text#home-infocard-subtitle-3",
+      "link#home-infocard-3"
+    ],
+    "props": {
+      "blockClass": "home-info-cards"
+    }
+  },
+  "image#home-infocard-1": {
+    "title":"Home Imagen Info Card -1",
+    "props": {
+      "blockClass": "home-infocard-image",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/newmain.jpg",
+      "url": "/mujer/calzado/sandalias"
+    }
+  },
+  "image#home-infocard-2": {
+    "title":"Home Imagen Info Card -2",
+    "props": {
+      "blockClass": "home-infocard-image",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/menhighhp.jpg",
+      "url": "/hombre/calzado/"
+    }
+  },
+  "image#home-infocard-3": {
+    "title":"Home Imagen Info Card -3",
+    "props": {
+      "blockClass": "home-infocard-image",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/hpnewhigh1.jpg",
+      "url": "/mujer/carteras-y-bolsos/"
+    }
+  },
+  "rich-text#home-infocard-title-1": {
+    "title":"Home Titulo Info Card -1",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "La tienda de sandalias",
+      "blockClass": "home-infocard-title"
+    }
+  },
+  "rich-text#home-infocard-title-2": {
+    "title":"Home Titulo Info Card 2",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Easy kicks",
+      "blockClass": "home-infocard-title"
+    }
+  },
+  "rich-text#home-infocard-title-3": {
+    "title":"Home Titulo Info Card -3",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Bolsos de verano",
+      "blockClass": "home-infocard-title"
+    }
+  },
+  "rich-text#home-infocard-subtitle-1": {
+    "title":"Home Subtitulo Info Card 1",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Para cada día del verano. Encuentra sandalias que combinen con tus looks soleados de lunes a domingo.",
+      "blockClass": "home-infocard-subtitle"
+    }
+  },
+  "rich-text#home-infocard-subtitle-2": {
+    "title":"Home Subtitulo Info Card 2",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Todos los zapatos que quieres (y necesitas) 24/7, 365.",
+      "blockClass": "home-infocard-subtitle"
+    }
+  },
+  "rich-text#home-infocard-subtitle-3": {
+    "title":"Home Subtitulo Info Card 3",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Nuevas formas y colores divertidos. Los bolsos te están esperando.",
+      "blockClass": "home-infocard-subtitle"
+    }
+  },
+  "link#home-infocard-1": {
+    "title":"Home Boton Info Card 1",
+    "props": {
+      "blockClass": "home-infocard-link",
+      "href": "/mujer/calzado/sandalias",
+      "label": "Compra sandalias"
+    }
+  },
+  "link#home-infocard-2": {
+    "title":"Home Boton Info Card 2",
+    "props": {
+      "blockClass": "home-infocard-link",
+      "href": "/hombre/calzado/",
+      "label": "Compra zapatos"
+    }
+  },
+  "link#home-infocard-3": {
+    "title":"Home Boton Info Card 3",
+    "props": {
+      "blockClass": "home-infocard-link",
+      "href": "/mujer/carteras-y-bolsos/",
+      "label": "Compra bolsos ",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  },
+  "back-to-top-button": {
+    "title":"Home Boton Up",
+    "props": {
+      "displayThreshold": 800,
+      "display": "caret-icon"
+    }
+  }
+}

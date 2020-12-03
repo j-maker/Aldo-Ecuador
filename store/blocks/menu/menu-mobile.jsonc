@@ -1,0 +1,33 @@
+{
+  "drawer#menuMobile": {
+    "children": [
+      "flex-layout.row#menuMobile",
+      "flex-layout.row#WrapperFooterMenu"
+    ],
+    "props": {
+      "blockClass": "drawerMenuMobile"
+    }
+  },
+  "flex-layout.row#categoryMenuMobile": {
+    "children": [
+      "link#categoryWomenMenuMobile",
+      "link#topCategoriesMenMenuMobileModal"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": false,
+      "blockClass": "drawerCategoryMenuMobile"
+    }
+  },
+  "flex-layout.row#categoryMenuMobileMen": {
+    "children": [
+      "link#topCategoriesMenMenuMobileLinkBold",
+      "link#categoryMenMenuMobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": false,
+      "blockClass": "drawerCategoryMenuMobile"
+    }
+  }
+}

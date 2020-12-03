@@ -1,0 +1,604 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#wrapperFooter"
+      //"image#arrowup"
+    ]
+  },
+  "flex-layout.row#wrapperFooter": {
+    "children": [
+      "flex-layout.col#wrapperFooter"
+    ],
+    "props": {
+      "blockClass": "wrapperMain"
+    }
+  },
+  "flex-layout.col#wrapperFooter": {
+    "children": [
+      "custom-show-aldo-crew",
+      //"flex-layout.row#banner-infocard",
+      "flex-layout.row#terms",
+      "flex-layout.row#legal"
+    ],
+    "props": {
+      "blockClass": "childFooter"
+    }
+  },
+  "flex-layout.row#banner-infocard": {
+    "children": [
+      "flex-layout.col#banner-content-left",
+      "flex-layout.col#banner-content-right"
+    ],
+    "props": {
+      "blockClass": "banner-content-infocard"
+    }
+  },
+  "flex-layout.col#banner-content-left": {
+    "children": [
+      "rich-text#banner-title",
+      "rich-text#banner-content"
+    ]
+  },
+  "flex-layout.col#banner-content-right": {
+    "children": [
+      "link#Join-now"
+      //"link#see-all"
+    ]
+  },
+  "rich-text#banner-title": {
+    "title": "Footer aldo crew titulo",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "ALDO Crew",
+      "blockClass": "footer-banner-title"
+    }
+  },
+  "rich-text#banner-content": {
+    "title": "Footer aldo crew contenido",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Únete a nuestro nuevo programa de fidelización y recibe al instantante un descuento de bienvenida",
+      "blockClass": "footer-banner-content"
+    }
+  },
+  "link#see-all": {
+    "title": "Footer aldo crew boton",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "footer-banner-right-footer",
+      "href": "",
+      "label": "Únete ahora"
+    }
+  },
+  "link#Join-now": {
+    "title": "Footer aldo crew boton 1",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "footer-banner-right",
+      "href": "/formulario-crew",
+      "label": "Únete"
+    }
+  },
+  "flex-layout.row#terms": {
+    "children": [
+      "flex-layout.col#care",
+      "flex-layout.col#track",
+      "flex-layout.col#about",
+      "flex-layout.col#stay-connected",
+      "flex-layout.col#payment",
+      "flex-layout.col#spayments"
+    ],
+    "props": {
+      "blockClass": "wrapper-terms-foooter",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#care": {
+    "children": [
+      "rich-text#care-title",
+      "link#care-1",
+      "link#care-2",
+      "link#care-3"
+    ],
+    "props": {
+      "blockClass": "footer-terms-care",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#care-title": {
+    "title": "Footer atención al cliente",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Atención al cliente",
+      "blockClass": "footer-terms-title"
+    }
+  },
+  "link#care-1": {
+    "title": "Footer centro de ayuda",
+    "props": {
+      "blockClass": "footer-content-links",
+      "href": "/centro-de-ayuda",
+      "label": "Centro de ayuda"
+    }
+  },
+  "link#care-2": {
+    "title": "Footer terminos y condiciones",
+    "props": {
+      "blockClass": "footer-content-links",
+      "href": "/legales/terminos-y-condiciones",
+      "label": "Términos y condiciones "
+    }
+  },
+  "link#care-3": {
+    "title": "Footer contactanos",
+    "props": {
+      "blockClass": "footer-content-links",
+      "href": "/centro-de-ayuda/contactanos",
+      "label": "Contáctanos"
+    }
+  },
+  "flex-layout.col#track": {
+    "children": [
+      "rich-text#track",
+      "link#track-1",
+      "modal-trigger#store-locator"
+      //"link#track-2",
+      //"link#track-3"
+    ],
+    "props": {
+      "blockClass": "footer-terms-care",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#track": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "a",
+      "blockClass": "footer-terms-title-track"
+    }
+  },
+  "link#track-1": {
+    "title": "Footer rastrear",
+    "props": {
+      "blockClass": "footer-content-links",
+      "href": "https://www.urbano.com.ec",
+      "label": "Rastrear"
+    }
+  },
+  "link#track-2": {
+    "title": "Footer gift card",
+    "props": {
+      "blockClass": "footer-content-links",
+      "href": "/",
+      "label": "Gift card"
+    }
+  },
+  "link#track-3": {
+    "title": "Footer tiendas",
+    "props": {
+      "blockClass": "footer-content-links",
+      "href": "/",
+      "label": "Tiendas"
+    }
+  },
+  "flex-layout.col#about": {
+    "children": [
+      "rich-text#about",
+      "link#about-1",
+      "link#about-2"
+      //"link#about-3"
+    ],
+    "props": {
+      "blockClass": "footer-terms-care",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#about": {
+    "title": "Footer nosotros",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Nosotros",
+      "blockClass": "footer-terms-title"
+    }
+  },
+  "link#about-1": {
+    "title": "Footer GRUPO ALDO",
+    "props": {
+      "blockClass": "footer-content-links",
+      "href": "https://www.aldogroup.com/",
+      "label": "Grupo Aldo"
+    }
+  },
+  "link#about-2": {
+    "title": "Footer Trabaja con nosotros",
+    "props": {
+      "blockClass": "footer-content-links",
+      "href": "http://www.gruposemaan.com.ec/JobUs.aspx",
+      "label": "Trabaja con nosotros"
+    }
+  },
+  "link#about-3": {
+    "title": "Footer Sobre nosotros",
+    "props": {
+      "blockClass": "footer-content-links",
+      "href": "/",
+      "label": "Sobre nosotros"
+    }
+  },
+  "flex-layout.col#stay-connected": {
+    "children": [
+      "rich-text#stay-connected",
+      "flex-layout.row#facebook",
+      "flex-layout.row#instagram",
+      "flex-layout.row#youtube",
+      "flex-layout.row#pinterest",
+      "flex-layout.row#tiktok"
+    ],
+    "props": {
+      "blockClass": "footer-terms-care",
+      "horizontalAlign": "left",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#stay-connected": {
+    "title": "Footer mantente conectado",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Mantente conectado",
+      "blockClass": "footer-terms-title"
+    }
+  },
+  "flex-layout.row#facebook": {
+    "children": [
+      "image#facebook",
+      "link#facebook",
+      "flex-layout.col#spacer"
+    ],
+    "props": {
+      "blockClass": "footer-redes",
+      "colSizing": "auto"
+    }
+  },
+  "link#facebook": {
+    "title": "Footer Link Facebook",
+    "props": {
+      "blockClass": "footer-text-redes",
+      "href": "https://www.facebook.com/ALDO",
+      "label": "Facebook"
+    }
+  },
+  "image#facebook": {
+    "title": "Footer Imagen Facebook",
+    "props": {
+      "blockClass": "footerImageRedes",
+      "width": 18,
+      "href": "https://www.facebook.com/ALDO",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/facebook-f.png"
+    }
+  },
+  "flex-layout.row#tiktok": {
+    "children": [
+      "image#tiktok",
+      "link#tiktok",
+      "flex-layout.col#spacer"
+    ],
+    "props": {
+      "blockClass": "footer-redes",
+      "colSizing": "auto"
+    }
+  },
+  "link#tiktok": {
+    "title": "Footer Link Tiktok",
+    "props": {
+      "blockClass": "footer-text-redes",
+      "href": "https://www.tiktok.com/@aldo_shoes",
+      "label": "Tiktok"
+    }
+  },
+  "image#tiktok": {
+    "title": "Footer Imagen Tiktok",
+    "props": {
+      "href": "https://www.tiktok.com/@aldo_shoes",
+      "blockClass": "footerImageRedes",
+      "width": 18,
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/tiktok.svg"
+    }
+  },
+  "flex-layout.row#instagram": {
+    "children": [
+      "image#instagram",
+      "link#instagram",
+      "flex-layout.col#spacer"
+    ],
+    "props": {
+      "blockClass": "footer-redes",
+      "colSizing": "auto"
+    }
+  },
+  "link#instagram": {
+    "title": "Footer Link Instagram",
+    "props": {
+      "blockClass": "footer-text-redes",
+      "href": "https://www.instagram.com/aldo_shoes/",
+      "label": "Instagram"
+    }
+  },
+  "image#instagram": {
+    "title": "Footer Imagen Instagram",
+    "props": {
+      "blockClass": "footerImageRedes",
+      "width": 18,
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/instagram.png",
+      "href": "https://www.instagram.com/aldo_shoes/"
+    }
+  },
+  "flex-layout.row#pinterest": {
+    "children": [
+      "image#pinterest",
+      "link#pinterest",
+      "flex-layout.col#spacer"
+    ],
+    "props": {
+      "blockClass": "footer-redes",
+      "colSizing": "auto"
+    }
+  },
+  "link#pinterest": {
+    "title": "Footer Link Pinterest",
+    "props": {
+      "blockClass": "footer-text-redes",
+      "href": "https://www.pinterest.com/aldoshoes/",
+      "label": "Pinterest"
+    }
+  },
+  "image#pinterest": {
+    "title": "Footer Imagen Pinterest",
+    "props": {
+      "blockClass": "footerImageRedes",
+      "width": 18,
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/pinterest.png",
+      "href": "https://www.pinterest.com/aldoshoes/"
+    }
+  },
+  "flex-layout.row#youtube": {
+    "children": [
+      "image#youtube",
+      "link#youtube",
+      "flex-layout.col#spacer"
+    ],
+    "props": {
+      "blockClass": "footer-redes",
+      "colSizing": "auto"
+    }
+  },
+  "link#youtube": {
+    "title": "Footer link Youtube",
+    "props": {
+      "blockClass": "footer-text-redes",
+      "href": "https://www.youtube.com/user/ALDOshoesVideos",
+      "label": "Youtube"
+    }
+  },
+  "image#youtube": {
+    "title": "Footer Image Youtube",
+    "props": {
+      "blockClass": "footerImageRedes",
+      "width": 18,
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/youtube-play--v1.png",
+      "href": "https://www.youtube.com/user/ALDOshoesVideos"
+    }
+  },
+  "flex-layout.col#payment": {
+    "children": [
+      "rich-text#payment-title",
+      "image#payments",
+      "image#payments-2",
+      "image#payments-3",
+      "image#payments-4"
+    ],
+    "props": {
+      "blockClass": "footer-terms-care"
+    }
+  },
+  "rich-text#payment-title": {
+    "title": "Footer Metodos de pago",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Metodos de pago",
+      "blockClass": "footer-terms-title"
+    }
+  },
+  "image#payments": {
+    "title": "Footer Metodos de pago 1",
+    "props": {
+      "blockClass": "imagePayments",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/master.png",
+      "href": "",
+      "width": 40
+    }
+  },
+  "image#payments-2": {
+    "title": "Footer Metodos de pago 2",
+    "props": {
+      "blockClass": "imagePayments",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/dinners1.png",
+      "href": "",
+      "width": 40
+    }
+  },
+  "image#payments-3": {
+    "title": "Footer Metodos de pago 3",
+    "props": {
+      "blockClass": "imagePayments",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/visa1.png",
+      "href": "",
+      "width": 40
+    }
+  },
+  "image#payments-4": {
+    "title": "Footer Metodos de pago 4",
+    "props": {
+      "blockClass": "imagePayments",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/americanExpress.jpg",
+      "href": "",
+      "width": 40
+    }
+  },
+  "flex-layout.col#spayments": {
+    "children": [
+      "rich-text#spayment-title",
+      "image#spayments",
+      "image#spayments-2"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "blockClass": "footer-terms-care"
+    }
+  },
+  "rich-text#spayment-title": {
+    "title": "Footer Pago Seguro",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Pago seguro",
+      "blockClass": "footer-terms-title"
+    }
+  },
+  "image#spayments": {
+    "title": "Footer Pago Seguro 1",
+    "props": {
+      "blockClass": "imagePayments",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/digicert.png",
+      "href": "",
+      "width": 60
+    }
+  },
+  "image#spayments-2": {
+    "title": "Footer Pago Seguro 2",
+    "props": {
+      "blockClass": "imagePayments",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/pcidss.png",
+      "href": "",
+      "width": 60
+    }
+  },
+  "flex-layout.row#legal": {
+    "children": [
+      "logo#footer",
+      "rich-text#copyright",
+      "flex-layout.col#spacer",
+      "image#powered-vtex",
+      "image#powered-jump",
+      "flex-layout.col#spacer",
+      "flex-layout.col#policy"
+    ],
+    "props": {
+      "blockClass": "footer-legal",
+      "colSizing": "auto"
+    }
+  },
+  "image#powered-vtex": {
+    "title": "Footer Image Vtex",
+    "props": {
+      "blockClass": "imagePoweredJump",
+      "src": "https://jumpdigital.co/wp-content/uploads/2020/02/logo-jump-digital.png",
+      "href": "https://jumpdigital.co/"
+    }
+  },
+  "image#powered-jump": {
+    "title": "Footer Image Jump Digital",
+    "props": {
+      "blockClass": "powered",
+      "src": "https://jumpdigital.co/wp-content/uploads/2020/02/logo-jump-digital.png",
+      "href": "https://jumpdigital.co/"
+    }
+  },
+  "logo#footer": {
+    "title": "Footer Logo",
+    "props": {
+      "blockClass": "footer-logo",
+      "title": "Logo Footer",
+      "href": "",
+      "url": "https://aldoecuador.vteximg.com.br/arquivos/logo-footer.png",
+      "width": "180"
+    }
+  },
+  "rich-text#copyright": {
+    "title": "Footer Copyright",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "©2005-2020 The Aldo Group Inc. Todos los derechos reservados",
+      "blockClass": "footer-copyright"
+    }
+  },
+  "flex-layout.col#policy": {
+    "children": [
+      "flex-layout.row#content-policy"
+    ],
+    "props": {
+      "blockClass": "footer-policy",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#content-policy": {
+    "children": [
+      //"link#ethical",
+      "link#notice",
+      "link#policy"
+    ],
+    "props": {
+      "blockClass": "footer-policy",
+      "colSizing": "auto"
+    }
+  },
+  "link#ethical": {
+    "props": {
+      "blockClass": "footer-policy",
+      "href": "",
+      "label": "Abastecimiento ético"
+    }
+  },
+  "link#notice": {
+    "title": "Footer Terminos y condiciones",
+    "props": {
+      "blockClass": "footer-policy",
+      "href": "/legales/terminos-y-condiciones",
+      "label": "Términos y condiciones"
+    }
+  },
+  "link#policy": {
+    "title": "Footer Politica de privacidad",
+    "props": {
+      "blockClass": "footer-policy",
+      "href": "/legales/politica-de-privacidad",
+      "label": "Política de privacidad"
+    }
+  },
+  "custom-show-aldo-crew": {
+    "children": [
+      "flex-layout.row#banner-infocard"
+    ]
+  }
+}

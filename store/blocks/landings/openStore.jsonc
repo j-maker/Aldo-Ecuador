@@ -1,0 +1,16 @@
+{
+    "store.custom#OpenStore": {
+        "blocks": [
+            //"flex-layout.row#footer-terms-col-buy-insurance"
+        ]
+    }
+    /*"flex-layout.row#footer-terms-col-buy-insurance": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "about-us"
+        },
+        "children": [
+            "flex-layout.col#buy-insurance-wrapper"
+        ]
+    },*/
+}

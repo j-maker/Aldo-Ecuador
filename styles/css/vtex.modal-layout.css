@@ -1,0 +1,94 @@
+.triggerContainer--wrapperModalProduct {
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.triggerContainer {
+    outline: 0 !important;
+}
+
+.closeButton--modalGuideSizePDP {
+    padding: 20px;
+    outline: 0;
+}
+
+.closeButtonContainer--modalGuideSizePDP {
+    position: absolute;
+    right: 0;
+}
+
+.paper--WrapperModalGuideSizePDP {
+    width: 67%;
+    max-width: 1000px;
+    border-radius: unset;
+}
+
+
+
+.paper--topMenuContentMenMobile {
+    margin: 0;
+}
+
+.paper--topMenuContentMenMobile {
+    width: 85%;
+    height: 100%;
+    max-height: unset;
+    border-radius: unset;
+    position: fixed;
+    left: 0;
+}
+
+.triggerContainer--btn-disponibility {
+    width: 100%;
+    outline: 0;
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+    .headerContainer--disponibility-modal-header {
+        position: relative;
+    }
+
+    .closeButtonContainer--disponibility-modal-header {
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .paper--WrapperModalGuideSizePDP {
+        width: 100%;
+        margin: 15px;
+        height: 100%;
+    }
+
+    .paper--modal-disponibility {
+        margin: 0 !important;
+        height: 100% !important;
+        max-height: none !important;
+    }
+
+    .headerContainer--disponibility-modal-header {
+        flex-direction: column-reverse;
+    }
+
+    .closeButtonContainer--disponibility-modal-header {
+        width: 100%;
+        display: flex;
+        border-bottom: solid 1px #000;
+        align-items: center
+    }
+
+    .closeButtonContainer--disponibility-modal-header::after {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: calc(100% - 50px);
+        content: "Buscar en tienda";
+        font-size: 16px;
+        font-family: "PatronSans";
+    }
+}

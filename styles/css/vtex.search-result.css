@@ -1,0 +1,693 @@
+/*subcategoryPage*/
+.searchResultContainer--wrapper-product {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+}
+
+.buttonShowMore :global(.vtex-button) {
+    width: 23%;
+    border-radius: unset;
+    border: 1px solid #000;
+    height: 55px;
+    background: unset;
+    margin: 25px 0;
+}
+
+.buttonShowMore :global(.vtex-button):hover {
+    background: #3a2e2c;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+    color: #3a2e2c;
+    font-size: 13px;
+    text-transform: initial;
+}
+
+.buttonShowMore :global(.vtex-button__label):hover {
+    color: #fff;
+}
+
+.galleryItem--normal {
+    width: 25%;
+    max-width: 25% !important;
+    flex-basis: 25% !important;
+    padding: 8px 10px 0 0;
+}
+
+.orderByText {
+    display: none;
+}
+
+.orderByButton {
+    border-top: unset;
+    border-right: unset;
+    border-left: unset;
+    border-bottom: 1px solid #ddd;
+    padding: 7px 0 0 0;
+    width: auto;
+    margin-top: 3px;
+    outline: 0 !important;
+}
+
+.filterPopupTitle {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.caretIcon {
+    margin-bottom: 2px;
+    width: 0;
+}
+
+.filterPopupArrowIcon {
+    padding-right: 0;
+}
+
+.filterPopupArrowIcon::after {
+    width: 12px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/up-arrow.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 999;
+    margin-top: 2px;
+    padding-top: 2px;
+    padding-left: 13px;
+}
+
+.orderByOptionsContainer {
+    top: 32px;
+    z-index: 2;
+    min-width: unset;
+    border: 1px solid #000;
+}
+
+.orderByOptionItem {
+    min-width: unset;
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+.totalProducts--layout {
+    padding: 14px 0;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.totalProductsMessage {
+    font-size: 0;
+}
+
+.totalProductsMessage::after {
+    content: "Art""í""culos";
+    padding: 14px 0;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #212529;
+}
+
+.gallery {
+    padding: 0;
+}
+
+.galleryTitle--layout {
+    color: #3a2e2c;
+    font-weight: lighter;
+    margin: 0 0 0 -6px;
+    font-size: 54px;
+}
+
+.filtersWrapper {
+    display: flex;
+    margin-top: 30px;
+}
+
+.filter__container--title {
+    display: none;
+}
+
+.filter__container {
+    width: 25%;
+    border: unset;
+    padding-right: 30px;
+}
+
+.filterIcon {
+    display: none;
+}
+
+.filterTitle {
+    text-transform: initial;
+    font-size: 1.3125rem;
+    font-weight: lighter;
+    color: #000;
+    opacity: 0.8;
+}
+
+.filterItem {
+    margin-bottom: 10px;
+}
+
+.filterItem :global(.vtex-checkbox__box-wrapper),
+.filterItem :global(.vtex-checkbox__container) {
+    width: 2rem;
+    height: 2rem;
+}
+
+.filterItem :global(.vtex-checkbox__inner-container) {
+    width: 2rem !important;
+    height: 2rem !important;
+    border-radius: unset !important;
+    border: 1px solid rgb(184, 176, 176) !important;
+
+}
+
+.filterItem :global(.vtex-checkbox__inner-container):hover {
+    border: 1px solid #000 !important;
+
+}
+
+.filterItem :global(.vtex-checkbox__label) {
+    font-weight: lighter;
+    color: #3a2e2c;
+    display: flex;
+    min-width: 60px;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin: auto 10px;
+}
+
+.categoryItemChildren {
+    font-weight: lighter;
+    color: #3a2e2c;
+}
+
+/*subcategoryPage/*/
+/*SearchPage*/
+.searchResultContainer--wrapperSearch {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.filter__container--b,
+.filter__container--c {
+    display: none;
+}
+
+.searchResultContainer {
+    margin: 0 auto;
+    max-width: 98.125rem;
+    padding: 0;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+.filterAccordionBreadcrumbs {
+    border: unset;
+}
+
+.container--layout--wrapperSearch {
+    margin: 0 6.125rem;
+}
+
+.galleryItem--small {
+    padding-left: .375rem;
+    padding-right: .375rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .gallery {
+        min-height: 700px;
+    }
+
+    .filterContent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filter__container--specificationFilter_22 .filterItem {
+        width: 50%;
+    }
+
+    .filter__container--specificationFilter_22 :global(.vtex-checkbox__label) {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .filter__container--specificationFilter_22 :global(.vtex-checkbox__line-container) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.notFound--layout {
+    margin: 0 auto;
+    max-width: 98.125rem;
+    width: 100%;
+}
+
+.searchNotFound{
+    z-index: 2;
+    background-color: #fff;
+    height: 400px;
+}
+
+@media screen and (max-width:1024px) {
+    .orderByOptionsContainer{
+        z-index: 3;
+    }
+    .filter__container {
+        width: 100%;
+    }
+
+    .accordionFilterOpen--color :global(.vtex__icon-check) {
+        width: 0 !important;
+
+    }
+
+    .accordionFilterOpen--color :global(.vtex-search-result-3-x-filterAccordionItemBox) {
+        margin-right: 20px;
+    }
+
+    .accordionFilterOpen--color :global(.vtex-checkbox__inner-container) {
+        border: 1px solid #000;
+        border-radius: unset;
+    }
+
+    .accordionFilterOpen--altura-de-taco :global(.vtex-checkbox__label),
+    .accordionFilterOpen--color :global(.vtex-checkbox__label) {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .accordionFilterOpen--talla :global(.vtex__icon-check) {
+        width: 0 !important;
+
+    }
+
+    .accordionFilterOpen--talla :global(.vtex-search-result-3-x-filterAccordionItemBox) {
+        margin-right: 15%;
+        margin-bottom: 20px;
+    }
+
+    .accordionFilterOpen--altura-de-taco :global(.vtex-checkbox__inner-container),
+    .accordionFilterOpen--talla :global(.vtex-checkbox__inner-container) {
+        border: 1px solid #000;
+        border-radius: unset;
+    }
+
+    .accordionFilterOpen--talla :global(.vtex-checkbox__label) {
+        position: absolute;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #d3d3d3;
+    }
+
+    .filterAccordionItemBox :global(.vtex-checkbox__container) {
+        height: 3.125rem;
+        justify-content: center;
+        padding-bottom: 0;
+        padding-top: 0;
+        width: 3.125rem;
+        margin-right: 0;
+    }
+
+    .filterAccordionItemBox :global(.vtex-checkbox__input),
+    .filterAccordionItemBox :global(.vtex-checkbox__box-wrapper),
+    .filterAccordionItemBox :global(.vtex-checkbox__inner-container),
+    .filterAccordionItemBox :global(.vtex-checkbox__container) {
+        height: 3.125rem;
+        justify-content: center;
+        padding-bottom: 0;
+        padding-top: 0;
+        width: 3.125rem;
+    }
+
+    .accordionFilterOpen--talla {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .filterApplyButtonWrapper {
+        width: 35%;
+
+    }
+
+    .filterApplyButtonWrapper :global(.vtex-button) {
+        background: #3300ad;
+        border-radius: unset;
+        outline: unset;
+        border: none;
+    }
+
+    .filterApplyButtonWrapper :global(.vtex-button__label) {
+        font-size: 0;
+    }
+
+    .filterApplyButtonWrapper :global(.vtex-button__label)::after {
+        font-size: 12px;
+        content: "Aplicar";
+        color: #fff;
+        text-transform: initial;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+    }
+
+    .filterClearButtonWrapper :global(.vtex-button__label) {
+        font-size: 0;
+    }
+
+    .filterClearButtonWrapper :global(.vtex-button__label)::after {
+        font-size: 12px;
+        content: "Limpiar filtros";
+        color: #000;
+        text-transform: initial;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+    }
+
+    .filterButtonsBox {
+        border: unset;
+        justify-content: center;
+    }
+
+    .filterBreadcrumbsContent {
+        outline: 0;
+    }
+
+    .accordionFilterItemIcon::after {
+        transform: rotate(180deg);
+        width: 12px;
+        content: "";
+        background-image: url("https://aldoecuador.vtexassets.com/arquivos/up-arrow.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 10px;
+        z-index: 999;
+        margin-top: 2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+    }
+
+    .accordionFilterContent {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        margin: 0.3125rem 0;
+        padding: 1.375rem 0;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .filterAccordionItemBox {
+        border: unset;
+        padding: 0;
+    }
+
+    .accordionFilterContainer {
+        padding: 0;
+    }
+
+    .filterAccordionBreadcrumbs {
+        padding: 0;
+    }
+
+    .accordionFilter {
+        padding: 0 20px;
+    }
+
+    .galleryTitle--layout {
+        font-size: 40px;
+    }
+
+    .filterPopupButton {
+        height: unset !important;
+        width: 100%;
+        background: #3300ad;
+        justify-content: left;
+    }
+
+    .filterPopupButton .filterPopupArrowIcon {
+        display: none;
+    }
+
+    .filterPopupButton .filterPopupTitle {
+        margin-left: 10px;
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .filterPopupButton .filterPopupTitle::before {
+        content: "";
+        background-image: url("https://aldoecuador.vtexassets.com/arquivos/filterWhite.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 999;
+        padding-top: 14px;
+        padding-left: 30px;
+        position: relative;
+        top: 6px;
+    }
+
+    .orderByButton {
+        border: none;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .orderByButton .filterPopupArrowIcon {
+        margin-left: auto;
+    }
+
+    .galleryItem--normal {
+        flex-basis: 48% !important;
+        max-width: 48% !important;
+        width: 48%;
+        padding: 2px 0;
+        margin: 0 auto;
+    }
+
+    .container--layout {
+        margin: 0 0 20px 0;
+    }
+
+    .buttonShowMore :global(.vtex-button) {
+
+        height: unset;
+        width: 50%;
+    }
+
+    .buttonShowMore :global(.vtex-button) {
+        height: unset;
+        width: 50%;
+    }
+
+    .gallery {
+        padding-top: 14px;
+    }
+}
+
+.filterAccordionItemBox--hueso-multi :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Bone-Multi.jpg');
+}
+
+.filterAccordionItemBox--marron-medio :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Marron-medio.jpg');
+}
+
+.filterAccordionItemBox--oro-rosado :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Oro-Rosa.jpg');
+}
+
+.filterAccordionItemBox--plateado-claro :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Plateado-claro.jpg');
+}
+
+.filterAccordionItemBox--rosado-claro :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Rosado-claro.jpg');
+}
+
+.filterAccordionItemBox--plateado :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Plateado.jpg');
+}
+
+.filterAccordionItemBox--natural :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Natural.jpg');
+}
+
+.filterAccordionItemBox--negro-multi :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Negro-multi.jpg');
+}
+
+.filterAccordionItemBox--negro-blanco :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Negro-blanco.jpg');
+}
+
+.filterAccordionItemBox--negro :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Negro.jpg');
+}
+
+.filterAccordionItemBox--blanco :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Blanco.jpg');
+}
+
+.filterAccordionItemBox--cognac :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Cognac.jpg');
+}
+
+.filterAccordionItemBox--bone :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Bone.jpg');
+}
+
+.filterAccordionItemBox--rojo :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Rojo.jpg');
+}
+
+.filterAccordionItemBox--rosado :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Rosado.jpg');
+}
+
+.filterAccordionItemBox--dorado :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Dorado.jpg');
+}
+
+.filterAccordionItemBox--multi-metalico :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Multi-metalico.jpg');
+}
+
+.filterAccordionItemBox--azul :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Azul.jpg');
+}
+
+.filterAccordionItemBox--azul-marino :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Azul-marino.jpg');
+}
+
+.filterAccordionItemBox--azul-multi :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Azul-multi.jpg');
+}
+
+.filterAccordionItemBox--marron-claro :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Marron-claro.jpg');
+}
+
+.filterAccordionItemBox--azul-oscuro :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Azul-oscuro.jpg');
+}
+
+.filterAccordionItemBox--blanco-multi :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Blanco-Multi.jpg');
+}
+
+.filterAccordionItemBox--marron :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Marron.jpg');
+}
+
+.filterAccordionItemBox--rosado-oscuro :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Rosado-oscuro.jpg');
+}
+
+.filterAccordionItemBox--beige :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Beige.jpg');
+}
+
+.filterAccordionItemBox--naranja :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Naranja.jpg');
+}
+
+.filterAccordionItemBox--beige-medio :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/Beige-medio.jpg');
+}
+
+.filterAccordionItemBox--multi-pastel :global(.vtex-checkbox__inner-container) {
+    background-size: contain;
+    background-image: url('https://aldoecuador.vtexassets.com/arquivos/multi-Pastel.png');
+}
+
+.filter_container :global(.vtex-checkbox_inner-container) {
+    border-width: 1px;
+    border-color: #dadada;
+}
+
+.filterItem :global(.vtex-checkbox__input) {
+    width: 22px;
+    height: 22px;
+}
+
+.filterItem--selected {
+    border: 1px solid #000 !important;
+    min-width: 30px !important;
+    min-height: 30px !important;
+}
+
+.filter__container--specificationFilter_22 :global(.vtex-checkbox__inner-container) {
+    border-radius: 50% !important;
+
+}
+
+.filter__container--specificationFilter_22 :global(.vtex-checkbox__label) {
+    font-size: 13px !important;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:1024px){
+    .galleryItem--normal{
+        position: relative;
+    }
+}

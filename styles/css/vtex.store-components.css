@@ -1,0 +1,994 @@
+/*header*/
+.logoImage--logo {
+    height: 26px;
+}
+
+.logoImage {
+    height: 28px;
+    width: 130px;
+    transition: 0.4s;
+}
+
+.searchBarContainer {
+    padding: 0;
+    max-width: 100%;
+    height: 80%;
+}
+
+.searchIcon--search {
+    padding: 0;
+}
+
+.searchBarIcon--search {
+    width: 0;
+}
+
+.searchBarIcon--search::after {
+    width: 15px;
+    content: "";
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 1;
+    padding-top: 10px;
+    padding-left: 21px;
+    margin-top: -4px;
+}
+
+.autoCompleteOuterContainer--search :global(.vtex-input-prefix__group) {
+    border: unset;
+}
+
+.autoCompleteOuterContainer--search :global(.vtex-styleguide-9-x-input) {
+    width: 70px;
+    margin-right: -14px;
+    font-size: 14px;
+}
+
+.imageElement--headerWishList {
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 19px;
+    margin-top: 8px;
+}
+
+.searchBarInnerContainer--search {
+    margin-right: 15px;
+}
+
+/*header/*/
+/*menu/*/
+.imageElement--menuCindirellaImage {
+    width: 100%;
+}
+
+.infoCardContainer--menuKids {
+    min-height: 300px;
+    align-items: baseline;
+}
+
+.infoCardTextContainer--menuKids {
+    margin: 40px 30px;
+}
+
+.infoCardHeadline--menuKids {
+    margin: 0;
+    font-weight: 100;
+    text-transform: capitalize !important;
+    color: #3a2e2c;
+}
+
+.infoCardCallActionContainer--menuKids {
+    margin: 0;
+}
+
+.infoCardCallActionContainer--menuKids :global(.vtex-button) {
+    border: unset;
+    background: unset;
+}
+
+.infoCardCallActionContainer--menuKids :global(.vtex-button__label) {
+    text-transform: initial;
+    text-decoration: underline;
+    color: #3a2e2c;
+    padding: 0;
+}
+
+/*home*/
+.imageElement--home-newArrivals {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.imageElement--homeRightTopImage {
+    height: 25px;
+    margin: auto;
+}
+
+.imageElement--home-image-top {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 430px;
+}
+
+.imageElement--home-infocard-image {
+    width: 100%;
+}
+
+/*home/*/
+/*footer*/
+.sizeMobile {
+    max-width: unset;
+    max-height: unset;
+}
+
+.logoContainer--footer-logo {
+    padding: 0;
+    margin-top: -7px;
+}
+
+.imageElement--home-arrowup {
+    background-color: #fff;
+    padding: 13px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 14px;
+}
+
+/*footer/*/
+.infoCardContainer--info-card-example {
+    height: 100%;
+}
+
+.logoImage--footer-logo {
+    height: 45px;
+    width: 130px;
+}
+
+/*Subcategory*/
+.imageElement--SubcategoryModalImage {
+    margin-left: 10px;
+    width: 24px !important;
+    height: 34px;
+}
+
+/*Subcategory/*/
+/*SearchPage*/
+.autoCompleteOuterContainer--searchPage :global(.vtex-input-prefix__group) {
+    border: unset;
+    border-bottom: 1px solid #3a2e2c;
+    border-radius: unset;
+}
+
+.searchBarInnerContainer--searchPage {
+    margin: 30px 0;
+}
+
+.autoCompleteOuterContainer--searchPage :global(.vtex-styleguide-9-x-input) {
+    font-size: 21px;
+    opacity: 0.8;
+}
+
+/*SearchPage/*/
+/*ProductPage/*/
+.productDescriptionText {
+    color: #3a2e2c;
+    font-weight: normal;
+    font-family: 'Sectra';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.productDescriptionTitle {
+    font-size: 0;
+}
+
+.productDescriptionTitle::after {
+    content: "Descripción";
+    font-weight: lighter;
+    color: #3a2e2c;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.skuSelectorItemImageValue--productSelector {
+    margin: 1px 1.5px 1px 1.2px;
+    width: 36px;
+    height: 38px;
+}
+
+.skuSelectorItem--productSelector--selected {
+    height: unset;
+}
+
+.productImageTag--productImageStack {
+    max-height: 100vw !important;
+}
+
+.productImagesThumb--productImageStack {
+    width: 8% !important;
+    margin-right: 6px;
+}
+
+.skuSelectorInternalBox--productSelector {
+    border-radius: unset;
+    border-color: #000;
+    width: 40px;
+    height: 39px;
+}
+
+.frameAround--productSelector {
+    border-radius: unset;
+    border-color: #000;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.skuSelectorItemTextValue--productSelector {
+    padding: 0 10px;
+}
+
+.valueWrapper--productSelector {
+    font-size: 12px;
+
+}
+
+.searchBarInnerContainer--drawerSearchMobile {
+    background: #f5f3f5;
+}
+
+.autoCompleteOuterContainer--drawerSearchMobile {
+    width: 100%;
+    max-width: 100%;
+}
+
+.autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-styleguide-9-x-input) {
+    margin-top: 46px;
+    position: relative;
+    z-index: 10;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    line-height: 2.625rem;
+    border-radius: unset;
+    background: #f5f3f5;
+    padding-left: 10px;
+    color: #000;
+}
+
+.autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-input-prefix__group)::before {
+    width: 15px;
+    content: "";
+    background-image: url(https://aldoecuador.vtexassets.com/arquivos/searcher.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 1;
+    padding-top: 13px;
+    padding-left: 21px;
+    margin-top: auto;
+    margin-bottom: 17px;
+    margin-right: -5px;
+}
+
+.autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-input__suffix) {
+    border-radius: unset;
+    background: #f5f3f5;
+    position: relative;
+    z-index: 10;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.closeIcon--drawerSearchMobile {
+    position: fixed;
+    top: 90px;
+    margin-right: 17px;
+    padding-left: 0px;
+}
+
+.skuSelectorSubcontainer--talla .frameAround--productSelectorSize {
+    border-radius: unset;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorItem--productSelectorSize--selected {
+    height: unset;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorItemTextValue--productSelectorSize {
+    padding: 0;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorInternalBox--productSelectorSize {
+    border: 1px solid #000;
+    border-radius: unset;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorInternalBox--productSelectorSize:hover {
+    border: 2px solid #7f7776;
+}
+
+.skuSelectorSubcontainer--talla .frameAround--productSelectorSize {
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.skuSelectorSubcontainer--color .skuSelectorItem--productSelectorColor {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+.skuSelectorSelectorImageValue {
+    font-size: 0.875rem;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.skuSelectorName {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #767676;
+}
+
+.skuSelectorNameSeparator {
+    font-size: 0;
+}
+
+.skuSelectorNameSeparator::after {
+    content: "/";
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 12px;
+    color: #767676;
+}
+
+.skuSelectorSubcontainer--color .frameAround--productSelectorColor {
+    border-radius: 50%;
+    top: -0.15rem;
+    bottom: -0.15rem;
+    left: -0.15rem;
+    right: -0.15rem;
+}
+
+.skuSelectorSubcontainer--color .skuSelectorInternalBox--productSelectorColor {
+    border-radius: 50%;
+}
+
+.productImage--productImageRightStack {
+    min-height: 800px;
+}
+
+.productImageTag--productImageRightStack {
+    transform: scale(2);
+}
+
+.infoCardCallActionContainer--subcategoryInfocards :global(.vtex-button) {
+    display: unset;
+}
+
+.infoCardCallActionContainer--subcategoryInfocards {
+    position: absolute;
+    margin-top: 50px;
+    max-width: 110px;
+    text-decoration: none;
+}
+
+
+.infoCardCallActionContainer--subcategoryInfocards :global(.vtex-button__label) {
+    padding: 0 5px;
+    color: #3a2e2c;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: initial;
+}
+
+.infoCardCallActionContainer--subcategoryInfocards :global(.vtex-button) {
+    border-radius: unset;
+    border: none;
+    background: none;
+    line-height: 1rem;
+    outline: 0 !important;
+
+}
+
+.infoCardContainer--subcategoryInfocards {
+    border: none !important;
+    min-width: 100%;
+    min-height: auto;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.infoCardSubhead--info-card-department {
+    font-weight: lighter;
+    line-height: 1.5;
+    width: 80%;
+    margin: 0;
+}
+
+.infoCardHeadline--info-card-department {
+    font-size: 14px;
+    display: contents;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.infoCardHeadline--info-card-department::after {
+    content: "Transición suave";
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 5rem;
+}
+
+.infoCardContainer--info-card-department {
+    margin: 10px auto 7.0625rem auto;
+}
+
+.infoCardCallActionContainer--info-card-department :global(.vtex-button) {
+    border: 1px solid #7f7776;
+    border-radius: unset;
+    background: none;
+    font-weight: lighter;
+    font-size: 13px;
+    text-transform: initial;
+    color: #000;
+    outline: 0 !important;
+}
+
+.infoCardCallActionContainer--info-card-department :global(.vtex-button):hover {
+    background: #3a2e2c;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.infoCardImage--info-card-department {
+    border-radius: 50%;
+    min-height: 600px;
+}
+
+.specificationsTitle {
+    display: none;
+}
+
+.specificationsTableSpecificationHeading,
+.specificationsTablePropertyHeading {
+    display: none;
+}
+
+.backToTopButtonContainer :global(.vtex-button) {
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    outline: 0 !important;
+}
+
+.backToTopButtonContainer :global(.vtex-button__label) {
+    padding: 20px;
+    width: 0;
+}
+
+.backToTopButtonContainer :global(.vtex-button__label)::after {
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/arrow.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 1;
+    padding-top: 7px;
+    padding-left: 17px;
+    transform: rotate(180deg);
+    opacity: 0.6;
+}
+
+.imageElement--imagePayments {
+    display: flex;
+    margin: 0 auto;
+}
+
+.specificationsTableBody {
+    display: flex;
+}
+
+.specificationsTableRow {
+    display: grid;
+    margin: 0 1.875rem 0 0;
+}
+
+.specificationItemSpecifications {
+    width: 100%;
+    border: none;
+    font-family: "Sectra";
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    min-height: 240px;
+}
+
+.specificationItemProperty {
+    width: 100%;
+    border: none;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 100;
+    padding-left: 0;
+    height: 56px;
+}
+
+.specificationsTableContainer {
+    padding: 0;
+}
+
+.skuSelectorSubcontainer--color .skuSelectorContainer--productSelectorColor {
+    padding-left: 30px;
+}
+
+.swiper-pagination {
+    display: none;
+}
+
+.productDescriptionContainer {
+    margin-right: 30px;
+}
+
+.imageElementLink--powered {
+    padding: 0 10px;
+}
+
+.imageElement--powered {
+    width: 70px;
+    max-height: 35px;
+}
+
+.resultsList--drawerSearchMobile {
+    padding-top: 0 !important;
+    background: #f5f3f5 !important;
+    padding: 0 100px;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.resultsItemImage--drawerSearchMobile {
+    width: 70px;
+    height: auto;
+}
+
+.skuSelectorContainer--containerProductSelector {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.priceContainer {
+    margin-top: 5px;
+    display: flex;
+    padding-left: 30px;
+}
+
+.sellingPriceValue {
+    font-size: 30px;
+    color: #767676;
+}
+
+.listPrice {
+    margin-right: .533em;
+    color: rgb(215, 40, 47);
+    font-size: 1.875rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+}
+
+.listPriceValue::after {
+    border-bottom: 1px solid rgb(215, 40, 47);
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: skewY(11deg);
+    width: 100%;
+}
+
+.imageElement--imagePoweredJump {
+    width: 45px;
+}
+
+.priceContainer--minicart-item {
+    display: flex;
+}
+
+.autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-input) {
+    padding: 1.875rem 6.125rem 2.8125rem;
+}
+
+.autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-input-prefix__group) {
+    height: auto;
+    border: unset;
+    border-radius: unset;
+    border-bottom: 2px solid purple;
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+
+.backToTopButtonActive {
+    bottom: 70px;
+    right: 20px;
+    width: 42px !important;
+}
+
+.imageElement--InfoGeneralFooterImage {
+    min-width: 100px;
+}
+
+.sellingPrice {
+    position: relative;
+}
+
+.imageElement--aldo-crew-banner-header-logo {
+    width: 10rem;
+    margin-bottom: 1.25rem;
+}
+
+.imageElement--aldo-crew-banner-triangle {
+    display: none !important;
+}
+
+.sellingPriceContainer {
+    display: flex;
+    align-items: center;
+}
+
+.imageElement--footerImageRedes {
+    height: 22px;
+}
+@media screen and (min-width:550px) {
+    .imageElement--aldo-crew-banner-triangle {
+        display: block !important;
+        position: absolute;
+        top: 0;
+        right: 0;
+        /* width: 50%; */
+        height: 100%;
+        width: 60%;
+    }
+}
+
+@media (min-width: 47.5em) {
+    .imageElement--aldo-crew-banner-header-logo {
+        width: 10.9375rem;
+    }
+
+    .imageElement--aldo-crew-banner-triangle {
+        position: static;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .imageElement--aldo-crew-banner-triangle {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .imageElement--imagePayments {
+        height: 40px;
+        width: auto!important;
+    }
+
+    .imageElement--InfoGeneralFooterImage{
+        width: 70px;
+        height: 70px;
+        min-width: unset;
+    }
+    .autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-styleguide-9-x-input) {
+        margin-bottom: 9px !important;
+    }
+
+    .autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-input-prefix__group)::before {
+        padding-top: 8px;
+        margin-bottom: 22px;
+    }
+
+    .autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-input) {
+        padding: 0;
+    }
+
+    .priceContainer {
+        padding-left: 0;
+    }
+
+    .sellingPriceValue {
+        margin-left: 0;
+    }
+
+    .skuSelectorSubcontainer--color .skuSelectorContainer--productSelectorColor {
+        padding: 0;
+    }
+
+    .infoCardImage--info-card-department {
+        min-height: 376px;
+    }
+
+    .infoCardContainer--info-card-department {
+        width: 100%;
+    }
+
+    .specificationsTableRow {
+        margin-bottom: 10px;
+    }
+
+    .specificationItemSpecifications {
+        min-height: 35px;
+    }
+
+    .specificationItemProperty {
+        height: 28px;
+        padding: 0;
+    }
+
+    .specificationsTableContainer {
+        margin-top: 1rem;
+    }
+
+    .swiperBullet--active {
+        border: 2px solid #000;
+        background: transparent;
+    }
+
+    .swiperBullet {
+        width: 4px !important;
+        height: 4px !important;
+        margin: auto 10px !important;
+        border-radius: 50% !important;
+    }
+
+    .swiper-pagination {
+        display: flex;
+        bottom: 20px !important;
+        left: 15px !important;
+    }
+
+    .productDescriptionText {
+        color: #7f7776;
+    }
+
+    .productDescriptionTitle {
+        font-size: 0;
+        line-height: 1.25rem;
+        margin-bottom: 0.9375rem;
+        font-family: 'Sectra';
+        font-weight: 300;
+
+    }
+
+    .productImage--productImageRightStack {
+        min-height: unset;
+    }
+
+    .productDescriptionContainer {
+        margin-top: 10px;
+    }
+
+    .specificationsTableBody {
+        display: block;
+    }
+
+    .imageElement--SubcategoryModalImage {
+        width: 22px !important;
+        margin-top: 0px;
+    }
+
+    .imageElement--footerImageRedes {
+        width: 24px !important;
+        height: 24px;
+    }
+
+    .searchBarInnerContainer--drawerSearchMobile {
+        padding-top: 0px;
+        background: #f5f3f5;
+    }
+
+    .autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-styleguide-9-x-input),
+    .autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-input__suffix) {
+        border-radius: unset;
+        background: #f5f3f5;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .autoCompleteOuterContainer--drawerSearchMobile :global(.vtex-input-prefix__group) {
+        border: unset;
+        border-radius: unset;
+        width: 90%;
+        margin: 35px auto;
+        border-bottom: 1px solid #000;
+    }
+
+    .logoImage--footer-logo {
+        height: 42px;
+        max-width: 150px;
+        width: 40% !important;
+        margin-top: 15px;
+    }
+
+    .imageElement--headerWishList {
+        width: 18px;
+        margin-right: 7.5px;
+        margin-top: 15px;
+        margin-bottom: auto;
+    }
+
+    .imageElement--home-arrowup {
+        right: 10px;
+        bottom: 10px;
+        z-index: 1;
+    }
+
+    .infoCardContainer--info-card-department {
+        margin: 3.9375rem 0 40px 0;
+        min-width: unset;
+        padding: 0 8px;
+    }
+
+    .infoCardHeadline--info-card-department::after {
+        font-size: 2.25rem;
+        line-height: 4rem;
+    }
+
+    .infoCardTextContainer--info-card-department {
+        padding: 0;
+    }
+
+    .infoCardSubhead--info-card-department {
+        width: 100%;
+        line-height: 1.125rem;
+    }
+
+    .infoCardCallActionContainer--info-card-department,
+    .infoCardCallActionContainer--info-card-department :global(.vtex-button) {
+        width: 100%;
+    }
+
+    .infoCardContainer--subcategoryInfocards {
+        min-height: 77px;
+        height: auto;
+    }
+
+    .infoCardCallActionContainer--subcategoryInfocards :global(.vtex-button__label) {
+        font-size: 11px;
+        padding: 0 20px;
+    }
+
+    .infoCardImage--infoCardMenuMobile {
+        object-fit: cover;
+        width: 84%;
+        float: right;
+        margin-top: 1.125rem;
+        margin-right: 1.25rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .infoCardCallActionContainer--infoCardMenuMobile {
+        margin: 0;
+    }
+
+    .infoCardImageContainer--infoCardMenuMobile {
+        width: 100%;
+    }
+
+    .infoCardCallActionContainer :global(.vtex-button) {
+        border: none;
+        border-radius: unset;
+        background: none;
+    }
+
+    .infoCardCallActionContainer :global(.vtex-button__label) {
+        padding-top: 0.25em;
+        padding-bottom: 0.32em;
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+        font-family: sans-serif;
+        display: inline-block;
+        padding: 0;
+        text-transform: initial;
+        text-decoration: underline;
+        color: #3a2e2c;
+    }
+
+    .infoCardSubhead--infoCardMenuMobile {
+        font-size: 0.75rem;
+        font-weight: lighter;
+        margin-top: 0.3125rem;
+    }
+
+    .infoCardHeadline--infoCardMenuMobile {
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0.3125rem 0 0.5625rem;
+    }
+
+    .infoCardHeadline--infoCardMenuMobile::before {
+        content: "Es tiempo de...";
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: lighter;
+        font-size: 0.75rem;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .infoCardTextContainer--infoCardMenuMobile {
+        width: 100%;
+        padding: 1.3125rem 0.3125rem 1.3125rem 1.25rem;
+    }
+
+    .infoCardContainer--infoCardMenuMobile {
+        display: flex;
+    }
+
+    .imageElement--menuMobileImageFooterCrew {
+        width: 4.6875rem;
+        height: auto;
+    }
+
+    .imageElementLink--menuMobileImageFooterCountry,
+    .imageElementLink--menuMobileImageFooter {
+        margin: auto 0;
+    }
+
+    .imageElement--menuMobileImageFooterCountry {
+        height: 1.25rem;
+        margin-right: 0.625rem;
+        margin-top: -0.3125rem;
+        vertical-align: middle;
+        width: 1.25rem;
+        transform: rotate(270deg);
+    }
+
+    .imageElement--menuMobileImageFooter {
+        height: 1.25rem;
+        margin-right: 0.625rem;
+        margin-top: -0.3125rem;
+        vertical-align: middle;
+        width: 1.25rem;
+    }
+
+    .logoImage {
+        height: 16px;
+        width: 80px;
+        transition: 0.4s;
+        margin-top: 20px;
+    }
+
+    .resultsList--drawerSearchMobile {
+        margin-top: -20px;
+    }
+}

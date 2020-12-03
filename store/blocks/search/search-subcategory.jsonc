@@ -1,0 +1,481 @@
+{
+  "search-result-layout#category": {
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile#subcategory",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#category": {
+    "children": [
+      "flex-layout.row#wrapperSubcategory"
+    ],
+    "props":{
+      "showFacetQuantity": false
+    }
+  },
+  "flex-layout.row#wrapperSubcategory": {
+    "children": [
+      "flex-layout.col#wrapperSubcategory"
+    ],
+    "props": {
+      "blockClass": "wrapperMain"
+    }
+  },
+  "flex-layout.col#wrapperSubcategory": {
+    "children": [
+      "flex-layout.row#modalTopCategory",
+      "flex-layout.row#result-category"
+    ],
+    "props": {
+      "blockClass": "wrapperMain"
+    }
+  },
+  "flex-layout.row#modalTopCategory": {
+    "children": [
+      "flex-layout.col#modalTopCategory"
+    ],
+    "props": {
+      "blockClass": "subcategoryWrapperModal"
+    }
+  },
+  "flex-layout.col#modalTopCategory": {
+    "children": [
+      "rich-text#modalTitle",
+      "flex-layout.row#wrapperSubtitle",
+      "flex-layout.row#wrapperLinks"
+    ],
+    "props": {
+      "blockClass": "modalTopSale"
+    }
+  },
+  "rich-text#modalTitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Venta de fin de temporada | Precios como se muestran",
+      "blockClass": "SubcategoryModalTitleText"
+    }
+  },
+  "flex-layout.row#wrapperSubtitle": {
+    "children": [
+      "rich-text#modalSubTitle",
+      "image#subtitleImage"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "wrapperCategorySubtitle"
+    }
+  },
+  "rich-text#modalSubTitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Hasta 70% de descuento en estilos seleccionados",
+      "blockClass": "SubcategoryModalSubtitleText"
+    }
+  },
+  "image#subtitleImage": {
+    "props": {
+      "blockClass": "SubcategoryModalImage",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/query-white.svg",
+      "width": 28
+    }
+  },
+  "flex-layout.row#wrapperLinks": {
+    "children": [
+      "link#modalWomen",
+      "link#modalMen"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "subcategoryWrapperTopLinks"
+    }
+  },
+  "link#modalWomen": {
+    "props": {
+      "blockClass": "SubcategoryModalGenero",
+      "href": "/",
+      "label": "Mujer"
+    }
+  },
+  "link#modalMen": {
+    "props": {
+      "blockClass": "SubcategoryModalGenero",
+      "href": "/",
+      "label": "Hombre"
+    }
+  },
+  "flex-layout.row#result-category": {
+    "children": [
+      "flex-layout.col#content-category"
+    ],
+    "props": {
+      "blockClass": "wrapperContentSubCategory",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#content-category": {
+    "children": [
+      //"flex-layout.row#searchinfo",
+      //"flex-layout.row#fetchprevious",
+      "custom-adaptative-category",
+      "flex-layout.row#subCategoryContent",
+      "flex-layout.row#subCategory",
+      "flex-layout.row#fetchmore",
+      "back-to-top-button"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#subCategoryContent": {
+    "children": [
+      "flex-layout.col#subCategoryContent"
+    ],
+    "props": {
+      "blockClass": [
+        "wrapperContent",
+        "wrapperContentInfoSubcategory"
+      ]
+    }
+  },
+  "flex-layout.col#subCategoryContent": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#imagesSubacategory",
+      //"list-context.product-list#saleSubcategory",
+      "flex-layout.row#filters",
+      "custom-banners-category"
+      //"flex-layout.col#breadTitle",
+      //"flex-layout.col#shelfSubcategory",
+      //"flex-layout.col#filters"
+    ],
+    "props": {
+      "blockClass": "wrapperContent"
+    }
+  },
+  "flex-layout.row#imagesSubacategory": {
+    "children": [
+      "info-card#subcategoryCard-1",
+      "info-card#subcategoryCard-2",
+      "info-card#subcategoryCard-3",
+      "info-card#subcategoryCard-4"
+    ],
+    "props": {
+      "blockClass": "wrapperSubcategoryInfocard",
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true
+    }
+  },
+  "info-card#subcategoryCard-1": {
+    "props": {
+      "id": "info-card-subcategory",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://aldoecuador.vteximg.com.br/arquivos/image-1.jpg",
+      "callToActionText": "Sandalias de Tacón",
+      "callToActionUrl": "/",
+      "blockClass": "subcategoryInfocards",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#subcategoryCard-2": {
+    "props": {
+      "id": "info-card-subcategory",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://aldoecuador.vteximg.com.br/arquivos/image-2.jpg",
+      "callToActionText": "Sandalias Planas",
+      "callToActionUrl": "/",
+      "blockClass": "subcategoryInfocards",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#subcategoryCard-3": {
+    "props": {
+      "id": "info-card-subcategory",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://aldoecuador.vteximg.com.br/arquivos/image-3.jpg",
+      "callToActionText": "Sandalias de Plataforma",
+      "callToActionUrl": "/",
+      "blockClass": "subcategoryInfocards",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#subcategoryCard-4": {
+    "props": {
+      "id": "info-card-subcategory",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://aldoecuador.vteximg.com.br/arquivos/image-4.jpg",
+      "callToActionText": "Sandalias de Cuña",
+      "callToActionUrl": "/",
+      "blockClass": "subcategoryInfocards",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#breadTitle": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchTitleSubCategory"
+    ],
+    "props": {
+      "blockClass": "wrapperContentCategoryInfo"
+    }
+  },
+  "flex-layout.row#searchbread": {
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "blockClass": "wrapperBreadcrumbSubcategory",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "breadcrumb.search": {
+    "props": {
+      "blockClass": "breadcrumbSubcategory",
+      "homeIconSize": 0,
+      "caretIconSize": 0
+    }
+  },
+  "flex-layout.row#searchTitleSubCategory": {
+    "children": [
+      "search-title.v2"
+    ],
+    "props": {
+      "blockClass": "search-category"
+    }
+  },
+  "flex-layout.col#shelfSubcategory": {
+    "children": [
+      "flex-layout.row#shelfSubCategoryTop"
+      //"shelf.relatedProducts#similares"
+    ]
+  },
+  "flex-layout.row#shelfSubCategoryTop": {
+    "children": [
+      "flex-layout.col#shelfSubCategoryTop"
+    ],
+    "props": {
+      "blockClass": "home-wrapper-shelf"
+      /*"fullWidth":true*/
+    }
+  },
+  "flex-layout.col#shelfSubCategoryTop": {
+    "children": [
+      //"list-context.product-list#saleSubcategory"
+    ]
+  },
+  "list-context.product-list#saleSubcategory": {
+    "blocks": [
+      "product-summary.shelf#wishlist"
+    ],
+    "children": [
+      "slider-layout#shelfSubCategory"
+    ],
+    "props": {
+      "collection": "",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#shelfSubCategory": {
+    "props": {
+      "slideTransition": {
+        "speed": 2000,
+        "delay": 0,
+        "timing": ""
+      },
+      "autoplay": {
+        "timeout": 6000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "blockClass": "shelfSubCategory"
+    }
+  },
+  "product-summary-name#shelfSubcategory": {
+    "props": {
+      "blockClass": "shelfNameSubcategoryTop"
+    }
+  },
+  "product-summary-name#shelfSubcategoryTop": {
+    "props": {
+      "blockClass": "shelfNameSubcategoryTop"
+    }
+  },
+  "flex-layout.col#filters": {
+    "children": [
+      "flex-layout.row#filters"
+      //"flex-layout.col#spacer"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "flex-layout.row#filters": {
+    "children": [
+      //"vtex.menu@2.x:menu#questionAccount-123",
+      "drawer#specification",
+      "flex-layout.col#spacer",
+      "flex-layout.col#productCount",
+      "flex-layout.col#orderby"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "drawer-category"
+    }
+  },
+  "drawer#specification": {
+    "props": {
+      "slideDirection": "vertical",
+      "blockClass": "specification",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#filter-category"
+    ]
+  },
+  "flex-layout.col#filter-category": {
+    "children": [
+      "filter-navigator.v3",
+      "custom-script-remove-count-filters"
+    ],
+    "props": {
+      "blockClass": "filter-category"
+    }
+  },
+  "flex-layout.col#productCount": {
+    "children": [
+      "total-products.v2"
+    ],
+    "props": {
+      "blockClass": "productCountCol"
+    }
+  },
+  "flex-layout.col#orderby": {
+    "children": [
+      "order-by.v2"
+    ],
+    "props": {
+      "blockClass": "orderByCol"
+    }
+  },
+  "flex-layout.row#subCategory": {
+    "children": [
+      "search-content"
+    ],
+    "props": {
+      "blockClass": "search-category"
+    }
+  },
+  "search-content": {
+    "blocks": [
+      "gallery#subCategory",
+      "not-found"
+    ],
+    "props": {
+      "blockClass": "gallery-category"
+    }
+  },
+  "gallery#subCategory": {
+    "blocks": [
+      "product-summary.shelf#shelfSubCategory"
+    ]
+  },
+  "product-summary-image#subCategory": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": "auto",
+      "blockClass": "imageShelfSubCategory"
+    }
+  },
+  "product-summary-name": {
+    "props": {
+      "blockClass": "shelfNameSubcategory"
+    }
+  },
+  "flex-layout.row#sellingPriceSavingsSubCategory": {
+    "props": {
+      "blockClass": "priceShelfSubCategory",
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": [
+      //"product-selling-price#summarySubCategory",
+      "product-summary-name",
+      "flex-layout.row#priceShelfRow"
+    ]
+  },
+  "flex-layout.row#priceShelfRow": {
+    "children": [
+      "custom-summary-price-iva"
+      //"product-installments#summary",
+      //"product-selling-price#Shelf",
+      //"product-price-savings#Shelf"
+    ],
+    "props": {
+      "blockClass": "wrapperPriceShelf",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#fetchmore": {
+    "props": {
+      "marginTop": 3
+    },
+    "children": [
+      "search-fetch-more"
+    ]
+  },
+  "search-result-layout.mobile#subcategory": {
+    "children": [
+      //"breadcrumb#category",
+      //"flex-layout.row#subCategoryContent",
+      "flex-layout.row#searchTitleSubCategoryMobile",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#contentmobile",
+      //"flex-layout.row#fetchprevious",
+      //"flex-layout.row#result-categoryMain",
+      /*"flex-layout.row#subCategory",
+        "flex-layout.row#fetchmore",
+        "custom-adaptative-category",*/
+      "flex-layout.row#fetchmore",
+      "custom-banners-category"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "normal",
+        "mode2": ""
+      }
+    }
+  },
+  "flex-layout.row#searchTitleSubCategoryMobile": {
+    "children": [
+      "search-title.v2",
+      "flex-layout.row#productCountMobile"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "searchTitleSubCategoryMobile"
+    }
+  }
+}

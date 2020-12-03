@@ -1,0 +1,16 @@
+.sellingPriceValue--price1ShelfSubcategory {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sellingPrice--hasListPrice {
+    font-size: 26px;
+}
+
+.currencyContainer--Shelf {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    color: rgb(215, 40, 47);
+    margin-left: 5px;
+}

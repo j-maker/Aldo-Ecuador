@@ -1,0 +1,15 @@
+.buttonText--productAddButton {
+    font-size: 0px;
+}
+
+.buttonText--productAddButton::after {
+    content: "Agregar al carrito";
+    font-size: 13px;
+    text-transform: initial;
+    letter-spacing: 0.3px;
+    color: #fff;
+}
+
+.buttonText--productAddButton::after:hover {
+    opacity: 0.5;
+}

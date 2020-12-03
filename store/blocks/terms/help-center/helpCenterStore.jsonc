@@ -1,0 +1,45 @@
+{
+  "store.custom#helpCenterStore": {
+    "blocks": [
+      "tab-layout#helpCenterStore"
+    ]
+  },
+  "tab-layout#helpCenterStore": {
+    "children": [
+      "tab-list#helpcenter",
+      "tab-content#helpcenter"
+    ],
+    "props": {
+      "blockClass": "helpcenter",
+      "defaultActiveTabId": "helpcenter8"
+    }
+  },
+  "tab-list.item#helpcenter8": {
+    "props": {
+      "blockClass": "listItemHelpCenterList2",
+      "tabId": "helpcenter8",
+      "label": "Tiendas"
+    }
+  },
+  "tab-content.item#helpcenter8": {
+    "children": [
+      "flex-layout.row#topContentInfoHelpCenter",
+      "flex-layout.row#modalLocalizador",
+      "rich-text#textContent-3",
+      //"flex-layout.row#wrapperQuestionAccountInfoHelpCenter",
+      "rich-text#InfoGeneralFooterTextTitle",
+      "flex-layout.row#WrapperInfoGeneralFooter"
+    ],
+    "props": {
+      "tabId": "helpcenter8"
+    }
+  },
+  "flex-layout.row#modalLocalizador": {
+    "children": [
+      "modal-trigger#store-locator"
+    ],
+    "props": {
+      "blockClass": "wrapperModalLocalizadorStore"
+    }
+  }
+}

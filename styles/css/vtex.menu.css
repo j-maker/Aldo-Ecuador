@@ -1,0 +1,264 @@
+/*header*/
+.styledLinkContainer--category-text-principal {
+    margin: 0;
+    padding: 10px 30px 24px 0;
+}
+
+.styledLinkContent--category-text-principal {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #c60a00;
+}
+
+.styledLinkContent--category-text-principal::after {
+    width: 12px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/up-arrow-red.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 999;
+    margin-top: 2px;
+    padding-top: 2px;
+    padding-left: 13px;
+}
+
+.styledLinkContent--category-text-principal:hover::after {
+    transform: rotate(180deg);
+    width: 12px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/up-arrow-red.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 999;
+    margin-top: 2px;
+    padding-top: 2px;
+    padding-left: 13px;
+}
+
+.styledLinkContent--category-text-principal:hover {
+    text-decoration: underline;
+}
+
+.styledLinkContainer--category-text {
+    margin: 0;
+    padding: 0;
+}
+
+.styledLinkContent--category-text {
+    margin: 0;
+    padding: 10px 0 38px 0;
+    font-size: 14px;
+    color: #3a2e2c;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+}
+
+.styledLinkContent--category-text:hover {
+    color: #3300ad;
+    text-decoration: underline;
+}
+
+.submenuContainer--wrapperMenuWomen,
+.submenuContainer--wrapperMenuArrivals {
+    margin-top: 70px;
+}
+
+.menuItem--category-text {
+    margin-right: 1.825rem;
+    display: flex;
+}
+
+.menuItem--category-text::after {
+    width: 12px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/up-arrow.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 999;
+    margin-top: 11px;
+    padding-top: 2px;
+    padding-left: 13px;
+}
+
+.menuItem--category-text:hover::after {
+    transform: rotate(180deg);
+    width: 12px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/up-arrow-blue.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 999;
+    margin-top: 11px;
+    padding-top: 2px;
+    padding-left: 13px;
+    color: red;
+}
+
+.menuItem--category-text:hover :global(.vtex-menu-2-x-styledLinkContent--category-text) {
+    text-decoration: underline;
+    color: #3300ad;
+}
+
+.menuContainerNav--mega-menu {
+    width: 100%;
+}
+
+
+
+
+/*submenu*/
+.submenu--wrapperKidsSubmenu,
+.submenu--wrapperMenuArrivals,
+.submenu--wrapperMenuSale {
+    padding: 0 3.125rem;
+    max-width: 98.125rem;
+    margin: 0 auto;
+}
+
+.submenuWrapper--wrapperKidsSubmenu--isOpen,
+.submenuWrapper--wrapperMenuArrivals--isOpen,
+.submenuWrapper--wrapperMenuSale--isOpen {
+    width: 92%;
+    left: 4%;
+
+}
+
+.submenuWrapper {
+    padding: 0;
+}
+
+.submenuWrapper--wrapperMenuWomen,
+.submenuWrapper--wrapperKidsSubmenu,
+.submenuWrapper--wrapperMenuArrivals {
+    position: fixed;
+    padding-bottom: 100%;
+    border: unset;
+    margin-top: -25px;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.submenuWrapper--wrapperMenuSale {
+    position: fixed;
+    padding-bottom: 100%;
+    border: unset;
+    margin-top: -10px;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.submenu--wrapperMenuWomen {
+    background: #fff;
+    padding: 0 3.75rem 20px;
+    max-width: 98.125rem;
+    margin: 0 4.5rem;
+
+
+}
+
+
+
+
+
+
+
+.styledLinkContainer--accordion-title {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 2.25rem;
+}
+
+.styledLinkContent--accordion-title {
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 2.25rem;
+    white-space: break-spaces !important;
+}
+
+.submenuAccordion--wrapperRtaQuestion {
+    padding: 0;
+}
+
+.menuItemInnerDiv--accordion-title {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3125rem 0;
+    padding: 1.1875rem 0;
+    width: 100%;
+}
+
+.accordionIcon--accordion-title--isOpen::before {
+    opacity: 1 !important;
+    width: 12px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/up-arrow.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 2;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 3px;
+    transform: rotate(180deg);
+    position: absolute;
+    background-color: #fff;
+}
+
+.accordionIcon--accordion-title--isClosed::before {
+    width: 12px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/up-arrow.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 2;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 3px;
+    position: absolute;
+    background-color: #fff;
+}
+
+.menuContainerNav--wrapperFilter {
+    width: 100%;
+}
+
+.menuItem--accordion-title {
+    position: relative;
+}
+
+@media screen and (max-width:1024px){
+    .styledLinkContent--accordion-title {
+        font-size: 16px;
+    }
+
+    .menuItemInnerDiv--accordion-title{
+        padding: 10px 0 0 0;
+    }
+
+}
+
+@media screen and (min-width:1450px) {
+    .submenu--wrapperMenuWomen {
+        padding: 0 3.75rem;
+        max-width: 93.125rem;
+        margin: 0 auto;
+    }
+}

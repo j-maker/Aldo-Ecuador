@@ -1,0 +1,24 @@
+{
+  "sku-selector#all": {
+    "props": {
+      "visibleVariations": [
+        "color",
+        "talla"
+      ],
+      "blockClass": [
+        "containerProductSelector",
+        "productSelectorColor",
+        "productSelectorSize"
+      ],
+      "variationsSpacing": 3,
+      "maxItems": 10,
+      "showValueForVariation ": true,
+      "marginTop": 10,
+      "hideImpossibleCombinations": true,
+      "showVariationsLabels": true,
+      "showVariationsErrorMessage": true,
+      "thumbnailImage": "sku-color",
+      "showValueNameForImageVariation": true
+    }
+  }
+}

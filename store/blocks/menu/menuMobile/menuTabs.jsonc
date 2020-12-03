@@ -1,0 +1,218 @@
+{
+  //menu-mobile
+  "flex-layout.row#menuMobile": {
+    "children": [
+      "tab-layout#products-details-tabs"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "tab-layout#products-details-tabs": {
+    "children": [
+      "flex-layout.row#products-details",
+      "tab-content#products-details"
+    ],
+    "props": {
+      "blockClass": "",
+      "defaultActiveTabId": "home2"
+    }
+  },
+  "flex-layout.row#products-details": {
+    "children": [
+      "tab-list#products-details"
+    ],
+    "props": {
+      "blockClass": "container-title-menu-tabs"
+    }
+  },
+  "tab-list#products-details": {
+    "children": [
+      "tab-list.item#products-details-list2",
+      "tab-list.item#products-details-list1"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": [
+        "wrapperTopTitleSizes"
+      ]
+    }
+  },
+  "tab-list.item#products-details-list1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Hombre",
+      "blockClass": "sizeButtonGeneral"
+    }
+  },
+  "tab-list.item#products-details-list2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Mujer",
+      "blockClass": "sizeButtonGeneral"
+    }
+  },
+  "tab-content#products-details": {
+    "children": [
+      "tab-content.item#products-details-content1",
+      "tab-content.item#products-details-content2"
+    ]
+  },
+  "tab-content.item#products-details-content1": {
+    "children": [
+      "drawer#searchMenuMobileMen",
+      "flex-layout.row#linkShopMen",
+      "drawer#subcategoryMen-1",
+      //"drawer#subcategoryMen-2",
+      "drawer#subcategoryMen-3",
+      "drawer#subcategoryMen-4",
+      "drawer#subcategoryMen-5",
+      "info-card#menuMobile"
+    ],
+    "props": {
+      "tabId": "home1",
+      "blockClass": "wrapperImageSize"
+    }
+  },
+  "tab-content.item#products-details-content2": {
+    "children": [
+      "drawer#searchMenuMobileMen",
+      "flex-layout.row#linkShopWomen",
+      "drawer#subcategory-1",
+      //"drawer#subcategory-2",
+      "drawer#subcategory-3",
+      "drawer#subcategory-4",
+      "drawer#subcategory-5",
+      "drawer#subcategory-6",
+      "drawer#subcategory-7",
+      "info-card#menuMobile"
+    ],
+    "props": {
+      "tabId": "home2",
+      "blockClass": "wrapperImageSize"
+    }
+  },
+  "flex-layout.row#WrapperFooterMenu": {
+    "children": [
+      "flex-layout.col#WrapperFooterMenu"
+    ]
+  },
+  "flex-layout.col#WrapperFooterMenu": {
+    "children": [
+      "flex-layout.row#ContentFooterMenu-5",
+      "flex-layout.row#ContentFooterMenu-1",
+      "flex-layout.row#ContentFooterMenu-2",
+      "flex-layout.row#ContentFooterMenu-3",
+      "flex-layout.row#ContentFooterMenu-4"
+    ],
+    "props": {
+      "blockClass": "wrapperFooterMenuMobile"
+    }
+  },
+  "flex-layout.row#ContentFooterMenu-1": {
+    "children": [
+      "image#menuMobileImageFooter",
+      "link#footerMenuMobile"
+    ],
+    "props": {
+      "blockClass": "wrapperContentFooterMenuMobile",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#ContentFooterMenu-2": {
+    "children": [
+      "image#menuMobileImageFooter",
+      "link#footerMenuMobile"
+    ],
+    "props": {
+      "blockClass": "wrapperContentFooterMenuMobile",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#ContentFooterMenu-3": {
+    "children": [
+      "image#menuMobileImageFooter",
+      "link#footerMenuMobile"
+    ],
+    "props": {
+      "blockClass": "wrapperContentFooterMenuMobile",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#ContentFooterMenu-4": {
+    "children": [
+      "link#footerMenuMobileConuntry",
+      "image#menuMobileImageFooterCountry"
+    ],
+    "props": {
+      "blockClass": "wrapperContentFooterMenuMobileCountry",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#ContentFooterMenu-5": {
+    "children": [
+      "link#footerMenuMobileCrew",
+      "image#menuMobileImageFooterCrew"
+    ],
+    "props": {
+      "blockClass": "wrapperContentFooterMenuMobileCrew",
+      "colSizing": "auto"
+    }
+  },
+  "image#menuMobileImageFooter": {
+    "props": {
+      "blockClass": "menuMobileImageFooter",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/arrow.png",
+      "url": "/"
+    }
+  },
+  "link#footerMenuMobile": {
+    "props": {
+      "blockClass": "menuMobileLinkFooter",
+      "href": "/",
+      "label": "Texto"
+    }
+  },
+  "image#menuMobileImageFooterCountry": {
+    "props": {
+      "blockClass": "menuMobileImageFooterCountry",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/arrow.png",
+      "url": "/"
+    }
+  },
+  "link#footerMenuMobileConuntry": {
+    "props": {
+      "blockClass": "menuMobileLinkFooterCountry",
+      "href": "/",
+      "label": "Ver en los 97 paises"
+    }
+  },
+  "image#menuMobileImageFooterCrew": {
+    "props": {
+      "blockClass": "menuMobileImageFooterCrew",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/arrow.png",
+      "url": "/"
+    }
+  },
+  "link#footerMenuMobileCrew": {
+    "props": {
+      "blockClass": "menuMobileLinkFooterCrew",
+      "href": "/",
+      "label": "Únete a nuestro programa de fidelización"
+    }
+  },
+  "info-card#menuMobile": {
+    "props": {
+      "id": "info-card-menuMobile",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Entra en el amor",
+      "subhead": "Descubra lo que sucede cuando #StepIntoLove",
+      "callToActionText": "Compra la colección",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "infoCardMenuMobile",
+      "textAlignment": "left"
+    }
+  }
+}

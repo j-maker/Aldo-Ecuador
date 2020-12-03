@@ -1,0 +1,206 @@
+.contentItem--wrapperImageGuideSizePDP {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.listItem--guideSizeButtonGeneral {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #000;
+}
+
+.listItem--guideSizeButtonGeneral :global(.vtex-button) {
+    outline: 0;
+    border-radius: unset;
+    border: none;
+    width: 100%;
+}
+
+.listItemActive--guideSizeButtonGeneral :global(.vtex-button) {
+    background-color: unset;
+    border: unset;
+    border-bottom: 2px solid #000;
+    color: #000;
+    width: 100%;
+}
+
+.listItem--guideSizeButtonGeneral :global(.vtex-button__label) {
+    text-transform: initial;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    cursor: pointer;
+    padding: 0 0 0 1.5625rem;
+    justify-content: end;
+    color: #767676;
+}
+
+.listItemActive--guideSizeButtonGeneral :global(.vtex-button__label) {
+    color: #000;
+}
+
+.container--wrapperContentGuideSize {
+    margin: 0 3.5rem 2.875rem;
+}
+
+.listContainer--wrapperListHelpCenter {
+    display: block;
+}
+
+.container--helpcenter {
+    margin: 200px auto;
+    max-width: 98.125rem;
+    padding: 0 6.125rem;
+    ;
+    display: flex;
+}
+
+.listContainer--wrapperListHelpCenter {
+    width: 25%;
+}
+
+.contentContainer--wrapperContentHelpCenter {
+    padding: 0 20px 30px 50px;
+}
+
+.listContainer--wrapperTopTitleSizes {
+    width: 90% !important;
+    height: 63px;
+}
+
+.listItem--sizeButtonGeneral {
+    margin: 0;
+    padding: 0;
+}
+
+.listItem--sizeButtonGeneral :global(.vtex-button__label) {
+    padding: 2px;
+    color: #3a2e2c;
+    font-size: 1.125rem;
+}
+
+.listItem--sizeButtonGeneral :global(.vtex-button) {
+    text-transform: capitalize !important;
+    outline: 0 !important;
+    border: none;
+    border-radius: unset;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    padding: 22px 10px 12px;
+    width: 100%;
+    letter-spacing: 0.5px;
+}
+
+.listItemActive--sizeButtonGeneral {
+    border-bottom: 2px solid #000;
+    font-weight: bolder;
+    color: #3a2e2c;
+    font-size: 1.125rem;
+}
+
+.listItemActive--sizeButtonGeneral :global(.vtex-button__label) {
+    font-weight: bolder;
+}
+
+.listItem--sizeButtonGeneral {
+    width: 50%;
+}
+
+.listItem--listItemHelpCenter :global(.vtex-button__label) {
+    color: #3a2e2c;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    text-transform: initial;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.listItem--listItemHelpCenterList2 :global(.vtex-button),
+.listItem--listItemHelpCenter :global(.vtex-button) {
+    outline: 0 !important;
+    border: unset;
+    border-radius: unset;
+    background: none;
+}
+
+.listItem--listItemHelpCenterList1 :global(.vtex-button) {
+    outline: 0 !important;
+    border-top: 1px solid #ddd;
+    border-radius: unset;
+    background: none;
+}
+
+.listItemActive--listItemHelpCenterList1 :global(.vtex-button__label),
+.listItemActive--listItemHelpCenterList2 :global(.vtex-button__label),
+.listItemActive--listItemHelpCenter :global(.vtex-button__label) {
+    text-decoration: underline;
+    color: #3300ad;
+    text-align: left;
+}
+
+.listItemActive--listItemHelpCenterList1 :global(.vtex-button) {
+    border-bottom: unset;
+    border-right: unset;
+    border-left: unset;
+}
+
+.listItem--listItemHelpCenterList1 :global(.vtex-button__label) {
+    color: #3a2e2c;
+    font-weight: 100;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    text-transform: initial;
+    padding: 0 20px;
+    margin: 20px 0 0 0;
+}
+
+.listItem--listItemHelpCenterList2 :global(.vtex-button__label) {
+    color: #3a2e2c;
+    font-weight: 100;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    text-transform: initial;
+    padding: 0 20px;
+    margin: 0;
+}
+
+@media screen and (max-width:1024px) {
+    .container--wrapperContentGuideSize {
+        margin: 0 1.25rem 1.5625rem;
+    }
+
+    .listItem--guideSizeButtonGeneral :global(.vtex-button__label) {
+        padding: 0;
+        font-size: 14px;
+    }
+    .contentContainer--wrapperContentHelpCenter{
+        padding: 0 15px;
+    }
+    .container--helpcenter{
+        padding: 0;
+        display: block;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .listContainer--wrapperListHelpCenter{
+        width: 100%;
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .listItem--listItemHelpCenter :global(.vtex-button__label){
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .listItem--listItemHelpCenterList1 :global(.vtex-button){
+        border: none;
+    }
+    .listItem--listItemHelpCenterList1 :global(.vtex-button__label){
+        margin-top: 0;
+    }
+}

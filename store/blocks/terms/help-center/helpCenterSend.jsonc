@@ -1,0 +1,146 @@
+{
+  "store.custom#helpCenterSend": {
+    "blocks": [
+      "tab-layout#helpCenterSend"
+    ]
+  },
+  "tab-layout#helpCenterSend": {
+    "children": [
+      "tab-list#helpcenter",
+      "tab-content#helpcenter"
+    ],
+    "props": {
+      "blockClass": "helpcenter",
+      "defaultActiveTabId": "helpcenter4"
+    }
+  },
+  "tab-list.item#helpcenter4": {
+    "props": {
+      "blockClass": "listItemHelpCenter",
+      "tabId": "helpcenter4",
+      "label": "Envío"
+    }
+  },
+  "tab-content.item#helpcenter4": {
+    "children": [
+      "flex-layout.row#topContentInfoHelpCenter",
+      "rich-text#textContent-4",
+      //"rich-text#textContent-3",
+      "flex-layout.row#infoSendTableCost",
+      "flex-layout.row#wrapperQuestionSendInfoHelpCenter",
+      "rich-text#InfoGeneralFooterTextTitle",
+      "flex-layout.row#WrapperInfoGeneralFooter"
+    ],
+    "props": {
+      "tabId": "helpcenter4"
+    }
+  }, //question
+  "flex-layout.row#wrapperQuestionSendInfoHelpCenter": {
+    "children": [
+      "flex-layout.col#wrapperQuestionSendInfoHelpCenter"
+    ],
+    "props": {
+      "blockClass": "WrapperRowQuestion"
+    }
+  },
+  "flex-layout.col#wrapperQuestionSendInfoHelpCenter": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount-1",
+      "vtex.menu@2.x:menu#questionAccount-2",
+      "vtex.menu@2.x:menu#questionAccount-3",
+      "vtex.menu@2.x:menu#questionAccount-4"
+    ],
+    "props": {
+      "blockClass": "WrapperColQuestion"
+    }
+  },
+  "flex-layout.row#infoSendTableCost": {
+    "children": [
+      "flex-layout.col#infoSendTableCost-1",
+      "flex-layout.col#infoSendTableCost-2",
+      "flex-layout.col#infoSendTableCost-3",
+      "flex-layout.col#infoSendTableCost-4"
+    ],
+    "props": {
+      "blockClass": "wrapperSendCostTable"
+    }
+  },
+  "flex-layout.col#infoSendTableCost-1": {
+    "children": [
+      "rich-text#titleSenCost",
+      "rich-text#ContentSenCost-1",
+      "rich-text#ContentSenCost-2",
+      "rich-text#ContentSenCost-3",
+      "rich-text#ContentSenCost-4"
+    ],
+    "props": {
+      "blockClass": "wrapperSendCostTable"
+    }
+  },
+  "flex-layout.col#infoSendTableCost-2": {
+    "children": [
+      "rich-text#titleSenCost",
+      "rich-text#ContentSenCost-1",
+      "rich-text#ContentSenCost-2",
+      "rich-text#ContentSenCost-3",
+      "rich-text#ContentSenCost-4"
+    ],
+    "props": {
+      "blockClass": "wrapperSendCostTable"
+    }
+  },
+  "flex-layout.col#infoSendTableCost-3": {
+    "children": [
+      "rich-text#titleSenCost",
+      "rich-text#ContentSenCost-1",
+      "rich-text#ContentSenCost-2",
+      "rich-text#ContentSenCost-3",
+      "rich-text#ContentSenCost-4"
+    ],
+    "props": {
+      "blockClass": "wrapperSendCostTable"
+    }
+  },
+  "flex-layout.col#infoSendTableCost-4": {
+    "children": [
+      "rich-text#titleSenCost",
+      "rich-text#ContentSenCost-1",
+      "rich-text#ContentSenCost-2",
+      "rich-text#ContentSenCost-3",
+      "rich-text#ContentSenCost-4"
+    ],
+    "props": {
+      "blockClass": "wrapperSendCostTable"
+    }
+  },
+  "rich-text#titleSenCost": {
+    "props": {
+      "text": "Pichincha",
+      "blockClass": "TitleCost"
+    }
+  },
+  "rich-text#ContentSenCost-1": {
+    "props": {
+      "text": "Envío estandar",
+      "blockClass": "contentCost"
+    }
+  },
+  "rich-text#ContentSenCost-2": {
+    "props": {
+      "text": "Envío estandar",
+      "blockClass": "contentCost"
+    }
+  },
+  "rich-text#ContentSenCost-3": {
+    "props": {
+      "text": "Envío estandar",
+      "blockClass": "contentCost"
+    }
+  },
+  "rich-text#ContentSenCost-4": {
+    "props": {
+      "text": "Envío estandar",
+      "blockClass": "contentCost"
+    }
+  }
+}

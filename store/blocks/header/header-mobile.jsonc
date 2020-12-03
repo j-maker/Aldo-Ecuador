@@ -1,0 +1,57 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      //"link#top-header",
+      //"flex-layout.row#top-header"
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ],
+    "props": {
+      "blockClass": "stickyMobile"
+    }
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer#menuMobile",
+      "drawer#searchMobile",
+      "flex-layout.col#spacer",
+      "header-force-center",
+      "image#wishlist",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "mainHeaderMobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer#searchMobile": {
+    "children": [
+      "flex-layout.col#drawer-search"
+    ],
+    "props": {
+      "blockClass": "drawerSearchMobile"
+    }
+  },
+  "flex-layout.col#drawer-search": {
+    "children": [
+      //"link#top-header", 
+      "search-bar#Mobile"
+    ],
+    "props": {
+      "blockClass": "drawerSearchMobile"
+    }
+  },
+  "search-bar#Mobile": {
+    "title":"Header Buscador Mobile",
+    "props": {
+      "blockClass": "drawerSearchMobile",
+      "placeholder": "Busca por palabras, estilos etc."
+    }
+  }
+}

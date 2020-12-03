@@ -1,0 +1,93 @@
+.link--1,
+.link--2,
+.link--3,
+.link--4,
+.link--5,
+.link--6 {
+    font-weight: lighter;
+    font-size: 1.4rem;
+    color: #212529;
+}
+
+.link--1::after,
+.link--2::after,
+.link--3::after,
+.link--4::after,
+.link--5::after,
+.link--6::after {
+    font-weight: lighter;
+    content: "/";
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.link--breadCrumbProduct--1::after,
+.link--breadCrumbProduct--2::after,
+.link--breadCrumbProduct--3::after,
+.link--breadCrumbProduct--4::after {
+    font-weight: lighter;
+    content: "/";
+    font-size: 0.75rem;
+    margin-left: 5px;
+}
+
+
+.container--breadCrumbProduct {
+    padding: 1rem 0;
+}
+
+.homeLink--breadCrumbProduct {
+    padding: 0;
+}
+
+.arrow--1,
+.homeLink {
+    padding: 0;
+}
+
+.caretIcon--breadCrumbProduct,
+.homeIcon--breadCrumbProduct {
+    display: none;
+}
+
+.link--breadCrumbProduct--6,
+.link--breadCrumbProduct--5,
+.link--breadCrumbProduct--4,
+.link--breadCrumbProduct--3,
+.link--breadCrumbProduct--2,
+.link--breadCrumbProduct--1 {
+    font-size: 0.75rem;
+    padding: 0;
+}
+
+.term--breadCrumbProduct {
+    padding: 0;
+    margin-top: 4px;
+    font-size: 0.75rem;
+}
+
+.container {
+    display: flex;
+}
+
+.homeIcon--breadDepartment,
+.caretIcon--breadDepartment {
+    display: none;
+
+}
+
+.arrow--breadDepartment {
+    margin-left: -4px;
+}
+
+.term--breadCrumbProduct {
+    text-transform: capitalize;
+}
+
+.container--breadcrumbSubcategory {
+    padding: 0;
+}
+
+.arrow--breadcrumbSubcategory {
+    padding: 0;
+}

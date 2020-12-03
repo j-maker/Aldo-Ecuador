@@ -1,0 +1,44 @@
+{
+    "store.custom#helpCenterGeneral": {
+        "path": "/centro-de-ayuda"
+    },
+    "store.custom#helpCenterPlacetopay": {
+        "path": "/placetopay"
+    },
+    "store.custom#duplicateCategory": {
+        "path": "/hombre-camisas-slim-fit"
+    },
+    "store.custom#helpCenterStore": {
+        "path": "/centro-de-ayuda/tiendas"
+    },
+    "store.custom#helpCenterPay": {
+        "path": "/centro-de-ayuda/formas-de-pago"
+    },
+    "store.custom#helpCenterSend": {
+        "path": "/centro-de-ayuda/envio"
+    },
+    "store.custom#helpCenterReturns": {
+        "path": "/centro-de-ayuda/devoluciones"
+    },
+    "store.custom#helpCenterSize": {
+        "path": "/centro-de-ayuda/guia-de-tallas"
+    },
+    "store.custom#helpCenterProductsCare": {
+        "path": "/centro-de-ayuda/cuidados-producto"
+    },
+    "store.custom#helpCenterAccount": {
+        "path": "/centro-de-ayuda/cuenta"
+    },
+    "store.custom#helpCenterContactUs": {
+        "path": "/centro-de-ayuda/contactanos"
+    },
+    "store.custom#terms-conditions": {
+        "path": "/legales/terminos-y-condiciones"
+    },
+    "store.custom#privacy-policies": {
+        "path": "/legales/politica-de-privacidad"
+    },
+    "store.custom#aldo-crew": {
+        "path": "/formulario-crew"
+    }
+}

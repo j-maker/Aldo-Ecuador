@@ -1,0 +1,544 @@
+{
+  "tab-list#helpcenter": {
+    "children": [
+      "tab-list.item#helpcenter2",
+      "tab-list.item#helpcenter3",
+      "tab-list.item#helpcenter4",
+      "tab-list.item#helpcenter5",
+      "tab-list.item#helpcenter6",
+      "tab-list.item#helpcenter7",
+      "tab-list.item#helpcenter8",
+      "tab-list.item#helpcenter9",
+      "tab-list.item#helpcenter10",
+      "tab-list.item#helpcenter1"
+    ],
+    "props": {
+      "blockClass": "wrapperListHelpCenter"
+    }
+  },
+  "tab-content#helpcenter": {
+    "children": [
+      "tab-content.item#helpcenter1", // 
+      "tab-content.item#helpcenter2", //GENERAL
+      "tab-content.item#helpcenter3",
+      "tab-content.item#helpcenter4",
+      "tab-content.item#helpcenter5",
+      "tab-content.item#helpcenter6",
+      "tab-content.item#helpcenter7",
+      "tab-content.item#helpcenter8",
+      "tab-content.item#helpcenter9",
+      "tab-content.item#helpcenter10"
+    ],
+    "props": {
+      "blockClass": "wrapperContentHelpCenter"
+    }
+  },
+  "flex-layout.row#topContentInfoHelpCenter": {
+    "children": [
+      "flex-layout.col#topContentInfoHelpCenter"
+    ]
+  },
+  "flex-layout.col#topContentInfoHelpCenter": {
+    "children": [
+      "rich-text#titleHelpCenter"
+    ],
+    "props": {
+      "blockClass": "wrapperContentHelpCenterTT"
+    }
+  },
+  "rich-text#titleHelpCenter": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Preguntas frecuentes",
+      "blockClass": "helpCenterTitle"
+    }
+  },
+  //questions
+  "vtex.menu@2.x:menu#questionAccount-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-1"
+    ]
+  },
+  "menu-item#questionAccount-1": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo creo una cuenta?",
+        "text": "¿Cómo creo una cuenta?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-1": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount1"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "wrapperRtaQuestion"
+    }
+  },
+  "vtex.menu@2.x:menu#questionAccount1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "WrapperRtaQuestion"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-2"
+    ]
+  },
+  "menu-item#questionAccount-2": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo actualizo la información de mi cuenta?",
+        "text": "¿Cómo actualizo la información de mi cuenta?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-2": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount2"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-3"
+    ]
+  },
+  "menu-item#questionAccount-3": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo puedo restablecer mi contraseña?",
+        "text": "¿Cómo puedo restablecer mi contraseña?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-3"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-3": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount3"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-4"
+    ]
+  },
+  "menu-item#questionAccount-4": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo puedo restablecer mi contraseña?",
+        "text": "¿Cómo puedo restablecer mi contraseña?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-4"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-4": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount4"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-5"
+    ]
+  },
+  "menu-item#questionAccount-5": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo puedo restablecer mi contraseña?",
+        "text": "¿Cómo puedo restablecer mi contraseña?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-5"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-5": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount5"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-6": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-6"
+    ]
+  },
+  "menu-item#questionAccount-6": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo puedo restablecer mi contraseña?",
+        "text": "¿Cómo puedo restablecer mi contraseña?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-6"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-6": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount6"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount6": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-7": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-7"
+    ]
+  },
+  "menu-item#questionAccount-7": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo puedo restablecer mi contraseña?",
+        "text": "¿Cómo puedo restablecer mi contraseña?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-7"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-7": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount7"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount7": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-8": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-8"
+    ]
+  },
+  "menu-item#questionAccount-8": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo puedo restablecer mi contraseña?",
+        "text": "¿Cómo puedo restablecer mi contraseña?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-8"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-8": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount8"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount8": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-9": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-9"
+    ]
+  },
+  "menu-item#questionAccount-9": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo puedo restablecer mi contraseña?",
+        "text": "¿Cómo puedo restablecer mi contraseña?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-9"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-9": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount9"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount9": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-10": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-10"
+    ]
+  },
+  "menu-item#questionAccount-10": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo puedo restablecer mi contraseña?",
+        "text": "¿Cómo puedo restablecer mi contraseña?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-10"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-10": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount10"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount10": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount-11": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#questionAccount-11"
+    ]
+  },
+  "menu-item#questionAccount-11": {
+    "props": {
+      "blockClass": "accordion-title",
+      "itemProps": {
+        "tagTitle": "¿Cómo puedo restablecer mi contraseña?",
+        "text": "¿Cómo puedo restablecer mi contraseña?"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#questionAccount-11"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#questionAccount-11": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount11"
+    ]
+  },
+  "vtex.menu@2.x:menu#questionAccount11": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#contentQuestion"
+    ]
+  },
+  "rich-text#contentQuestion": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Rta questions",
+      "blockClass": "textContentQuestion"
+    }
+  },
+  //footerAllpagesHC
+  "flex-layout.row#WrapperInfoGeneralFooter": {
+    "children": [
+      "flex-layout.col#WrapperInfoGeneralFooter"
+    ]
+  },
+  "flex-layout.col#WrapperInfoGeneralFooter": {
+    "children": [
+      "flex-layout.row#WrapperInfoGeneralFooter-1"
+      //"flex-layout.row#WrapperInfoGeneralFooter-2",
+      //"flex-layout.row#WrapperInfoGeneralFooter-3"
+    ],
+    "props": {
+      "blockClass": "wrapperInfoGeneralFooter"
+    }
+  },
+  "flex-layout.row#WrapperInfoGeneralFooter-1": {
+    "children": [
+      "image#InfoGeneralFooterImage",
+      "rich-text#InfoGeneralFooterText"
+    ],
+    "props": {
+      "blockClass": "wrapperContentInfoGeneralFooter",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#WrapperInfoGeneralFooter-2": {
+    "children": [
+      "image#InfoGeneralFooterImage",
+      "rich-text#InfoGeneralFooterText"
+    ],
+    "props": {
+      "blockClass": "wrapperContentInfoGeneralFooter",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#WrapperInfoGeneralFooter-3": {
+    "children": [
+      "image#InfoGeneralFooterImage",
+      "rich-text#InfoGeneralFooterText"
+    ],
+    "props": {
+      "blockClass": "wrapperContentInfoGeneralFooter",
+      "colSizing": "auto"
+    }
+  },
+  "image#InfoGeneralFooterImage": {
+    "props": {
+      "blockClass": "InfoGeneralFooterImage",
+      "src": "https://mangoecuador.vtexassets.com/arquivos/icons8-phone-100.png",
+      "url": "/"
+    }
+  },
+  "rich-text#InfoGeneralFooterText": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "**¿Necesitas ayuda?**\n El chat en vivo es la forma más rápida de contactarnos.\n Llámanos al 02 3333 422. \n**Horario de atención** \nLunes a viernes: 8 a.m. a 8 p.m.",
+      "blockClass": "InfoGeneralFooterText"
+    }
+  },
+  "rich-text#InfoGeneralFooterTextTitle": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "¿Buscas más ayuda?",
+      "blockClass": "InfoGeneralFooterTextTitle"
+    }
+  },
+  //no va
+  "link#PENDIENTE": {
+    "props": {
+      "blockClass": "menuMobileLinkFooterCrew",
+      "href": "/",
+      "label": "Únete a nuestro programa de fidelización"
+    }
+  },
+  //grande
+  "rich-text#textContent-1": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Bold",
+      "blockClass": "helpCenterContent-1"
+    }
+  },
+  "rich-text#textContent-2": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Semi-bold",
+      "blockClass": "helpCenterContent-2"
+    }
+  },
+  "rich-text#textContent-3": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "lighter",
+      "blockClass": "helpCenterContent-3"
+    }
+  },
+  "rich-text#textContent-4": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "lighter",
+      "blockClass": "helpCenterContent-3"
+    }
+  }
+}

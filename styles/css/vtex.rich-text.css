@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+.paragraph--aldo-crew-banner-header-text {
+    color: #fff;
+    margin: 0;
+    font-weight: 100;
+}
+
+.container--aldo-crew-banner-title {
+    font-size: 1.3125rem;
+    font-weight: 100;
+    margin-bottom: 1.25rem;
+    line-height: normal;
+}
+
+.container--aldo-crew-banner-header-list-item {
+    font-size: 12px;
+}
+
+.container--aldo-crew-banner-header-surprise {
+    font-size: 12px;
+    margin-top: 1.375rem;
+}
+
+.container--aldo-crew-banner-header-link-benefits {
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.link--aldo-crew-banner-header-link-benefits {
+    color: #fff;
+    cursor: pointer;
+}
+
+.container--aldo-crew-form-text-privacity {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: #7f7776;
+    font-weight: 100;
+    font-family: PatronSans, sans-serif;
+    width: 90%;
+}
+
+.link--aldo-crew-form-text-privacity {
+    color: #3a2e2c;
+    cursor: pointer;
+}
+
+.link--aldo-crew-form-text-privacity:hover {
+    color: #3300ad;
+}
+
+.container--aldo-crew-form-text-privacity2 {
+    margin-top: 20px;
+}
+
+.paragraph--content-title {
+    padding-bottom: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    color: #3a2e2c;
+}
+
+.paragraph--content-subtitle {
+    font-size: 45px;
+    color: #3a2e2c;
+    line-height: unset;
+}
+
+.paragraph--content-text {
+    font-size: 16px;
+    color: #3f3f40;
+    padding: 0 8.33% 0px 0;
+    margin: 0 0 30px 0;
+    line-height: 1.5rem;
+    letter-spacing: 0.6px;
+}
+
+.paragraph--home-infocard-title {
+    font-size: 1.875rem;
+    font-weight: 100;
+    line-height: unset;
+    margin: 0;
+}
+
+.paragraph--home-infocard-subtitle {
+    font-family: 'Sectra';
+    font-size: 16px;
+    margin-top: .75rem;
+}
+
+.container--home-infocard-subtitle {
+    min-height: 80px;
+}
+
+.paragraph--title-social {
+    font-size: 43px;
+    line-height: unset;
+
+}
+
+.paragraph--rightTopContent {
+    font-size: 5rem;
+    color: #fff;
+    line-height: 4.5rem;
+    margin: 40px 0;
+}
+
+.container--rightTopContent {
+    margin-left: 15%;
+    margin-right: 5%;
+    padding-top: 50px;
+}
+
+.paragraph--rightTextTittleHeader {
+    color: #fff;
+    letter-spacing: 0.3px;
+    font-size: 22px;
+}
+
+.paragraph--rightSubtitleTopHeader {
+    font-size: 170px;
+    margin: 0;
+    color: #fff;
+    line-height: 1;
+}
+
+
+.paragraph--rightContentTopHome {
+    color: #fff;
+}
+
+.paragraph--rightTopFooterHome {
+    color: #fff;
+    font-size: 12px;
+}
+
+.paragraph--subTitleNewNow {
+    font-size: 15px;
+    color: #3a2e2c;
+    font-family: 'Sectra', serif;
+}
+
+.paragraph--subTitleExpressYourself {
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: #3a2e2c;
+    font-family: 'Sectra';
+    margin: 0;
+
+}
+
+.paragraph--titleExpressYourself {
+    font-weight: 100;
+    font-size: 44px;
+    color: #3a2e2c;
+    line-height: 0;
+    margin-left: -2px;
+}
+
+.paragraph--titleNewNow {
+    font-weight: 100;
+    font-size: 44px;
+    color: #3a2e2c;
+    line-height: 0;
+}
+
+/*footer*/
+.paragraph--footer-banner-content {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1;
+    font-weight: lighter;
+}
+
+.wrapper--footer-banner-title {
+    color: #fff;
+    font-size: 36px;
+}
+
+.paragraph--footer-copyright {
+    margin: 8px 0 8px 30px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.paragraph--footer-banner-title {
+    margin: 0;
+}
+
+.paragraph--footer-terms-title-track,
+.paragraph--footer-terms-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.4px;
+    color: #000;
+}
+
+.paragraph--footer-terms-title-track {
+    color: #fff;
+}
+
+.paragraph--footer-text-redes {
+    margin: 0;
+}
+
+/*menu*/
+.container--womenRightCinderellaSubtitle {
+    margin-top: 20px;
+}
+
+.paragraph--menRightShelfTitle,
+.paragraph--womenRightCinderellaSubtitle {
+    margin: 0;
+    font-size: 24px;
+    color: #3a2e2c;
+    line-height: 1.2;
+}
+
+.paragraph--womenTitleRightCinderella {
+    margin: 0;
+}
+
+.paragraph--womenTitleRightCinderella:hover {
+    text-decoration: underline;
+    color: #d8d5d5;
+}
+
+.paragraph--menRightShelfSubtitle,
+.paragraph--womenRightCinderellaContent {
+    font-weight: 100;
+    font-size: 13px;
+    text-decoration: none;
+    color: #3a2e2c;
+    margin: 10px 0 0 0;
+}
+
+.link--womenTitleRightCinderella {
+    font-size: 13px;
+    text-decoration: none;
+    color: #3a2e2c;
+}
+
+.paragraph--newSaleSubContent,
+.paragraph--newSaleTitle {
+    color: #fff;
+    font-size: 20px;
+}
+
+.paragraph--newSaleSubTitle {
+    color: #fff;
+    font-size: 12rem;
+    line-height: unset;
+    margin: 0.6rem;
+    letter-spacing: 1px;
+}
+
+.paragraph--newArrivalSubTitle {
+    color: #fff;
+    font-size: 14px;
+}
+
+.paragraph--newArrivalTitle {
+    color: #fff;
+    font-size: 70px;
+    line-height: 0;
+}
+
+/*subcategory*/
+.paragraph--SubcategoryModalTitleText {
+    color: #fff;
+    font-size: 0.75rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+    letter-spacing: 0.3px;
+}
+
+.paragraph--SubcategoryModalSubtitleText {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*subcategory/*/
+/*ProductPage*/
+.wrapper--textModalproductStore {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+
+
+.paragraph--modalProductText {
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+    letter-spacing: 0.3px;
+    color: #000;
+    cursor: pointer;
+}
+
+.link--contentPrivacyPolicies {
+    color: #000;
+}
+
+.wrapper--textModalproductStore:hover {
+    background: #3a2e2c;
+    color: #fff;
+    border-color: #3a2e2c;
+}
+
+.paragraph--textModalproductStore {
+    justify-content: center;
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: unset;
+    margin: 16px 0;
+    width: 100%;
+}
+
+/*ProductPage/*/
+/*Minicart/*/
+.wrapper--minicart-texto-vacio {
+    padding: 1.875rem;
+}
+
+.paragraph--minicart-texto-vacio {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #767676;
+}
+
+.container--helpCenterTitle {
+    position: absolute;
+    margin-top: -150px;
+    left: -30%;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.paragraph--helpCenterTitle {
+    margin: 0;
+}
+
+.paragraph--modalProductGuideSizeTitle {
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+    margin: 0;
+}
+
+.container--modalProductGuideSizeTitle {
+    padding: 2.75rem 3.5rem;
+    background-color: #efecf0;
+}
+
+.container--modalProductGuideSizeTextContent {
+    margin: 2.875rem 3.5rem 2.875rem;
+}
+
+.wrapper--modalProductGuideSizeTextContent {
+    border-bottom: 1px solid #ddd;
+}
+
+.paragraph--modalProductGuideSizeTextContent {
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-family: 'sectra';
+}
+
+.link--modalProductGuideSizeTextContent {
+    color: #3f3f40;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+
+.paragraph--InfoGeneralFooterText {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: lighter;
+}
+
+.paragraph--InfoGeneralFooterTextTitle {
+    font-size: 2.25rem;
+    font-weight: lighter;
+    line-height: 1;
+    margin-bottom: 0.9375rem;
+}
+
+.paragraph--helpCenterContent-1 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin: 0;
+    font-family: "Sectra";
+    font-weight: 600;
+}
+
+.paragraph--helpCenterContent-2 {
+    margin-bottom: 0;
+    margin-top: 1.875rem;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-family: "Sectra";
+    font-weight: lighter;
+}
+
+.paragraph--helpCenterContent-3 {
+    margin-bottom: 0;
+    margin-top: 1.875rem;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-family: "Sectra";
+    font-weight: normal;
+}
+
+.paragraph--titlePrivacyPolicies {
+    font-size: 3.75rem;
+    font-weight: 100;
+    line-height: 3.75rem;
+    margin: 0;
+    padding: 20px 0 70px;
+}
+
+.paragraph--subtitlePrivacyPolicies {
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: 100;
+    line-height: 2.25rem;
+    line-height: 1;
+}
+
+.paragraph--contentPrivacyPolicies {
+    margin-top: 1.375rem;
+    font-family: Sectra, serif;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: #3a2e2c;
+}
+
+.heading-level-3,
+.heading-level-2 {
+    border-bottom: 2px solid #685bc7;
+    margin-top: 50px;
+}
+
+.link--textContentQuestion,
+.link--helpCenterContent,
+.link--helpCenterContent-3,
+.link--helpCenterContent-4,
+.link--helpCenterContent-2 {
+    color: #3a2e2c;
+}
+
+.paragraph--TitleCost {
+    height: auto;
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: none;
+    color: #000;
+}
+
+.paragraph--contentCost {
+    height: auto;
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    color: #000;
+}
+
+.container--home-infocard-title {
+    margin-top: 1rem;
+}
+
+.container--btn-disponibility {
+    justify-content: center;
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: unset;
+    width: 100%;
+    outline: 0;
+    font-family: PatronSans, sans-serif;
+    border: 1px solid #000;
+}
+
+.container--btn-disponibility:hover {
+    background: #3a2e2c;
+    color: #fff;
+    border-color: #3a2e2c;
+}
+
+.container--btn-store-locator {
+    font-family: PatronSans, sans-serif;
+    color: #3a2e2c;
+    font-size: 14px;
+}
+
+.paragraph--btn-store-locator {
+    margin: 0;
+    cursor: pointer;
+}
+
+.listItem--textIntroNFArticle {
+    margin-bottom: 0.8125rem;
+    padding: 0;
+    font-size: 1.125rem;
+}
+
+.list--textIntroNFArticle {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.container--textIntroNFArticle {
+    padding-bottom: 6.25rem;
+}
+
+.paragraph--textMainNF {
+    margin: 0;
+    padding-bottom: 1.25rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+}
+
+.container--textSubtitleNFBrowse {
+    font-size: 1.875rem;
+    margin-bottom: 1.4375rem;
+    color: #000;
+}
+
+.paragraph--textLinkNFBrowse,
+.paragraph--textSubtitleNFBrowse {
+    margin: 0;
+}
+
+.container--textLinkNFBrowse {
+    margin-bottom: 0.8125rem;
+}
+
+.paragraph--textLinkNFBrowse,
+.paragraph--textSubtitleNFBrowse {
+    margin: 0;
+}
+
+.link--textLinkNFBrowse {
+    font-size: 1.125rem;
+    line-height: 1;
+    text-decoration: none;
+    color: #000;
+}
+
+.link--textSubtitleNFBrowse {
+    text-decoration: none;
+    color: #000;
+}
+
+.paragraph--textDiscount {
+    font-size: 80px;
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+}
+
+.paragraph--TextOff {
+    margin: 0;
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+
+@media screen and (max-width:1024px) {
+    .container--helpCenterTitle{
+        position: initial;
+        margin: -40px;
+        justify-content: center;
+        text-decoration: underline;
+    }
+
+    .paragraph--helpCenterTitle{
+        font-size: 22px;
+    }
+    .paragraph--helpCenterContent-1,
+    .paragraph--helpCenterContent-2,
+    .paragraph--helpCenterContent-3,
+    .paragraph--helpCenterContent-4{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .paragraph--textContentQuestion{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .paragraph--InfoGeneralFooterTextTitle{
+        font-size: 20px;
+    }
+    .paragraph--InfoGeneralFooterText{
+        text-align: center;
+    line-height: 2;
+    font-size: 13px;
+    }
+
+    .paragraph--newMenuMoblieTargetTextWomen {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .strong--newMenuMoblieTargetTextWomen {
+        font-size: 52px;
+        font-weight: 300;
+    }
+
+    .container--newMenuMoblieTargetTextWomen {
+        width: 55% !important;
+        margin-right: auto;
+        color: #fff;
+    }
+
+    .container--modalProductGuideSizeTitle {
+        padding: 1.25rem 2.5rem 1.25rem 1.25rem;
+    }
+
+    .paper--WrapperModalGuideSizePDP {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .container--modalProductGuideSizeTextContent {
+        margin: 0.5rem 1.25rem 1.5625rem;
+    }
+
+    .paragraph--modalProductGuideSizeTitle {
+        font-size: 24px;
+    }
+
+    .paragraph--subTitleExpressYourself {
+        line-height: 1.3;
+        margin: 0;
+    }
+
+    .paragraph--titleExpressYourself {
+        font-size: 2.25rem;
+    }
+
+    .wrapper--topMenuMenMobile {
+        padding: 26px 20px 16px;
+        font-size: 20px;
+    }
+
+    .paragraph--topMenuMenMobile {
+        margin: 10px 0;
+        line-height: 0;
+    }
+
+    .paragraph--SubcategoryModalSubtitleText {
+        font-size: 18px;
+    }
+
+    .paragraph--rightSubtitleTopHeader {
+        font-size: 146px;
+    }
+
+    .paragraph--rightTopFooterHome {
+        font-size: 11px;
+    }
+
+    .wrapper--rightTopFooterHome {
+        margin: 0 auto;
+    }
+
+    .paragraph--footer-copyright {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin: 8px 30px 8px 0;
+        font-weight: lighter;
+
+    }
+
+    .paragraph--footer-banner-title {
+        font-weight: lighter;
+    }
+
+    .container--footer-banner-title {
+        justify-content: center;
+    }
+
+    .wrapper--footer-banner-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .paragraph--footer-banner-content {
+        text-align: center;
+        padding: 0 20px;
+        margin-top: 0;
+        font-size: 0.875rem;
+        font-weight: lighter;
+        margin-bottom: 1.4375rem;
+        line-height: 1.25;
+    }
+
+    .paragraph--home-infocard-title {
+        font-size: 1.5rem;
+    }
+
+    .paragraph--home-infocard-subtitle {
+        font-size: 0.875rem;
+        margin-top: 12px;
+    }
+
+    .paragraph--footer-copyright {
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 47.5em) {
+    .container--aldo-crew-banner-title {
+        font-size: 28px;
+    }
+
+    .container--aldo-crew-banner-header-list-item {
+        font-size: 14px;
+    }
+
+    .container--aldo-crew-banner-header-surprise {
+        font-size: 14px;
+    }
+
+    .container--aldo-crew-banner-header-link-benefits {
+        font-size: 14px;
+    }
+}

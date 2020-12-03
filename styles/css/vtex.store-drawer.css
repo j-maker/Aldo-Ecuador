@@ -1,0 +1,597 @@
+/*subCategoryPage*/
+.openIconContainer--specification {
+    display: flex;
+    justify-content: center;
+    background: #3300ad;
+}
+
+.openIconContainer--specification:hover {
+    opacity: 0.8;
+}
+
+.openIconContainer--specification::before {
+    content: "Filtro";
+    font-size: 14px;
+    color: #fff;
+}
+
+.openIconContainer--specification::after {
+    width: 15px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/add-white.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 1;
+    padding-top: 3px;
+    padding-left: 15px;
+    margin-left: 5px;
+}
+
+.menuIcon--specification {
+    width: 0;
+    height: 16px;
+}
+
+.opened--specification {
+    min-width: 100% !important;
+    max-width: unset;
+    width: 100%;
+    margin-top: 10%;
+    border: 1px solid #ddd;
+    transform: translateY(0%) !important;
+    transition: transform .1s cubic-bezier(.19, 1, .22, 1);
+}
+
+.closed--specification {
+    transform: translateY(-100%) !important;
+    transition: transform .1s cubic-bezier(.19, 1, .22, 1);
+}
+
+.drawer--specification {
+    width: 100% !important;
+    max-width: unset !important;
+    height: 350px;
+}
+
+.childrenContainer--specification {
+    max-width: unset;
+    margin: 0 6.125rem;
+}
+
+.closeIconContainer--specification {
+    position: absolute;
+    left: 7%;
+    top: -40px;
+    width: 150px;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.closeIconButton--specification {
+    padding: 6px 0;
+    width: 100%;
+    outline: 0 !important;
+}
+
+.drawerContent--specification {
+    background: #fff;
+    padding-bottom: 20px;
+    max-width: 98.125rem;
+    margin: 0 auto;
+}
+
+.closeIconButton--specification::before {
+    content: "Ocultar";
+    font-size: 12px;
+    color: #000;
+    margin: auto 10px;
+}
+
+.closeIconButton--specification::after {
+    content: " - ";
+    font-size: 14px;
+    color: #000;
+    margin: auto 10px auto auto;
+}
+
+.closeIcon--specification {
+    margin: 0 auto;
+    height: 0;
+}
+
+.overlay--specification {
+    background-color: #fff;
+}
+
+
+.drawer--drawerSearchMobile {
+    width: 100% !important;
+    max-width: unset !important;
+    height: 181px;
+}
+
+.closeIconButton--drawerSearchMobile {
+    position: fixed;
+    top: 15px;
+    right: 90px;
+    z-index: 11;
+    outline: 0;
+}
+
+.menuIcon--drawerSearchMobile {
+    width: 0px;
+}
+
+.openIconContainer--drawerSearchMobile::before {
+    width: 15px;
+    content: "";
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/searcher.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10px;
+    z-index: 1;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.openIconContainer--drawerSearchMobile::after {
+    content: "Buscar";
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.openIconContainer--drawerSearchMobile {
+    padding: 2px 25px 2px 15px;
+    border-right: 1px solid #ddd;
+    height: 80%;
+}
+
+
+.closeIconButton--categoryMenMenuMobile,
+.closeIconButton--drawerMenuMobile {
+    position: fixed;
+    padding: 0;
+    right: 0;
+    top: 15px;
+    width: 40px;
+    z-index: 3;
+}
+
+.closeIcon--categoryMenMenuMobile,
+.closeIcon--drawerMenuMobile {
+    width: 24px;
+}
+
+.openIconContainer--categoryWomenMenuMobile {
+    padding: 26px 20px 16px;
+    display: flex;
+}
+
+.openIconContainer--categoryMenMenuMobile {
+    padding: 26px 20px 16px;
+    display: flex;
+}
+
+.closed--drawerMenuSearchMobile,
+.closed--drawerSearchMobile {
+    transform: translateY(-100%) !important;
+    transition: transform .4s cubic-bezier(.19, 1, .22, 1);
+}
+
+.opened--drawerMenuSearchMobile,
+.opened--drawerSearchMobile {
+    transform: translateY(0%) !important;
+    transition: transform .4s cubic-bezier(.19, 1, .22, 1);
+}
+
+@media screen and (max-width:1024px) {
+    .openIconContainer--topMenuMenMobileModal {
+        padding-left: 26px 20px 16px;
+    }
+
+    .closeIconButton--categoryMenMenuMobile {
+        position: fixed;
+        top: 10px;
+        left: 25px;
+        opacity: 0;
+        height: 50px;
+        width: 50px;
+    }
+
+    .childrenContainer--categoryMenMenuMobile {
+        display: block;
+    }
+
+    .childrenContainer--categoryMenMenuMobile {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .openIconContainer--drawerMenuSearchMobile {
+        padding: 14px 15px 14px 20px;
+        border-bottom: 1px solid #ddd;
+        background: #fff;
+        position: sticky;
+        top: 64px;
+        z-index: 2;
+    }
+
+    .openIconContainer--drawerMenuSearchMobile::before {
+        width: 15px;
+        content: "";
+        background-image: url("https://aldoecuador.vtexassets.com/arquivos/searcher.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 10px;
+        z-index: 1;
+        padding-left: 15px;
+    }
+
+    .openIconContainer--drawerMenuSearchMobile::after {
+        content: "Buscar";
+        font-size: 16px;
+        margin: 0 3px 0 10px;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .menuIcon--drawerMenuSearchMobile {
+        width: 0;
+
+    }
+
+
+    .menuIcon--subCategoryMen-1-MenuMobile,
+    .menuIcon--subCategoryMen-2-MenuMobile,
+    .menuIcon--subCategoryMen-3-MenuMobile,
+    .menuIcon--subCategoryMen-4-MenuMobile,
+    .menuIcon--subCategoryMen-5-MenuMobile,
+    .menuIcon--subCategory-1-MenuMobile,
+    .menuIcon--subCategory-2-MenuMobile,
+    .menuIcon--subCategory-3-MenuMobile,
+    .menuIcon--subCategory-4-MenuMobile,
+    .menuIcon--subCategory-5-MenuMobile,
+    .menuIcon--subCategory-6-MenuMobile,
+    .menuIcon--subCategory-7-MenuMobile {
+        width: 100%;
+        opacity: 0;
+    }
+
+    .openIconContainer--subCategoryMen-1-MenuMobile,
+    .openIconContainer--subCategoryMen-2-MenuMobile,
+    .openIconContainer--subCategoryMen-3-MenuMobile,
+    .openIconContainer--subCategoryMen-4-MenuMobile,
+    .openIconContainer--subCategoryMen-5-MenuMobile,
+    .openIconContainer--subCategory-1-MenuMobile,
+    .openIconContainer--subCategory-2-MenuMobile,
+    .openIconContainer--subCategory-3-MenuMobile,
+    .openIconContainer--subCategory-4-MenuMobile,
+    .openIconContainer--subCategory-5-MenuMobile,
+    .openIconContainer--subCategory-6-MenuMobile,
+    .openIconContainer--subCategory-7-MenuMobile {
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .openIconContainer--subCategory-1-MenuMobile::before {
+        content: "Nuevo";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategory-2-MenuMobile::before {
+        content: "Rebajas";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategory-3-MenuMobile::before {
+        content: "Calzado";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategory-4-MenuMobile::before {
+        content: "Bolsos";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategory-5-MenuMobile::before {
+        content: "Accesorios";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategory-6-MenuMobile::before {
+        content: "Colecciones";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategory-7-MenuMobile::before {
+        content: "Tendencias";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+
+
+    .openIconContainer--subCategoryMen-1-MenuMobile::before {
+        content: "Nuevo";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategoryMen-2-MenuMobile::before {
+        content: "Rebajas";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategoryMen-3-MenuMobile::before {
+        content: "Calzado";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategoryMen-4-MenuMobile::before {
+        content: "Accesorios";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategoryMen-5-MenuMobile::before {
+        content: "Colecciones";
+        font-size: 19px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--subCategoryMen-1-MenuMobile::after,
+    .openIconContainer--subCategoryMen-2-MenuMobile::after,
+    .openIconContainer--subCategoryMen-3-MenuMobile::after,
+    .openIconContainer--subCategoryMen-4-MenuMobile::after,
+    .openIconContainer--subCategoryMen-5-MenuMobile::after,
+    .openIconContainer--subCategory-1-MenuMobile::after,
+    .openIconContainer--subCategory-2-MenuMobile::after,
+    .openIconContainer--subCategory-3-MenuMobile::after,
+    .openIconContainer--subCategory-4-MenuMobile::after,
+    .openIconContainer--subCategory-5-MenuMobile::after,
+    .openIconContainer--subCategory-6-MenuMobile::after,
+    .openIconContainer--subCategory-7-MenuMobile::after {
+        transform: rotate(270deg);
+        width: 15px;
+        content: "";
+        background-image: url("https://aldoecuador.vtexassets.com/arquivos/up-arrow.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 10px;
+        z-index: 1;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+
+    .openIconContainer--categoryMenMenuMobile::after {
+        content: "Hombre";
+        font-size: 20px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .openIconContainer--categoryWomenMenuMobile::after {
+        content: "Mujer";
+        font-size: 20px;
+        margin: 0 3px 0 0;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .menuIcon--categoryWomenMenuMobile,
+    .menuIcon--categoryMenMenuMobile {
+        width: 0em;
+    }
+
+    .childrenContainer--subCategoryMen-1-MenuMobile,
+    .childrenContainer--subCategoryMen-2-MenuMobile,
+    .childrenContainer--subCategoryMen-3-MenuMobile,
+    .childrenContainer--subCategoryMen-4-MenuMobile,
+    .childrenContainer--subCategoryMen-5-MenuMobile,
+    .childrenContainer--subCategory-1-MenuMobile,
+    .childrenContainer--subCategory-2-MenuMobile,
+    .childrenContainer--subCategory-3-MenuMobile,
+    .childrenContainer--subCategory-4-MenuMobile,
+    .childrenContainer--subCategory-5-MenuMobile,
+    .childrenContainer--subCategory-6-MenuMobile,
+    .childrenContainer--subCategory-7-MenuMobile,
+    .childrenContainer--drawerMenuMobile {
+        display: block;
+    }
+
+    .closeIcon--subCategoryMen-1-MenuMobile,
+    .closeIcon--subCategoryMen-2-MenuMobile,
+    .closeIcon--subCategoryMen-3-MenuMobile,
+    .closeIcon--subCategoryMen-4-MenuMobile,
+    .closeIcon--subCategoryMen-5-MenuMobile,
+    .closeIcon--subCategory-1-MenuMobile,
+    .closeIcon--subCategory-2-MenuMobile,
+    .closeIcon--subCategory-3-MenuMobile,
+    .closeIcon--subCategory-4-MenuMobile,
+    .closeIcon--subCategory-5-MenuMobile,
+    .closeIcon--subCategory-6-MenuMobile,
+    .closeIcon--subCategory-7-MenuMobile {
+        position: fixed;
+        padding: 0 5px 10px 50%;
+        right: 0;
+        top: 15px;
+        width: 24px;
+        z-index: 1;
+    }
+
+    .drawer--drawerMenuSearchMobile {
+        width: 100% !important;
+        max-width: unset !important;
+    }
+
+    .drawer--subCategoryMen-1-MenuMobile,
+    .drawer--subCategoryMen-2-MenuMobile,
+    .drawer--subCategoryMen-3-MenuMobile,
+    .drawer--subCategoryMen-4-MenuMobile,
+    .drawer--subCategoryMen-5-MenuMobile,
+    .drawer--subCategory-1-MenuMobile,
+    .drawer--subCategory-2-MenuMobile,
+    .drawer--subCategory-3-MenuMobile,
+    .drawer--subCategory-4-MenuMobile,
+    .drawer--subCategory-5-MenuMobile,
+    .drawer--subCategory-6-MenuMobile,
+    .drawer--subCategory-7-MenuMobile,
+    .drawer--drawerMenuMobile {
+        width: 80% !important;
+        max-width: unset !important;
+    }
+
+
+    .closeIconContainer--subCategoryMen-1-MenuMobile,
+    .closeIconContainer--subCategoryMen-2-MenuMobile,
+    .closeIconContainer--subCategoryMen-3-MenuMobile,
+    .closeIconContainer--subCategoryMen-4-MenuMobile,
+    .closeIconContainer--subCategoryMen-5-MenuMobile,
+    .closeIconContainer--subCategory-1-MenuMobile,
+    .closeIconContainer--subCategory-2-MenuMobile,
+    .closeIconContainer--subCategory-3-MenuMobile,
+    .closeIconContainer--subCategory-4-MenuMobile,
+    .closeIconContainer--subCategory-5-MenuMobile,
+    .closeIconContainer--subCategory-6-MenuMobile,
+    .closeIconContainer--subCategory-7-MenuMobile {
+        position: absolute;
+        top: 115px;
+        left: 0px;
+    }
+
+    .closeIconButton--drawerMenuSearchMobile {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 11;
+    }
+
+    .closeIcon--drawerMenuSearchMobile {
+        width: 24px;
+    }
+
+    .openIconContainer--drawerSearchMobile::before {
+        display: none;
+    }
+
+    .opened--drawerMenuSearchMobile,
+    .drawer--drawerSearchMobile {
+        height: 170px;
+    }
+
+    .drawer--drawerSearchMobile {
+        width: 100% !important;
+        max-width: unset;
+    }
+
+    .openIconContainer--drawerMenuMobile {
+        padding: 14px 0;
+        opacity: 0.6;
+        margin: 0 10px 0 0;
+    }
+
+    .openIconContainer--drawerSearchMobile {
+        padding: 14px 0;
+        margin: -2px 10px 0 0;
+        opacity: 0.8;
+        border: unset;
+    }
+
+    .menuIcon--drawerMenuMobile {
+        width: 1.125rem;
+        height: 1.125rem;
+    }
+
+    .menuIcon--drawerSearchMobile {
+        width: 0;
+    }
+
+    .openIconContainer--drawerSearchMobile::after {
+        width: 15px;
+        content: "";
+        background-image: url("https://aldoecuador.vtexassets.com/arquivos/searcher.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 10px;
+        z-index: 0;
+        padding-top: 8px;
+        padding-left: 17px;
+    }
+
+
+
+    .closeIconButton--subCategoryMen-1-MenuMobile,
+    .closeIconButton--subCategoryMen-2-MenuMobile,
+    .closeIconButton--subCategoryMen-3-MenuMobile,
+    .closeIconButton--subCategoryMen-4-MenuMobile,
+    .closeIconButton--subCategoryMen-5-MenuMobile,
+    .closeIconButton--subCategory-1-MenuMobile,
+    .closeIconButton--subCategory-2-MenuMobile,
+    .closeIconButton--subCategory-3-MenuMobile,
+    .closeIconButton--subCategory-4-MenuMobile,
+    .closeIconButton--subCategory-5-MenuMobile,
+    .closeIconButton--subCategory-6-MenuMobile,
+    .closeIconButton--subCategory-7-MenuMobile {
+        width: 50px;
+        height: 50px;
+    }
+
+    .closeIcon--drawerMenuSearchMobile,
+    .closeIconButton--drawerSearchMobile {
+        top: 0px;
+        right: 0px;
+    }
+
+    .closeIcon--drawerSearchMobile {
+        width: 24px;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    .closeIconContainer--specification {
+        margin-left: 7% !important;
+    }
+}

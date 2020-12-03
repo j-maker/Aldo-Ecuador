@@ -1,0 +1,73 @@
+{
+  "store.custom#terms-conditions": {
+    "blocks": [
+      "flex-layout.row#breadcrumb",
+      "flex-layout.row#titleTextPrivacy",
+      "flex-layout.row#subitilePrivacyPolicies",
+      "flex-layout.row#contentPrivacyPolicies"
+    ]
+  },
+  "flex-layout.row#breadcrumb": {
+    "children": [
+      "link#breadcrumb"
+    ],
+    "props": {
+      "blockClass": "wrapperLinkBreadcrumb"
+    }
+  },
+  "link#breadcrumb": {
+    "props": {
+      "blockClass": "breadcrumbPrivacyPolicies",
+      "href": "",
+      "label": "Legal"
+    }
+  },
+  "flex-layout.row#titleTextPrivacy": {
+    "children": [
+      "rich-text#titlePolicies"
+    ],
+    "props": {
+      "blockClass": "wrapperTitleTextPrivacy"
+    }
+  },
+  "rich-text#titlePolicies": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Aviso Legal",
+      "blockClass": "titlePrivacyPolicies"
+    }
+  },
+  "flex-layout.row#subitilePrivacyPolicies": {
+    "children": [
+      "rich-text#subtiltePrivacyPolicies"
+    ],
+    "props": {
+      "blockClass": "wrappersubtiltePrivacyPolicies"
+    }
+  },
+  "rich-text#subtiltePrivacyPolicies": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Términos del sitio web",
+      "blockClass": "subtitlePrivacyPolicies"
+    }
+  },
+  "flex-layout.row#contentPrivacyPolicies": {
+    "children": [
+      "rich-text#contentPrivacyPolicies"
+    ],
+    "props": {
+      "blockClass": "wrapperContentPrivacyPolicies"
+    }
+  },
+  "rich-text#contentPrivacyPolicies": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Content",
+      "blockClass": "contentPrivacyPolicies"
+    }
+  }
+}

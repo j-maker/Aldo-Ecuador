@@ -1,0 +1,34 @@
+.wishlistIconContainer--shelfWishlist :global(.vtex-button__label) {
+    padding: 0;
+}
+
+.iconSize {
+    width: 18;
+    height: 18;
+}
+
+.outline {
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/heart.svg");
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fill {
+    background-image: url("https://aldoecuador.vtexassets.com/arquivos/fill-heart.svg");
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.wishlistIconContainer--shelfWishlist {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: -40px;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    outline: 0 !important;
+}

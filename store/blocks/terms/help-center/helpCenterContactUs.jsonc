@@ -1,0 +1,37 @@
+{
+  "store.custom#helpCenterContactUs": {
+    "blocks": [
+      "tab-layout#helpCenterContactUs"
+    ]
+  },
+  "tab-layout#helpCenterContactUs": {
+    "children": [
+      "tab-list#helpcenter",
+      "tab-content#helpcenter"
+    ],
+    "props": {
+      "blockClass": "helpcenter",
+      "defaultActiveTabId": "helpcenter10"
+    }
+  },
+  "tab-list.item#helpcenter10": {
+    "props": {
+      "blockClass": "listItemHelpCenterList2",
+      "tabId": "helpcenter10",
+      "label": "Contáctanos"
+    }
+  },
+  "tab-content.item#helpcenter10": {
+    "children": [
+      "flex-layout.row#topContentInfoHelpCenter",
+      "rich-text#textContent-1",
+      "rich-text#textContent-2",
+      "rich-text#textContent-3",
+      "rich-text#InfoGeneralFooterTextTitle",
+      "flex-layout.row#WrapperInfoGeneralFooter"
+    ],
+    "props": {
+      "tabId": "helpcenter10"
+    }
+  }
+}

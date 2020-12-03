@@ -1,0 +1,42 @@
+/*pageSubcategory*/
+.stackItem--shelfNameSubcategory {
+    top: unset;
+    bottom: 20px;
+    left: 10px;
+}
+
+.stackItem--priceShelfSubCategory {
+    top: unset;
+    bottom: 8px;
+    left: 10px;
+}
+
+.imageContainer--imageShelfSubCategory {
+    width: 100%;
+}
+
+.stackContainer--imageStackContainer :global(.vtex-product-summary-2-x-nameContainer--shelfNameSubcategory) {
+    opacity: 0;
+    width: 0;
+    transition: 1s;
+}
+
+.stackContainer--imageStackContainer:hover :global(.vtex-product-summary-2-x-nameContainer--shelfNameSubcategory) {
+    opacity: 1;
+    width: auto;
+    transition: 1s;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1024px){
+    .stackItem--imageStackContainer{
+        margin-bottom: 44px;
+    }
+}
+@media screen and (min-width:1024px){
+    .stackContainer--imageStackContainer,
+    .stackItem--imageStackContainer--imageShelfSubCategory,
+    .stackContainer--imageStackContainer :global(.vtex-product-summary-2-x-imageContainer)  {
+        height: 100%;
+    }
+}

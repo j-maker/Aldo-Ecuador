@@ -1,0 +1,579 @@
+{
+  "drawer#subcategoryMenTopMobile": {
+    "children": [
+      //"flex-layout.row#topCategoriesMenuMobile",
+    ],
+    "props": {
+      "blockClass": "categoryMenMenuMobile",
+      "showCloseButton": true,
+      "iconCloseSize": 16
+    }
+  },
+  "flex-layout.row#topCategoriesMenuMobile": {
+    "children": [
+      "link#topCategoriesWomenMenuMobileModal",
+      "link#topCategoriesMenMenuMobileModal"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": false,
+      "blockClass": "drawerCategoryMenuMobile"
+    }
+  },
+  "link#topCategoriesWomenMenuMobileModal": {
+    "props": {
+      "blockClass": "subCategoryMenuTopMobileLinkLight",
+      "href": "/mujer",
+      "label": "Mujer"
+    }
+  },
+  "link#topCategoriesMenMenuMobileModal": {
+    "props": {
+      "blockClass": [
+        "subCategoryMenuTopMobileLink",
+        "outLink"
+      ],
+      "href": "/hombre",
+      "label": "Hombre"
+    }
+  },
+  "drawer#searchMenuMobileMen": {
+    "children": [
+      "flex-layout.col#drawer-search"
+    ],
+    "props": {
+      "blockClass": "drawerMenuSearchMobile"
+    }
+  },
+  "flex-layout.col#drawerMenuSearchMen": {
+    "children": [
+      "search-bar#menuMobile"
+    ],
+    "props": {
+      "blockClass": "drawerMenuSearchMobile"
+    }
+  },
+  "search-bar#menuMobileMen": {
+    "props": {
+      "blockClass": "drawerMenuSearchMobile",
+      "placeholder": "Buscar"
+    }
+  },
+  "flex-layout.row#linkShopMen": {
+    "children": [
+      "link#shopMen"
+    ]
+  },
+  "link#shopMen": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre",
+      "label": "Tienda Hombre"
+    }
+  },
+  "drawer#subcategoryMen-1": {
+    "props": {
+      "blockClass": "subCategoryMen-1-MenuMobile",
+      "backdropMode": "none"
+    },
+    "children": [
+      "flex-layout.row#categoryMenuMobileMen",
+      "drawer#searchMenuMobileMen",
+      "flex-layout.row#new-newArrivalsMen",
+      "flex-layout.row#newWomenTargetMenuMobile",
+      "flex-layout.row#new-MenNew",
+      "flex-layout.row#WrapperFooterMenu"
+    ]
+  },
+  "flex-layout.row#new-newArrivalsMen": {
+    "children": [
+      "link#newArrivalsMen"
+    ],
+    "props": {
+      "blockClass": "menuGeneralTitleLink"
+    }
+  },
+  "link#newArrivalsMen": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+      "href": "/",
+      "label": "Nuevo"
+    }
+  },
+  "flex-layout.row#new-MenNew": {
+    "children": [
+      "link#MenNew"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#MenNew": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/",
+      "label": "Nuevo en hombres"
+    }
+  },
+  "drawer#subcategoryMen-2": {
+    "props": {
+      "blockClass": "subCategoryMen-2-MenuMobile",
+      "backdropMode": "none"
+    },
+    "children": [
+      "flex-layout.row#categoryMenuMobileMen",
+      "drawer#searchMenuMobileMen",
+      "flex-layout.row#sale-saleMens",
+      "flex-layout.row#sale-footwearMens",
+      "flex-layout.row#sale-bagsWalletsMens",
+      "flex-layout.row#sale-clearanceMens",
+      "flex-layout.row#sale-outletMens",
+      "flex-layout.row#WrapperFooterMenu"
+    ]
+  },
+  "flex-layout.row#sale-saleMens": {
+    "children": [
+      "link#saleMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralTitleLink"
+    }
+  },
+  "link#saleMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+      "href": "/",
+      "label": "Rebajas"
+    }
+  },
+  "flex-layout.row#sale-footwearMens": {
+    "children": [
+      "link#footwearMens1"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#footwearMens1": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/",
+      "label": "Calzado"
+    }
+  },
+  "flex-layout.row#sale-bagsWalletsMens": {
+    "children": [
+      "link#sale-bagsWalletsMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#sale-bagsWalletsMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/",
+      "label": "Billeteras"
+    }
+  },
+  "flex-layout.row#sale-clearanceMens": {
+    "children": [
+      "link#clearanceMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#clearanceMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/",
+      "label": "Clearance"
+    }
+  },
+  "flex-layout.row#sale-outletMens": {
+    "children": [
+      "link#outletMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#outletMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/",
+      "label": "Outlet"
+    }
+  },
+  "drawer#subcategoryMen-3": {
+    "props": {
+      "blockClass": "subCategoryMen-3-MenuMobile",
+      "backdropMode": "none"
+    },
+    "children": [
+      "flex-layout.row#categoryMenuMobileMen",
+      "drawer#searchMenuMobileMen",
+      "flex-layout.row#footwearMens-footwearMens",
+      //"flex-layout.row#footwearMens-sneakersMens",
+      //"flex-layout.row#footwearMens-LoafersMens",
+      "flex-layout.row#footwearMens-DriversMens",
+      "flex-layout.row#footwearMens-DressShoesMens",
+      "flex-layout.row#footwearMens-CasualShoesMens",
+      "flex-layout.row#footwearMens-BootsMens",
+      "flex-layout.row#footwearMens-sandalsMens",
+      //"flex-layout.row#footwearMens-WideFitMens",
+      //"flex-layout.row#footwearMens-FlexibleSoles",
+      "flex-layout.row#WrapperFooterMenu"
+    ]
+  },
+  "flex-layout.row#footwearMens-footwearMens": {
+    "children": [
+      "link#footwearMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralTitleLink"
+    }
+  },
+  "link#footwearMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+      "href": "/hombre/calzado",
+      "label": "Calzado"
+    }
+  },
+  "flex-layout.row#footwearMens-sneakersMens": {
+    "children": [
+      "link#sneakersMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#sneakersMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/calzado/deportivos",
+      "label": "Deportivos"
+    }
+  },
+  "flex-layout.row#footwearMens-LoafersMens": {
+    "children": [
+      "link#LoafersMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#LoafersMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/calzado/mocasines",
+      "label": "Mocasines"
+    }
+  },
+  "flex-layout.row#footwearMens-DriversMens": {
+    "children": [
+      "link#DriversMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#DriversMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/",
+      "label": "PENDIENTE"
+    }
+  },
+  "flex-layout.row#footwearMens-DressShoesMens": {
+    "children": [
+      "link#DressShoesMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#DressShoesMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/calzado/zapatos-de-vestir",
+      "label": "Zapatos de vestir"
+    }
+  },
+  "flex-layout.row#footwearMens-CasualShoesMens": {
+    "children": [
+      "link#CasualShoesMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#CasualShoesMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/calzado/zapatos-casuales",
+      "label": "Zapato Casual"
+    }
+  },
+  "flex-layout.row#footwearMens-BootsMens": {
+    "children": [
+      "link#BootsMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#BootsMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/calzado/botas",
+      "label": "Botas"
+    }
+  },
+  "flex-layout.row#footwearMens-sandalsMens": {
+    "children": [
+      "link#sandalsMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#sandalsMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/calzado/sandalias",
+      "label": "Sandalias"
+    }
+  },
+  "flex-layout.row#footwearMens-WideFitMens": {
+    "children": [
+      "link#WideFitMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#WideFitMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/calzado",
+      "label": "Zapato ancho"
+    }
+  },
+  "flex-layout.row#footwearMens-FlexibleSoles": {
+    "children": [
+      "link#FlexibleSoles"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#FlexibleSoles": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/calzado",
+      "label": "Suelas flexibles"
+    }
+  },
+  "drawer#subcategoryMen-4": {
+    "props": {
+      "blockClass": "subCategoryMen-4-MenuMobile",
+      "backdropMode": "none"
+    },
+    "children": [
+      "flex-layout.row#categoryMenuMobileMen",
+      "drawer#searchMenuMobileMen",
+      "flex-layout.row#accesoriesMen-accesoriesMen",
+      "flex-layout.row#accesoriesMen-bagsWallets",
+      "flex-layout.row#accesoriesMen-sunglasses",
+      "flex-layout.row#accesoriesMen-belts",
+      "flex-layout.row#accesoriesMen-socks",
+      "flex-layout.row#accesoriesMen-watches",
+      "flex-layout.row#WrapperFooterMenu"
+    ]
+  },
+  "flex-layout.row#accesoriesMen-accesoriesMen": {
+    "children": [
+      "link#accesoriesMen"
+    ],
+    "props": {
+      "blockClass": "menuGeneralTitleLink"
+    }
+  },
+  "link#accesoriesMen": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+      "href": "/hombre/bolsos-y-accesorios",
+      "label": "Accesorios"
+    }
+  },
+  "flex-layout.row#accesoriesMen-bagsWallets": {
+    "children": [
+      "link#bagsWallets"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#bagsWallets": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/bolsos-y-accesorios/bolsos-y-billeteras",
+      "label": "Billeteras"
+    }
+  },
+  "flex-layout.row#accesoriesMen-sunglasses": {
+    "children": [
+      "link#accesoriesMen-sunglasses"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#accesoriesMen-sunglasses": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/bolsos-y-accesorios/gafas",
+      "label": "Gafas"
+    }
+  },
+  "flex-layout.row#accesoriesMen-belts": {
+    "children": [
+      "link#accesoriesMen-belts"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#accesoriesMen-belts": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/bolsos-y-accesorios/cinturones",
+      "label": "Cinturones"
+    }
+  },
+  "flex-layout.row#accesoriesMen-socks": {
+    "children": [
+      "link#socks"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#socks": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/bolsos-y-accesorios/bisuteria",
+      "label": "Bisutería"
+    }
+  },
+  "flex-layout.row#accesoriesMen-watches": {
+    "children": [
+      "link#watches"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#watches": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/hombre/bolsos-y-accesorios/relojes",
+      "label": "Relojes"
+    }
+  },
+  "drawer#subcategoryMen-5": {
+    "props": {
+      "blockClass": "subCategoryMen-5-MenuMobile",
+      "backdropMode": "none"
+    },
+    "children": [
+      "flex-layout.row#categoryMenuMobileMen",
+      "drawer#searchMenuMobileMen",
+      "flex-layout.row#collectionsMens-collectionsMens",
+      "flex-layout.row#collectionsMens-BestSellers",
+      "flex-layout.row#collectionsMens-MrBxAldo",
+      "flex-layout.row#collectionsMens-RPPL",
+      "flex-layout.row#WrapperFooterMenu"
+    ]
+  },
+  "flex-layout.row#collectionsMens-collectionsMens": {
+    "children": [
+      "link#collectionsMens"
+    ],
+    "props": {
+      "blockClass": "menuGeneralTitleLink"
+    }
+  },
+  "link#collectionsMens": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+      "href": "/",
+      "label": "Colecciones"
+    }
+  },
+  "flex-layout.row#collectionsMens-BestSellers": {
+    "children": [
+      "link#collectionsMens-BestSellers"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#collectionsMens-BestSellers": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/los-mas-vendidos-hombre",
+      "label": "Más vendidos"
+    }
+  },
+  "flex-layout.row#collectionsMens-MrBxAldo": {
+    "children": [
+      "link#collectionsMens-MrBxAldo"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#collectionsMens-MrBxAldo": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/suelas-flexibles-hombre",
+      "label": "Suelas flexibles"
+    }
+  },
+  "flex-layout.row#collectionsMens-RPPL": {
+    "children": [
+      "link#collectionsMens-RPPL"
+    ],
+    "props": {
+      "blockClass": "menuGeneralWrapperLink"
+    }
+  },
+  "link#collectionsMens-RPPL": {
+    "props": {
+      "blockClass": "subCategoryMenuGeneralMobileLink",
+      "href": "/da-un-paso-al-amor",
+      "label": "Da un paso al amor"
+    }
+  },
+  "link#categoryMenMenuMobile": {
+    "props": {
+      "blockClass": "subCategoryMenuTopMobileLink",
+      "href": "/hombre",
+      "label": "Hombre"
+    }
+  },
+  "link#topCategoriesMenMenuMobileLinkBold": {
+    "props": {
+      "blockClass": [
+        "subCategoryMenuTopMobileLink",
+        "outLink"
+      ],
+      "href": "/mujer",
+      "label": "Mujer"
+    }
+  }
+}

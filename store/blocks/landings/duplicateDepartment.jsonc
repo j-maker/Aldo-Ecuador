@@ -1,0 +1,28 @@
+{
+    "store.custom#duplicateCategory": {
+        "blocks": [
+            "search-result-layout.customQuery"
+        ]
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "maxItemsPerPage": 16,
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "facetsBehavior": "Dynamic",
+                "skusFilter": "ALL",
+                "simulationBehavior": "skip",
+                "installmentCriteria": "MAX_WITHOUT_INTEREST",
+                "__unstableProductOriginVtex": true,
+                "mapField": "productClusterIds",
+                "queryField": "/hombre"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#categoryMain",
+            "search-result-layout.mobile#categoryMain",
+            "search-not-found-layout"
+        ]
+    }
+}

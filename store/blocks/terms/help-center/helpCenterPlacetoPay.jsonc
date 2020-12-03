@@ -1,0 +1,122 @@
+{
+  "store.custom#helpCenterPlacetopay": {
+    "blocks": [
+      "tab-layout#helpCenterPlacetopay"
+    ]
+  },
+  "tab-layout#helpCenterPlacetopay": {
+    "children": [
+      "tab-list#helpcenter",
+      "tab-content#helpcenter"
+    ],
+    "props": {
+      "blockClass": "helpcenter",
+      "defaultActiveTabId": "helpcenter1"
+    }
+  },
+  "tab-list.item#helpcenter1": {
+    "props": {
+      "blockClass": "listItemHelpCenterList2",
+      "tabId": "helpcenter1",
+      "label": "PlacetoPay"
+    }
+  },
+  "tab-content.item#helpcenter1": {
+    "children": [
+      "flex-layout.row#topContentInfoHelpCenter",
+      "flex-layout.row#wrapperQuestionFrequentyInfoHelpCenter",
+      "rich-text#InfoGeneralFooterTextTitle",
+      "flex-layout.row#WrapperInfoGeneralFooter"
+    ],
+    "props": {
+      "tabId": "helpcenter1"
+    }
+  },
+  //question
+  "flex-layout.row#wrapperQuestionFrequentyInfoHelpCenter": {
+    "children": [
+      "flex-layout.col#wrapperQuestionFrequentyInfoHelpCenter"
+    ],
+    "props": {
+      "blockClass": "WrapperRowQuestion"
+    }
+  },
+  "flex-layout.col#wrapperQuestionFrequentyInfoHelpCenter": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount-1",
+      "vtex.menu@2.x:menu#questionAccount-2",
+      "vtex.menu@2.x:menu#questionAccount-3",
+      "vtex.menu@2.x:menu#questionAccount-4",
+      "vtex.menu@2.x:menu#questionAccount-5",
+      "vtex.menu@2.x:menu#questionAccount-6",
+      "vtex.menu@2.x:menu#questionAccount-7",
+      "vtex.menu@2.x:menu#questionAccount-8"
+    ],
+    "props": {
+      "blockClass": "WrapperColQuestion"
+    }
+  },
+  "sandbox#question-1": {
+    "props": {
+      "width": "100%",
+      "height": "50px",
+      "initialContent": "<style>.body{min-height:unset} .accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding:1.5em 5.5em 1.5em 1.5em; font-size: 13px;font-weight: 600;background: #fff;color: #000;text-decoration: none;font-family: 'Open Sans';  border-top: 1px solid #000;}.accordion-titulo.open {padding: 1.5em 5.5em 0 1.5em; border-bottom:none;background:  #fff;color: #000; font-weight:500; } .accordion-content {display: none;padding: 10px 20px;overflow: auto;}li, .accordion-content p{padding: 0em 1.5em 0em 1.5em;font-size: 13px;line-height: 1.4em;color: #555;}li, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>1.¿Qué es Placetopay?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Placetopay es la plataforma de pagos electrónicos que usa www.aldo.com.ec, para procesar en línea las transacciones generadas en la tienda virtualcon las formas de pago habilitadas para tal fin.  </p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+    }
+  },
+  "sandbox#question-2": {
+    "props": {
+      "width": "100%",
+      "height": "50px",
+      "initialContent": "<style>.body{min-height:unset} .accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding:1.5em 5.5em 1.5em 1.5em; font-size: 13px;font-weight: 600;background: #fff;color: #000;text-decoration: none;font-family: 'Open Sans';  border-top: 1px solid #000;}.accordion-titulo.open {padding: 1.5em 5.5em 0 1.5em; border-bottom:none;background:  #fff;color: #000; font-weight:500; } .accordion-content {display: none;padding: 10px 20px;overflow: auto;}li, .accordion-content p{padding: 0em 1.5em 0em 1.5em;font-size: 13px;line-height: 1.4em;color: #555;}li, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>2.¿Cómo puedo pagar?<span class='toggle-icon'></span></a><div class='accordion-content'><p>En la tienda virtual de www.aldo.com.ec usted podrá realizar supago con los medios habilitados para tal fin. Usted, de acuerdo a las opciones de pagoescogidas   por  el  comercio,  podrá  pagar   a  través  (Definir   los   medios   de   pagohabilitados Diners, Discover, Visa y MasterCard); de todos los bancos con pagocorriente y en los diferido, únicamente las tarjetas emitidas por Banco Pichincha, Diners,Loja, BGR y Manabí. </p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+    }
+  },
+  "sandbox#question-3": {
+    "props": {
+      "width": "100%",
+      "height": "50px",
+      "initialContent": "<style>.body{min-height:unset} .accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding:1.5em 5.5em 1.5em 1.5em; font-size: 13px;font-weight: 600;background: #fff;color: #000;text-decoration: none;font-family: 'Open Sans';  border-top: 1px solid #000;}.accordion-titulo.open {padding: 1.5em 5.5em 0 1.5em; border-bottom:none;background:  #fff;color: #000; font-weight:500; } .accordion-content {display: none;padding: 10px 20px;overflow: auto;}li, .accordion-content p{padding: 0em 1.5em 0em 1.5em;font-size: 13px;line-height: 1.4em;color: #555;}li, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>3.¿Es seguro ingresar mis datos bancarios en este sitio web?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Para proteger tus datos www.aldo.com.ec delega en Placetopayla captura de la información sensible. Nuestra plataforma de pagos cumple con los másaltos   estándares   exigidos   por   la   norma   internacional   PCI   DSS   de   seguridad   entransacciones con tarjeta de crédito. Además tiene certificado de seguridad SSLexpedido   por   GeoTrust   una   compañía   Verisign,   el  cual   garantiza   comunicacionesseguras mediante la encriptación de todos los datos hacia y desde el sitio; de estamanera, te podrás sentir seguro a la hora de ingresar la información de su tarjeta. Durante el proceso de pago, en el navegador se muestra el nombre de la organizaciónautenticada, la autoridad que lo certifica y la barra de dirección cambia a color verde.Estas   características   son   visibles   de   inmediato   y   dan   garantía   y   confianza   para completar la transacción en Placetopay.Placetopaytambién cuenta con el monitoreo constante de McAfee Secure y la firmade mensajes electrónicos con Certicámara.Placetopay  es una marca de la empresa colombiana EGM Ingeniería Sin FronterasS.A.S</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+    }
+  },
+  "sandbox#question-4": {
+    "props": {
+      "width": "100%",
+      "height": "50px",
+      "initialContent": "<style>.body{min-height:unset} .accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding:1.5em 5.5em 1.5em 1.5em; font-size: 13px;font-weight: 600;background: #fff;color: #000;text-decoration: none;font-family: 'Open Sans';  border-top: 1px solid #000;}.accordion-titulo.open {padding: 1.5em 5.5em 0 1.5em; border-bottom:none;background:  #fff;color: #000; font-weight:500; } .accordion-content {display: none;padding: 10px 20px;overflow: auto;}li, .accordion-content p{padding: 0em 1.5em 0em 1.5em;font-size: 13px;line-height: 1.4em;color: #555;}li, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>4.¿Puedo realizar el pago cualquier día y a cualquier hora?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Sí, en www.aldo.com.ec podrás realizar tus compras en línea los 7días de la semana, las 24 horas del día a sólo un clic de distancia.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+    }
+  },
+  "sandbox#question-5": {
+    "props": {
+      "width": "100%",
+      "height": "50px",
+      "initialContent": "<style>.body{min-height:unset} .accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding:1.5em 5.5em 1.5em 1.5em; font-size: 13px;font-weight: 600;background: #fff;color: #000;text-decoration: none;font-family: 'Open Sans';  border-top: 1px solid #000;}.accordion-titulo.open {padding: 1.5em 5.5em 0 1.5em; border-bottom:none;background:  #fff;color: #000; font-weight:500; } .accordion-content {display: none;padding: 10px 20px;overflow: auto;}li, .accordion-content p{padding: 0em 1.5em 0em 1.5em;font-size: 13px;line-height: 1.4em;color: #555;}li, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>5.¿Puedo cambiar la forma de pago?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Si aún no has finalizado tu pago, podrás volver al paso inicial y elegir la forma de pagoque prefieras. Una vez finalizada la compra no es posible cambiar la forma de pago.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+    }
+  },
+  "sandbox#question-6": {
+    "props": {
+      "width": "100%",
+      "height": "50px",
+      "initialContent": "<style>.body{min-height:unset} .accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding:1.5em 5.5em 1.5em 1.5em; font-size: 13px;font-weight: 600;background: #fff;color: #000;text-decoration: none;font-family: 'Open Sans';  border-top: 1px solid #000;}.accordion-titulo.open {padding: 1.5em 5.5em 0 1.5em; border-bottom:none;background:  #fff;color: #000; font-weight:500; } .accordion-content {display: none;padding: 10px 20px;overflow: auto;}li, .accordion-content p{padding: 0em 1.5em 0em 1.5em;font-size: 13px;line-height: 1.4em;color: #555;}li, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>6.¿Pagar   electrónicamente   tiene   algún   valor   para   mí   comocomprador? <span class='toggle-icon'></span></a><div class='accordion-content'><p>No, los pagos electrónicos realizados a través de  Placetopayno generan costosadicionales para el comprador.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+    }
+  },
+  "sandbox#question-7": {
+    "props": {
+      "width": "100%",
+      "height": "50px",
+      "initialContent": "<style>.body{min-height:unset} .accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding:1.5em 5.5em 1.5em 1.5em; font-size: 13px;font-weight: 600;background: #fff;color: #000;text-decoration: none;font-family: 'Open Sans';  border-top: 1px solid #000;}.accordion-titulo.open {padding: 1.5em 5.5em 0 1.5em; border-bottom:none;background:  #fff;color: #000; font-weight:500; } .accordion-content {display: none;padding: 10px 20px;overflow: auto;}li, .accordion-content p{padding: 0em 1.5em 0em 1.5em;font-size: 13px;line-height: 1.4em;color: #555;}li, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>7.¿Qué debo hacer si mi transacción no concluyó?<span class='toggle-icon'></span></a><div class='accordion-content'><p>En primera instancia deberás revisar si llegó un mail de confirmación del pago en tucuenta de correo electrónico (la inscrita en el momento de realizar el pago), en caso deno haberlo recibido, deberás contactar a servicioalcliente@aldo.com.ec para confirmar el estado de la transacción.En caso que tu transacción haya declinado, debes verificar si la información de lacuenta es válida, está habilitada para compras no presenciales y si tienes cupo o saldodisponible. Si después de esto continua con la declinación debes comunicarte con www.aldo.com.ec. En última instancia, puedes remitir tu solicitud a</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+    }
+  },
+  "sandbox#question-8": {
+    "props": {
+      "width": "100%",
+      "height": "50px",
+      "initialContent": "<style>.body{min-height:unset} .accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding:1.5em 5.5em 1.5em 1.5em; font-size: 13px;font-weight: 600;background: #fff;color: #000;text-decoration: none;font-family: 'Open Sans';  border-top: 1px solid #000;}.accordion-titulo.open {padding: 1.5em 5.5em 0 1.5em; border-bottom:none;background:  #fff;color: #000; font-weight:500; } .accordion-content {display: none;padding: 10px 20px;overflow: auto;}li, .accordion-content p{padding: 0em 1.5em 0em 1.5em;font-size: 13px;line-height: 1.4em;color: #555;}li, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>8.¿Qué debo hacer si no recibí el comprobante de pago?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Por cada transacción aprobada a través de Placetopay, recibirás un comprobante delpago con la referencia de compra en la dirección de correo electrónico que indicaste almomento de  pagar.   Si no  lo recibes,  podrás  contactar  a  la  línea  02 3333 422  o   al   correo   electrónico   servicioalcliente@aldo.com.ec, para solicitar el reenvío del comprobante a lamisma dirección de correo electrónico registrada al momento de pagar. En últimainstancia, puedes remitir tu solicitud a servicioposventa@placetopay.ec.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+    }
+  },
+  "sandbox#question-9": {
+    "props": {
+      "width": "100%",
+      "height": "50px",
+      "initialContent": "<style>.body{min-height:unset} .accordion-container {width: 100%;margin: 0 0 10px;clear:both;}.accordion-titulo {position: relative;display: block;padding:1.5em 5.5em 1.5em 1.5em; font-size: 13px;font-weight: 600;background: #fff;color: #000;text-decoration: none;font-family: 'Open Sans';  border-top: 1px solid #000;}.accordion-titulo.open {padding: 1.5em 5.5em 0 1.5em; border-bottom:none;background:  #fff;color: #000; font-weight:500; } .accordion-content {display: none;padding: 10px 20px;overflow: auto;}li, .accordion-content p{padding: 0em 1.5em 0em 1.5em;font-size: 13px;line-height: 1.4em;color: #555;}li, p{color: #69727b;line-height: 25px;} p a{text-decoration: none;color: black;}@media (max-width:767px) {.accordion-content {padding: 10px 0;}}</style><div class='accordion-container'><a href='#' class='accordion-titulo'>9. No me llegó el producto que compré ¿qué hago?<span class='toggle-icon'></span></a><div class='accordion-content'><p>Debes verificar si la transacción fue exitosa en tu extracto bancario. En caso de ser así,debes revisar nuestras políticas de envío en el sitio web www.aldo.com.ec, para identificar los tiempos de entrega.</p></div></div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script>$(function(){$('.accordion-titulo').click(function(e){e.preventDefault();var contenido=$(this).next('.accordion-content');if(contenido.css('display')=='none'){contenido.slideDown(250);$(this).addClass('open');}else{contenido.slideUp(250);$(this).removeClass('open');}});});</script>"
+    }
+  }
+}

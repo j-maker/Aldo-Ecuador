@@ -1,0 +1,418 @@
+{
+  "menu-item#category-new-arrival": {
+    "props": {
+      "blockClass": "category-text",
+      "id": "menu-item-custom-new-arrival",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-arrival",
+        "noFollow": true,
+        "tagTitle": "New arrivals",
+        "text": "New arrivals"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#arrival-col-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#arrival-col-2": {
+    "props": {
+      "width": "100%",
+      "blockClass": "wrapperMenuArrivals",
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+      //"colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#arrival-col-1",
+      "flex-layout.col#arrival-col-2"
+    ]
+  },
+  "flex-layout.col#arrival-col-1": {
+    "children": [
+      "flex-layout.row#arrival-col-1"
+    ]
+  },
+  "flex-layout.row#arrival-col-1": {
+    "children": [
+      "flex-layout.col#arrival-text-col-1",
+      "image#new-arrival"
+    ],
+    "props": {
+      "blockClass": "arrivalWrapperLeft"
+    }
+  },
+  "flex-layout.col#arrival-text-col-1": {
+    "children": [
+      "rich-text#new-arrival-title",
+      "rich-text#new-arrival-subtitle"
+    ],
+    "props": {
+      "blockClass": "wrapperColLeft",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#new-arrival-title": {
+    "props": {
+      "blockClass": "newArrivalTitle",
+      "text": "NUEVO",
+      "textAlignment": "justify",
+      "textPosition": "justify"
+    }
+  },
+  "rich-text#new-arrival-subtitle": {
+    "props": {
+      "blockClass": "newArrivalSubTitle",
+      "text": "Descubre estilos recientemente agregados",
+      "textAlignment": "justify",
+      "textPosition": "justify"
+    }
+  },
+  "image#new-arrival": {
+    "props": {
+      "blockClass": "newArrivalImage",
+      "src": "https://aldoecuador.vteximg.com.br/arquivos/newarrivalsmenu.jpg",
+      "href": "/"
+    }
+  },
+  "flex-layout.col#arrival-col-2": {
+    "children": [
+      "link#newArrivalTitle",
+      "link#newArrivalContent-1",
+      "link#newArrivalContent-2"
+    ],
+    "props": {
+      "blockClass": "wrapperMenuArrivalColRight",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "link#newArrivalTitle": {
+    "props": {
+      "blockClass": "linkNewArrivalTitleMain",
+      "href": "/new-arrival",
+      "label": "New Arrivals"
+    }
+  },
+  "link#newArrivalContent-1": {
+    "props": {
+      "blockClass": "linkNewArrivalContent",
+      "href": "/new-arrival-mujer",
+      "label": "Mujer"
+    }
+  },
+  "link#newArrivalContent-2": {
+    "props": {
+      "blockClass": "linkNewArrivalContent",
+      "href": "/new-arrival-hombre",
+      "label": "Hombre"
+    }
+  },
+  "menu-item#category-niña": {
+    "props": {
+      "blockClass": "category-text",
+      "id": "menu-item-custom-kids",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Niños",
+        "text": "Niños"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#col-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#col-2": {
+    "props": {
+      "width": "100%",
+      "blockClass": "wrapperKidsSubmenu"
+    },
+    "children": [
+      "flex-layout.col#kids"
+    ]
+  },
+  "flex-layout.col#kids": {
+    "children": [
+      "flex-layout.row#kids"
+    ]
+  },
+  "flex-layout.row#kids": {
+    "children": [
+      "flex-layout.col#kids-col-1",
+      "flex-layout.col#kids-col-2"
+    ],
+    "props": {
+      "blockClass": "wrapperKidsContent"
+    }
+  },
+  "flex-layout.col#kids-col-1": {
+    "children": [
+      "info-card#menu-col-1"
+    ],
+    "props": {
+      "blockClass": "menu-col-2"
+    }
+  },
+  "info-card#menu-col-1": {
+    "props": {
+      "id": "info-card-kids",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://aldoecuador.vteximg.com.br/arquivos/kids.jpg",
+      "headline": "NIÑAS",
+      "callToActionText": "Tienda niñas",
+      "callToActionUrl": "/niñas",
+      "blockClass": "menuKids",
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.col#kids-col-2": {
+    "children": [
+      "info-card#menu-col-2"
+    ],
+    "props": {
+      "blockClass": "menu-col-2"
+    }
+  },
+  "info-card#menu-col-2": {
+    "props": {
+      "id": "info-card-kids",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://aldoecuador.vteximg.com.br/arquivos/kids-2.jpg",
+      "headline": "NIÑOS",
+      "callToActionText": "Tienda niños",
+      "callToActionUrl": "/niños",
+      "blockClass": "menuKids",
+      "textAlignment": "left"
+    }
+  },
+  "menu-item#category-rebajas": {
+    "props": {
+      "blockClass": "category-text-principal",
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Rebajas",
+        "text": "Rebajas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#sale-col-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#sale-col-2": {
+    "props": {
+      "width": "100%",
+      "blockClass": "wrapperMenuSale"
+    },
+    "children": [
+      "flex-layout.col#sale-col-1",
+      "flex-layout.col#sale-col-2"
+    ]
+  },
+  "flex-layout.col#sale-col-1": {
+    "children": [
+      "flex-layout.row#sale-col-1"
+    ]
+  },
+  "flex-layout.row#sale-col-1": {
+    "children": [
+      "flex-layout.col#sale-text-col-1"
+    ],
+    "props": {
+      "blockClass": "saleWrapperLeft"
+    }
+  },
+  "flex-layout.col#sale-text-col-1": {
+    "children": [
+      "rich-text#new-sale-title",
+      "rich-text#new-sale-subtitle",
+      "rich-text#new-sale-content"
+    ],
+    "props": {
+      "blockClass": "wrapperSaleColLeft",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#new-sale-title": {
+    "props": {
+      "blockClass": "newSaleTitle",
+      "text": "Hasta",
+      "textAlignment": "left",
+      "textPosition": "left"
+    }
+  },
+  "rich-text#new-sale-subtitle": {
+    "props": {
+      "blockClass": "newSaleSubTitle",
+      "text": "70%",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#new-sale-content": {
+    "props": {
+      "blockClass": "newSaleSubContent",
+      "text": "Referencias seleccionadas ",
+      "textAlignment": "left",
+      "textPosition": "left"
+    }
+  },
+  "flex-layout.col#sale-col-2": {
+    "children": [
+      "flex-layout.row#sale-wrapper-content-col-2"
+    ],
+    "props": {
+      "blockClass": "wrapperSaleColRight"
+    }
+  },
+  "flex-layout.row#sale-wrapper-content-col-2": {
+    "children": [
+      "flex-layout.col#contentRight-1",
+      "flex-layout.col#contentRight-2",
+      "flex-layout.col#contentRight-3",
+      "flex-layout.col#contentRight-4"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#contentRight-1": {
+    "children": [
+      "link#newSaleTitle-1",
+      "link#newSaleContent-1",
+      "link#newSaleContent-1-1"
+    ],
+    "props": {
+      "blockClass": "wrapperContentRight"
+    }
+  },
+  "link#newSaleTitle-1": {
+    "props": {
+      "blockClass": "linkSaleTitleMain",
+      "href": "/",
+      "label": "Mujer"
+    }
+  },
+  "link#newSaleContent-1": {
+    "props": {
+      "blockClass": "linkSaleContent",
+      "href": "/",
+      "label": "Calzado"
+    }
+  },
+  "link#newSaleContent-1-1": {
+    "props": {
+      "blockClass": "linkSaleContent",
+      "href": "/",
+      "label": "Bolsos de mano"
+    }
+  },
+  "flex-layout.col#contentRight-2": {
+    "children": [
+      "link#newSaleTitle-2",
+      "link#newSaleContent-2",
+      "link#newSaleContent-2-1"
+    ],
+    "props": {}
+  },
+  "link#newSaleTitle-2": {
+    "props": {
+      "blockClass": "linkSaleTitle",
+      "href": "/",
+      "label": "Hombre"
+    }
+  },
+  "link#newSaleContent-2": {
+    "props": {
+      "blockClass": "linkSaleContent",
+      "href": "/",
+      "label": "Calzado"
+    }
+  },
+  "link#newSaleContent-2-1": {
+    "props": {
+      "blockClass": "linkSaleContent",
+      "href": "/",
+      "label": "Bolsos y billeteras"
+    }
+  },
+  "flex-layout.col#contentRight-3": {
+    "children": [
+      //"link#newSaleTitle-3",
+      //"link#newSaleContent-3",
+      //"link#newSaleContent-3-1"
+    ],
+    "props": {}
+  },
+  "link#newSaleTitle-3": {
+    "props": {
+      "blockClass": "linkSaleTitle",
+      "href": "/",
+      "label": "Clearance"
+    }
+  },
+  "link#newSaleContent-3": {
+    "props": {
+      "blockClass": "linkSaleContent",
+      "href": "/",
+      "label": "Mujer"
+    }
+  },
+  "link#newSaleContent-3-1": {
+    "props": {
+      "blockClass": "linkSaleContent",
+      "href": "/",
+      "label": "Hombre"
+    }
+  },
+  "flex-layout.col#contentRight-4": {
+    "children": [
+      //"link#newSaleTitle-4",
+      //"link#newSaleContent-4",
+      //"link#newSaleContent-4-1"
+    ],
+    "props": {}
+  },
+  "link#newSaleTitle-4": {
+    "props": {
+      "blockClass": "linkSaleTitle",
+      "href": "/",
+      "label": "Outlet"
+    }
+  },
+  "link#newSaleContent-4": {
+    "props": {
+      "blockClass": "linkSaleContent",
+      "href": "/",
+      "label": "Mujer"
+    }
+  },
+  "link#newSaleContent-4-1": {
+    "props": {
+      "blockClass": "linkSaleContent",
+      "href": "/",
+      "label": "Hombre"
+    }
+  }
+}

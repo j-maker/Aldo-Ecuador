@@ -1,0 +1,212 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#wrapperHeader"
+    ],
+    "props": {
+      "tagTitle": "Header"
+    }
+  },
+  "flex-layout.row#wrapperHeader": {
+    "children": [
+      "flex-layout.col#wrapperHeader"
+    ],
+    "props": {
+      "blockClass": "wrapperMain"
+    }
+  },
+  "flex-layout.col#wrapperHeader": {
+    "children": [
+      "flex-layout.row#top-header",
+      "sticky-layout#desktop"
+    ],
+    "props": {
+      "blockClass": "wrapperMain"
+    }
+  },
+  "flex-layout.row#top-header": {
+    "children": [
+      //"link#top-header",
+      "flex-layout.col#wrapper-login-locale"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "wrapper-top-header"
+    }
+  },
+  "link#top-header": {
+    "title":"Header Apertura de tienda",
+    "props": {
+      "blockClass": "top-header",
+      //"href": "",
+      "label": "Estamos reabriendo gradualmente nuestras tiendas."
+    }
+  },
+  "flex-layout.col#wrapper-login-locale": {
+    "children": [
+      "flex-layout.row#wrapper-login-locale"
+    ]
+  },
+  "flex-layout.row#wrapper-login-locale": {
+    "children": [
+      "login",
+      "link#locale"
+    ]
+  },
+  "link#locale": {
+    "title":"Header Locale",
+    "props": {
+      "blockClass": "headerLocale",
+      "href": "https://www.aldoshoes.com/international",
+      "label": "Ecuador (ES)"
+    }
+  },
+  "login": {
+    "title":"Header Login",
+    "props": {
+      "logInButtonBehavior": "popover",
+      "optionsTitle": "REGISTRATE O INICIA SESIÓN",
+      "emailAndPasswordTitle": "INGRESA TU CORREO",
+      "showIconProfile": false,
+      "blockClass": "login",
+      "iconLabel": "Mi cuenta",
+      "accessCodeTitle": "CÓDIGO DE ACCESO",
+      "emailPlaceholder": "Email address",
+      "passwordPlaceholder": "Password",
+      "showPasswordVerificationIntoTooltip": false
+    }
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "header"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu",
+      "flex-layout.col#spacer",
+      "header-force-center",
+      "flex-layout.col#spacer",
+      //"flex-layout.col#logo-desktop",
+      "flex-layout.col#wrapper-search-mini",
+      "custom-event-overlay"
+    ]
+  },
+  "header-force-center": {
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "title":"Header logo Desktop",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://aldoecuador.vteximg.com.br/arquivos/logo.png",
+      "width": "180"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "blockClass": "logo",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "logo": {
+    "title":"Header Logo dektop",
+    "props": {
+      "blockClass": "logo",
+      "title": "Logo",
+      "href": "/",
+      "width": "132px",
+      "height": "26px",
+      "mobileWidth": 90,
+      "mobileHeight": 32
+    }
+  },
+  "flex-layout.col#wrapper-search-mini": {
+    "children": [
+      "flex-layout.row#wrapper-search-mini"
+    ],
+    "props": {
+      "blockClass": "wrapper-search-mini"
+    }
+  },
+  "flex-layout.row#wrapper-search-mini": {
+    "children": [
+      "drawer#search",
+      "image#wishlist",
+      "minicart.v2"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "image#wishlist": {
+    "title":"Header Image Wishlist",
+    "props": {
+      "blockClass": "headerWishList",
+      "src": "https://aldoecuador.vtexassets.com/arquivos/heart.svg",
+      "link": "/wishlist"
+    }
+  },
+  "drawer#search": {
+    "title":"Header Buscador",
+    "children": [
+      "flex-layout.col#drawerSearch"
+    ],
+    "props": {
+      "blockClass": "drawerSearchMobile"
+    }
+  },
+  "flex-layout.col#drawerSearch": {
+    "children": [
+      "search-bar#Mobile"
+    ],
+    "props": {
+      "blockClass": "drawerSearchDesktop"
+    }
+  },
+  "search-bar#Desktop": {
+    "title":"Header Buscador",
+    "props": {
+      "hasIconLeft": true,
+      "blockClass": "drawerSearchMobile",
+      "placeholder": "Busca por palabras, estilos etc."
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }
+}

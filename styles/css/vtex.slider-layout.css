@@ -1,0 +1,38 @@
+.slideChildrenContainer--shelfSubCategory {
+    margin: 0 3px;
+}
+
+.sliderTrack--shelfSubCategory {
+    min-height: 180px;
+}
+
+.sliderLeftArrow--shelfSubCategory {
+    bottom: 28px;
+    left: -35px;
+}
+
+.sliderRightArrow--shelfSubCategory {
+    bottom: 28px;
+    right: -35px;
+}
+
+.slide--shelf {
+    margin: 0 3px;
+}
+
+.sliderLayoutContainer--shelf {
+    max-width: 1600px;
+    margin: 0 auto 50px;
+}
+
+.sliderRightArrow--shelf {
+    right: 55px;
+}
+
+.sliderLeftArrow--shelf {
+    left: 55px;
+}
+
+.imageElement--SizeGuideSlidepDP {
+    max-height: unset !important;
+}

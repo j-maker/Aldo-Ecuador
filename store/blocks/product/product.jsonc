@@ -1,0 +1,661 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#wrapperProduct"
+    ]
+  },
+  "flex-layout.row#wrapperProduct": {
+    "children": [
+      "flex-layout.col#wrapperProduct"
+    ],
+    "props": {
+      "blockClass": "wrapperMain"
+    }
+  },
+  "flex-layout.col#wrapperProduct": {
+    "children": [
+      
+      "flex-layout.row#product",
+      //"flex-layout.row#description"
+      "flex-layout.row#product-imagesMobile"
+      //"stack-layout",      
+      //"flex-layout.row#product-imagesMobile",
+      //"flex-layout.row#descriptionSpecifications"
+    ],
+    "props": {
+      "blockClass": "wrapperMain"
+    }
+  },
+  "flex-layout.row#product": {
+    "props": {
+      "blockClass": "wrapper-product"
+    },
+    "children": [
+      "flex-layout.col#product"
+    ]
+  },
+  "breadcrumb#product": {
+    "props": {
+      "showOnMobile": false,
+      "blockClass": "breadCrumbProduct",
+      "initialSelection": "empty"
+    }
+  },
+  "flex-layout.col#product": {
+    "children": [
+      "flex-layout.row#modalTopCategory",
+      "breadcrumb#product",
+      "flex-layout.row#product-main",
+      "back-to-top-button"
+      //"shelf.relatedProducts"
+      //"product-reviews",
+      //"product-questions-and-answers",
+      //"shelf.relatedProducts#similares",
+      //"shelf.relatedProducts#look",
+      //"shelf.relatedProducts#lo-ultimo"
+    ]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "blockClass": "wrapperMainStack",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
+  },
+  "flex-layout.col#stack": {
+    "children": [
+      "stack-layout",
+      "flex-layout.row#description",
+      "flex-layout.row#productSpecifications"
+    ],
+    "props": {
+      "blockClass": "productDescription",
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "stack-layout": {
+    "props": {},
+    "children": [
+      "flex-layout.row#product-image"
+      //"product-bookmark",
+      //"product-specification-badges"
+    ]
+  },
+  "flex-layout.row#product-image": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "blockClass": "productImageStack",
+      "contentType": "images",
+      //"zoomMode":"open-modal",
+      "thumbnailsOrientation": "horizontal",
+      //"thumbnailMaxHeight":"4rem",//pendiente
+      "displayThumbnailsArrows": false,
+      "showNavigationArrows": false,
+      "showPaginationDots": true,
+      "hiddenImages": "sku-color",
+      "aspectRatio": {
+        "desktop": "1:1",
+        "phone": "1:1"
+      }
+    }
+  },
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "blockClass": "right-col"
+    },
+    "children": [
+      "flex-layout.row#contentRightTop"
+      //"flex-layout.row#contentRightBotton"
+    ]
+  },
+  "flex-layout.row#contentRightTop": {
+    "children": [
+      "flex-layout.col#contentRightTop"
+    ],
+    "props": {
+      "blockClass": "contentRightTop"
+    }
+  },
+  //////////////////////////////////////////////////
+  "flex-layout.row#contentRightBotton": {
+    "children": [
+      "product-images#imageProductMainRight"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "product-images#imageProductMainRight": {
+    "props": {
+      "blockClass": "",
+      "contentType": "images",
+      //"zoomMode":"open-modal",
+      "thumbnailsOrientation": "horizontal",
+      //"thumbnailMaxHeight":"4rem",//pendiente
+      "displayThumbnailsArrows": false,
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "hiddenImages": "sku-color",
+      "aspectRatio": {
+        "desktop": "1:1",
+        "phone": "16:9"
+      }
+    }
+  },
+  "flex-layout.col#contentRightTop": {
+    "props": {
+      "blockClass": "contentRightTop",
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "custom-product-price-iva",
+      //"flex-layout.row#list-price-savings",
+      //"flex-layout.row#selling-price",
+      //"product-installments",
+      //"product-separator",
+      //"product-identifier.product",
+      //"sku-selector#color",
+      //"sku-selector#talla",
+      //"product-assembly-options",
+      /*"modal-trigger#example",
+    "add-to-cart-button#product",
+    "modal-trigger#store",
+    "flex-layout.row#linksContentProduct",
+    "availability-subscriber",*/
+      //"share#default",
+      "flex-layout.row#row-background-image",
+      "custom-product-image-background"
+    ]
+  },
+  "flex-layout.row#row-background-image": {
+    "props": {
+      "blockClass": "row-background-image"
+    },
+    "children": [
+      "flex-layout.col#col-background-image"
+    ]
+  },
+  "flex-layout.col#col-background-image": {
+    "props": {
+      "blockClass": "col-background-image"
+    },
+    "children": [
+      "sku-selector#all",
+      //"sku-selector#talla",
+      //"product-assembly-options",
+      "modal-trigger#guideSize",
+      "add-to-cart-button#product",
+      "modal-trigger#disponibility",
+      //"modal-trigger#store",
+      "flex-layout.row#linksContentProduct",
+      "availability-subscriber"
+    ]
+  },
+  "modal-trigger#store": {
+    "children": [
+      "rich-text#store",
+      "modal-layout#store"
+    ],
+    "props": {
+      "blockClass": "wrapperModalProduct"
+    }
+  },
+  "rich-text#store": {
+    "props": {
+      "text": "Buscar en tienda",
+      "blockClass": "textModalproductStore"
+    }
+  },
+  "modal-layout#store": {
+    "children": [
+      "rich-text#content-store"
+    ]
+  },
+  "rich-text#content-store": {
+    "props": {
+      "text": "Hello"
+    }
+  },
+  "flex-layout.row#linksContentProduct": {
+    "children": [
+      "flex-layout.col#linksContentProduct"
+    ],
+    "props": {
+      "blockClass": "wrapperProductPageLinks"
+    }
+  },
+  "flex-layout.col#linksContentProduct": {
+    "children": [
+      "link#secure",
+      "link#Shipping",
+      "link#freeReturns"
+    ],
+    "props": {
+      "blockClass": "wrapperProductPageLinks"
+    }
+  },
+  "link#secure": {
+    "props": {
+      "blockClass": "productLinksecure",
+      "href": "/centro-de-ayuda/formas-de-pago",
+      "label": "Pagos seguros garantizados"
+    }
+  },
+  "link#Shipping": {
+    "props": {
+      "blockClass": "productLinkshipping",
+      "href": "/centro-de-ayuda/envio",
+      "label": "Envío estándar gratuito en pedidos superiores a $50"
+    }
+  },
+  "link#freeReturns": {
+    "props": {
+      "blockClass": "productLinkFreeReturns",
+      "href": "/centro-de-ayuda/devoluciones",
+      "label": "Devoluciones gratis, con la agencia autorizada"
+    }
+  },
+  "sku-selector#talla": {
+    "props": {
+      "visibleVariations": [
+        "talla"
+      ],
+      "blockClass": "productSelectorSize",
+      "variationsSpacing": 3,
+      "maxItems": 10,
+      "showValueForVariation ": false,
+      "marginTop": 10,
+      "hideImpossibleCombinations": true,
+      "showVariationsLabels": true,
+      "showVariationsErrorMessage": true,
+      "imageLabel": 3
+    }
+  },
+  "sku-selector#color": {
+    "props": {
+      "visibleVariations": [
+        "color"
+      ],
+      "blockClass": "productSelectorColor",
+      "variationsSpacing": 3,
+      "maxItems": 10,
+      "showValueForVariation ": true,
+      "marginTop": 10,
+      "hideImpossibleCombinations": true,
+      "showVariationsLabels": true,
+      "showVariationsErrorMessage": true,
+      "thumbnailImage": "sku-color",
+      "showValueNameForImageVariation": true
+    }
+  },
+  "flex-layout.row#product-name": {
+    "props": {
+      "blockClass": "titleRightTop"
+    },
+    "children": [
+      "vtex.store-components:product-name"
+    ]
+  },
+  "flex-layout.row#list-price-savings": {
+    "props": {
+      "blockClass": "priceRigtTop",
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 2,
+      "marginTop": 5
+    },
+    "children": [
+      "product-list-price",
+      "product-price-savings"
+    ]
+  },
+  "product-list-price": {
+    "props": {
+      "blockClass": "listPriceRightTop"
+    }
+  },
+  "flex-layout.row#selling-price": {
+    "props": {
+      "blockClass": "poductPrice",
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": [
+      "product-selling-price"
+    ]
+  },
+  "modal-trigger#guideSize": {
+    "title":"PDP Guia de tallas",
+    "children": [
+      "rich-text#guideSize",
+      "modal-layout#guideSize"
+    ]
+  },
+  "rich-text#guideSize": {
+    "props": {
+      "text": "Guía de tallas",
+      "blockClass": "modalProductText"
+    }
+  },
+  "modal-layout#guideSize": {
+    "children": [
+      "modal-header#guideSize"
+    ],
+    "props": {
+      "blockClass": "WrapperModalGuideSizePDP"
+    }
+  },
+  "modal-header#guideSize": {
+    "children": [
+      "flex-layout.col#wrapperModalGuideSize"
+    ],
+    "props": {
+      "blockClass": "modalGuideSizePDP"
+    }
+  },
+  "flex-layout.col#wrapperModalGuideSize": {
+    "children": [
+      "rich-text#guideSizeTitle",
+      "rich-text#guideSizeContent",
+      "flex-layout.row#guide-size-PDP"
+    ]
+  },
+  "rich-text#guideSizeTitle": {
+    "title": "PDP-Guia-tallas-texto-titulo",
+    "props": {
+      "text": "Calzado",
+      "blockClass": "modalProductGuideSizeTitle"
+    }
+  },
+  "rich-text#guideSizeContent": {
+    "title": "PDP-Guia-tallas-texto-contenido",
+    "props": {
+      "text": "El tamaño puede variar según el estilo y el tipo de calzado. Las medias tallas no están disponibles en todos los estilos.",
+      "blockClass": "modalProductGuideSizeTextContent"
+    }
+  },
+  "flex-layout.row#guide-size-PDP": {
+    "title":"PDP Guia de tallas",
+    "children": [
+      "tab-layout#products-details-tabs-guide-size"
+    ]
+  },
+  "tab-layout#products-details-tabs-guide-size": {
+    "children": [
+      "flex-layout.row#products-details-guide-size",
+      "tab-content#products-details-guide-size"
+    ],
+    "props": {
+      "blockClass": "wrapperContentGuideSize",
+      "defaultActiveTabId": "guideSizePDP2"
+    }
+  },
+  "flex-layout.row#products-details-guide-size": {
+    "title":"PDP Guia de tallas",
+    "children": [
+      "tab-list#products-details-guide-size"
+    ],
+    "props": {
+      "blockClass": "containerMenuTabsGuideSize"
+    }
+  },
+  "tab-list#products-details-guide-size": {
+    "title":"PDP Guia de tallas",
+    "children": [
+      "tab-list.item#products-details-list1-guide-size",
+      "tab-list.item#products-details-list2-guide-size"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": [
+        "wrapperTopTitleGuideSizes"
+      ]
+    }
+  },
+  "tab-list.item#products-details-list1-guide-size": {
+    "props": {
+      "tabId": "guideSizePDP1",
+      "label": "Tallas de Mujer",
+      "blockClass": "guideSizeButtonGeneral"
+    }
+  },
+  "tab-list.item#products-details-list2-guide-size": {
+    "props": {
+      "tabId": "guideSizePDP2",
+      "label": "Tallas de Hombre",
+      "blockClass": "guideSizeButtonGeneral"
+    }
+  },
+  "tab-content#products-details-guide-size": {
+    "children": [
+      "tab-content.item#products-details-content1-guide-size",
+      "tab-content.item#products-details-content2-guide-size"
+    ]
+  },
+  "tab-content.item#products-details-content1-guide-size": {
+    "children": [
+      "list-context.image-list#sizeGuidePDPWomen"
+    ],
+    "props": {
+      "tabId": "guideSizePDP1",
+      "blockClass": "wrapperImageGuideSizePDP"
+    }
+  },
+  "tab-content.item#products-details-content2-guide-size": {
+    "children": [
+      "list-context.image-list#sizeGuidePDPMen"
+    ],
+    "props": {
+      "tabId": "guideSizePDP2",
+      "blockClass": "wrapperImageGuideSizePDP"
+    }
+  },
+  "list-context.image-list#sizeGuidePDPWomen": {
+    "title": "Guia de tallas Mujer",
+    "children": [
+      "slider-layout#guideSize"
+    ],
+    "props": {
+      "blockClass": "PDPGuideSize",
+      "images": [
+        {
+          "mobileImage": "https://aldoecuador.vteximg.com.br/arquivos/guia-de-tallas-mujer-aldo-mobile.png",
+          "image": "https://aldoecuador.vteximg.com.br/arquivos/guia-de-tallas-mujer-aldo.png",
+          "description": "Guia de tallas"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#sizeGuidePDPMen": {
+    "title": "Guia de tallas Hombre",
+    "children": [
+      "slider-layout#guideSize"
+    ],
+    "props": {
+      "blockClass": "PDPGuideSize",
+      "images": [
+        {
+          "mobileImage": "https://aldoecuador.vteximg.com.br/arquivos/guia-de-tallas-hombre-aldo-mobile.png",
+          "image": "https://aldoecuador.vteximg.com.br/arquivos/guia-de-tallas-hombre-aldo.png",
+          "description": "Guia de tallas"
+        }
+      ]
+    }
+  },
+  "slider-layout#guideSize": {
+    "props": {
+      "blockClass": "SizeGuideSlidepDP"
+    }
+  },
+  "add-to-cart-button#product": {
+    "props": {
+      "blockClass": "productAddButton"
+    }
+  },
+  //*******
+  //*******
+  "shelf.relatedProducts": {
+    "props": {
+      "blockClass": "",
+      "recommendation": "view",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "productList": {
+        "showTitle": false,
+        "arrows": true,
+        "itemsPerPage": 4,
+        "gap": "ph3",
+        "showPaginationDots": "never"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf#wishlist"
+    ]
+  },
+  ///////////////////////////////////////
+  "flex-layout.row#description": {
+    "props": {
+      "blockClass": "descriptionPDP",
+      "marginBottom": 0
+    },
+    "children": [
+      "product-description"
+    ]
+  },
+  "flex-layout.row#productSpecifications": {
+    "props": {
+      "blockClass": "specifications"
+    },
+    "children": [
+      "product-specifications#product"
+    ]
+  },
+  "product-specifications#product": {
+    "props": {
+      "hiddenSpecifications": [
+        "altura de tacón",
+        "material"
+
+      ],
+      "shoudCollapseOnTabChange": true,
+      "collapsible": "never"
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": [
+      "add-to-cart-button"
+    ]
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+  "shelf.relatedProducts#similares": {
+    "props": {
+      "showTitle": true,
+      "titleText": "PRENDAS SIMILARES",
+      "minItemsPerPage": 2,
+      "itemsPerPage": 4,
+      "blockClass": "home-wrapper-shelf",
+      "productList": {
+        "showTitle": false,
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 1
+        },
+        "gap": "ph3",
+        "showPaginationDots": "never"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "shelf.relatedProducts#look": {
+    "props": {
+      "showTitle": true,
+      "titleText": "COMPLETA TU LOOK",
+      "minItemsPerPage": 2,
+      "itemsPerPage": 4,
+      "blockClass": "home-wrapper-shelf",
+      "recommendation": "view",
+      "productList": {
+        "showTitle": false,
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 1
+        },
+        "gap": "ph3",
+        "showPaginationDots": "never"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "shelf.relatedProducts#lo-ultimo": {
+    "props": {
+      "showTitle": true,
+      "titleText": "LO ÚLTIMO QUE HAS VISTO...",
+      "minItemsPerPage": 2,
+      "itemsPerPage": 4,
+      "blockClass": "home-wrapper-shelf",
+      "recommendation": "view",
+      "productList": {
+        "showTitle": false,
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 1
+        },
+        "gap": "ph3",
+        "showPaginationDots": "never"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  }
+}

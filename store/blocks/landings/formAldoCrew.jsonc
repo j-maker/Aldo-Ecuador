@@ -1,0 +1,168 @@
+{
+    "store.custom#aldo-crew": {
+        "blocks": [
+            "flex-layout.row#aldo-crew-main"
+        ]
+    },
+    "flex-layout.row#aldo-crew-main": {
+        "props": {
+            "blockClass": "aldo-crew"
+        },
+        "children": [
+            "flex-layout.col#aldo-crew-banner",
+            "flex-layout.row#aldo-crew-form"
+        ]
+    },
+    "flex-layout.col#aldo-crew-banner": {
+        "props": {
+            "blockClass": "aldo-crew-banner"
+        },
+        "children": [
+            "flex-layout.col#aldo-crew-banner-header",
+            "image#aldo-crew-banner-triangle"
+        ]
+    },
+    "flex-layout.row#aldo-crew-form": {
+        "children": [
+            "flex-layout.col#aldo-crew-form"
+        ]
+    },
+    "flex-layout.col#aldo-crew-form": {
+        "props": {
+            "blockClass": "aldo-crew-form"
+        },
+        "children": [
+            "custom-form",
+            "rich-text#text-privacity-1",
+            "rich-text#text-privacity-2"
+        ]
+    },
+    "rich-text#text-privacity-1": {
+        "props": {
+            "blockClass": "aldo-crew-form-text-privacity",
+            "text": "Al enviar su dirección de correo electrónico, usted nos permite, The Aldo Group Inc., incluirlo en nuestras listas de correo electrónico para enviarle información sobre productos, servicios y promociones de Aldo y nuestras diversas divisiones. Puede darse de baja en cualquier momento. Estamos comprometidos a proteger la privacidad de nuestros clientes. No compartimos la información personal de nuestros clientes con terceros."
+        }
+    },
+    "rich-text#text-privacity-2": {
+        "props": {
+            "blockClass": [
+                "aldo-crew-form-text-privacity",
+                "aldo-crew-form-text-privacicity2"
+            ],
+            "text": "Lea nuestra [política de privacidad](/politicas-privacidad). Consulte los [Términos y condiciones y las Preguntas frecuentes](/terminos-y-condiciones) para obtener más información."
+        }
+    },
+    "flex-layout.col#aldo-crew-banner-header": {
+        "props": {
+            "blockClass": "aldo-crew-banner-header"
+        },
+        "children": [
+            "image#aldo-crew-banner-header-logo",
+            "rich-text#aldo-crew-banner-header-title",
+            "rich-text#aldo-crew-banner-header-list-item1",
+            "rich-text#aldo-crew-banner-header-list-item2",
+            "rich-text#aldo-crew-banner-header-list-item3",
+            "rich-text#aldo-crew-banner-header-list-item4",
+            "rich-text#aldo-crew-banner-header-list-item5",
+            "rich-text#aldo-crew-banner-header-list-item6",
+            "rich-text#aldo-crew-banner-header-text-surprise",
+            "rich-text#aldo-crew-banner-header-link-benefits"
+        ]
+    },
+    "image#aldo-crew-banner-header-logo": {
+        "props": {
+            "src": "https://aldoecuador.vteximg.com.br/arquivos/aldocrew-logo.png",
+            "blockClass": "aldo-crew-banner-header-logo"
+        }
+    },
+    "rich-text#aldo-crew-banner-header-title": {
+        "props": {
+            "text": "lorem ipsum join our text",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-title"
+            ]
+        }
+    },
+    "rich-text#aldo-crew-banner-header-list-item1": {
+        "props": {
+            "text": "•lorem ipsum join our text",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-header-list-item"
+            ]
+        }
+    },
+    "rich-text#aldo-crew-banner-header-list-item2": {
+        "props": {
+            "text": "•lorem ipsum join our text",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-header-list-item"
+            ]
+        }
+    },
+    "rich-text#aldo-crew-banner-header-list-item3": {
+        "props": {
+            "text": "•lorem ipsum join our text",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-header-list-item"
+            ]
+        }
+    },
+    "rich-text#aldo-crew-banner-header-list-item4": {
+        "props": {
+            "text": "•lorem ipsum join our text",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-header-list-item"
+            ]
+        }
+    },
+    "rich-text#aldo-crew-banner-header-list-item5": {
+        "props": {
+            "text": "•lorem ipsum join our text",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-header-list-item"
+            ]
+        }
+    },
+    "rich-text#aldo-crew-banner-header-list-item6": {
+        "props": {
+            "text": "•lorem ipsum join our text",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-header-list-item"
+            ]
+        }
+    },
+    "rich-text#aldo-crew-banner-header-text-surprise": {
+        "props": {
+            "text": "lorem ipsum join our text",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-header-surprise"
+            ]
+        }
+    },
+    "rich-text#aldo-crew-banner-header-link-benefits": {
+        "props": {
+            "text": "[Mira los beneficios](/formulario-crew)",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-header-link-benefits"
+            ]
+        }
+    },
+    "image#aldo-crew-banner-triangle": {
+        "props": {
+            "src": "https://aldoecuador.vteximg.com.br/arquivos/crew-triangle_600x600.png",
+            "blockClass": [
+                "aldo-crew-banner-header-text",
+                "aldo-crew-banner-triangle"
+            ]
+        }
+    }
+}

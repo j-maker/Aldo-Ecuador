@@ -1,0 +1,9 @@
+.noticesList .noticeListItem:first-child::before {
+    font-size: 16px;
+    color: #3f3f40;
+    content: "La aprobación del pago puede tardar hasta 5 minutos.";
+}
+
+.noticesList .noticeListItem:first-child {
+    font-size: 0;
+}

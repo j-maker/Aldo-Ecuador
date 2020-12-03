@@ -1,0 +1,336 @@
+{
+    "search-result-layout#department": {
+        "blocks": [
+            "search-result-layout.desktop#department",
+            "search-result-layout.mobile#department",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#department": {
+        "children": [
+            "flex-layout.row#wrapperDepartment"
+        ]
+    },
+    "flex-layout.row#wrapperDepartment": {
+        "children": [
+            "flex-layout.col#wrapperDepartment"
+        ],
+        "props": {
+            "blockClass": "wrapperMain"
+        }
+    },
+    "flex-layout.col#wrapperDepartment": {
+        "children": [
+            "flex-layout.row#breadDepartment",
+            "flex-layout.row#expressYourself",
+            "flex-layout.row#iframeDepartment",
+            "info-card#department",
+            "flex-layout.row#department-info-cards",
+            "back-to-top-button"
+        ],
+        "props": {
+            "blockClass": "wrapperMain"
+        }
+    },
+    ///
+    "flex-layout.row#breadDepartment": {
+        "children": [
+            "breadcrumb.search#department"
+        ],
+        "props": {
+            "showOnMobile": true,
+            "blockClass": "searchBreadDepartment"
+        }
+    },
+    "breadcrumb.search#department": {
+        "props": {
+            "blockClass": "breadDepartment"
+        }
+    },
+    ///
+    "flex-layout.row#expressYourself": {
+        "children": [
+            "flex-layout.col#expressYourself",
+            "flex-layout.col#expressYourselfLink"
+        ],
+        "props": {
+            "blockClass": "wrapperDepartment"
+        }
+    },
+    "flex-layout.col#expressYourself": {
+        "children": [
+            "rich-text#TitleExpressYourself",
+            "rich-text#SubTitleExpressYourself"
+        ],
+        "props": {}
+    },
+    "rich-text#TitleExpressYourself": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "Expresate",
+            "blockClass": "titleExpressYourself"
+        }
+    },
+    "rich-text#SubTitleExpressYourself": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "Esta es una historia sobre tener la confianza para expresar tu verdadero yo y el coraje para conectarte con el mundo que te rodea. Ingrese para tener la oportunidad de ganar $ 5,000 para cualquier cosa que desee.",
+            "blockClass": "subTitleExpressYourself"
+        }
+    },
+    "flex-layout.col#expressYourselfLink": {
+        "children": [
+            "link#TitleExpressYourselfLink1",
+            "link#TitleexpressYourselfLink2"
+        ],
+        "props": {
+            "blockClass": "wrapperExpressYourselfLink",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+        }
+    },
+    "link#TitleExpressYourselfLink1": {
+        "props": {
+            "blockClass": "ExpressYourselfLink",
+            "href": "/",
+            "label": "Mujer"
+        }
+    },
+    "link#TitleexpressYourselfLink2": {
+        "props": {
+            "blockClass": "ExpressYourselfLink",
+            "href": "/hombre",
+            "label": "Hombre"
+        }
+    },
+    ///
+    "flex-layout.row#iframeDepartment": {
+        "children": [
+            "iframe#department"
+        ],
+        "props": {
+            "blockClass": "wrapperIframeDepartment",
+            "autoplay": {
+                "timeout": 15000,
+                "stopOnHover": false
+            }
+        }
+    },
+    "iframe#department": {
+        "props": {
+            "width": "100%",
+            "height": 580,
+            "src": "https://media.aldoshoes.com/assets/aldo/2020/28/sil-w-glp-topstory-2/w-glp-topstory_1160x580.mp4", //"https://aldoecuador.vteximg.com.br/arquivos/video-departmentmp4",
+            "href": "https://www.aldoshoes.com/stepintolove/us/en_us/intro/",
+            "blockClass": "departmentIframe"
+        }
+    },
+    "iframe.dynamic-src": {
+        "props": {
+            "dynamicSrc": "https://media.aldoshoes.com/assets/aldo/2020/28/sil-w-glp-topstory-2/w-glp-topstory_1160x580.mp4",
+            "title": "exampleStaticPageName iframe wrapper for {account}"
+        }
+    },
+    ////
+    "info-card#department": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://aldoecuador.vteximg.com.br/arquivos/sandal-shop-4.jpg",
+            "headline": "La tienda de Sandalias",
+            "subhead": "Sandalias por excelencia que fueron hechas para evolucionar con tu guardarropa.",
+            "callToActionText": "Tienda de sandalias",
+            "callToActionUrl": "/mujer/calzado/sandalias",
+            "blockClass": "info-card-department",
+            "textAlignment": "left",
+            "textMode": "html",
+            "callToActionLinkTarget": "/mujer/calzado/sandalias",
+            "htmlId": "infoCardDepartment"
+        }
+    },
+    ///
+    "flex-layout.row#department-info-cards": {
+        "children": [
+            "flex-layout.col#department-info-cards-1",
+            "flex-layout.col#department-info-cards-2",
+            "flex-layout.col#department-info-cards-3"
+        ],
+        "props": {
+            "blockClass": "info-cards"
+        }
+    },
+    "flex-layout.col#department-info-cards-1": {
+        "children": [
+            "image#department-infocard-1",
+            "rich-text#department-infocard-title-1",
+            "flex-layout.col#spacer",
+            "rich-text#department-infocard-subtitle-1",
+            "flex-layout.col#spacer",
+            "link#department-infocard-1"
+        ],
+        "props": {
+            "blockClass": "home-info-cards"
+        }
+    },
+    "flex-layout.col#department-info-cards-2": {
+        "children": [
+            "image#department-infocard-2",
+            "rich-text#department-infocard-title-2",
+            "flex-layout.col#spacer",
+            "rich-text#department-infocard-subtitle-2",
+            "flex-layout.col#spacer",
+            "link#department-infocard-2"
+        ],
+        "props": {
+            "blockClass": "home-info-cards"
+        }
+    },
+    "flex-layout.col#department-info-cards-3": {
+        "children": [
+            "image#department-infocard-3",
+            "rich-text#department-infocard-title-3",
+            "flex-layout.col#spacer",
+            "rich-text#department-infocard-subtitle-3",
+            "flex-layout.col#spacer",
+            "link#department-infocard-3"
+        ],
+        "props": {
+            "blockClass": "home-info-cards"
+        }
+    },
+    "image#department-infocard-1": {
+        "props": {
+            "blockClass": "home-infocard-image",
+            "src": "https://aldoecuador.vteximg.com.br/arquivos/sneakers-women-1.jpg",
+            "url": "/mujer/calzado/sandalias"
+        }
+    },
+    "image#department-infocard-2": {
+        "props": {
+            "blockClass": "home-infocard-image",
+            "src": "https://aldoecuador.vteximg.com.br/arquivos/casual-shoes-2.jpg",
+            "url": "/hombre/calzado/"
+        }
+    },
+    "image#department-infocard-3": {
+        "props": {
+            "blockClass": "home-infocard-image",
+            "src": "https://aldoecuador.vteximg.com.br/arquivos/new-arrivals-w-caus-3.jpg",
+            "url": "/mujer/carteras-y-bolsos/"
+        }
+    },
+    "rich-text#department-infocard-title-1": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "Renacimiento del entrenador",
+            "blockClass": "home-infocard-title"
+        }
+    },
+    "rich-text#department-infocard-title-2": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "Haz la vida más fácil",
+            "blockClass": "home-infocard-title"
+        }
+    },
+    "rich-text#department-infocard-title-3": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "Necesito ahora mismo",
+            "blockClass": "home-infocard-title"
+        }
+    },
+    "rich-text#department-infocard-subtitle-1": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "Desde elegantes mostos minimalistas hasta formas y acentos que tienen un toque realmente moderno. Actualizar su conjunto de zapatos deportivos nunca ha sido tan divertido.",
+            "blockClass": "home-infocard-subtitle"
+        }
+    },
+    "rich-text#department-infocard-subtitle-2": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "Zapatos planos, micro tacones y zapatos deportivos para el día a día que hacen que tu rutina de vestir sea muy sencilla.",
+            "blockClass": "home-infocard-subtitle"
+        }
+    },
+    "rich-text#department-infocard-subtitle-3": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "Actualiza tu guardarropa, mejora tu estado de ánimo. Opte por nuevas tomas de los extras que mejoran el atuendo o actualizaciones en los elementos imprescindibles sin esfuerzo. Bienvenido a lo que es ahora.",
+            "blockClass": "home-infocard-subtitle"
+        }
+    },
+    "link#department-infocard-1": {
+        "props": {
+            "blockClass": "home-infocard-link",
+            "href": "/",
+            "label": "Comprar zapatos deportivos"
+        }
+    },
+    "link#department-infocard-2": {
+        "props": {
+            "blockClass": "home-infocard-link",
+            "href": "/",
+            "label": "Comprar zapatos casuales"
+        }
+    },
+    "link#department-infocard-3": {
+        "props": {
+            "blockClass": "home-infocard-link",
+            "href": "",
+            "label": "Comprar recién llegados ",
+            "textAlignment": "center",
+            "textPosition": "center"
+        }
+    },
+    "search-result-layout.mobile#department": {
+        "children": [
+            //"flex-layout.row#searchinfomobile",
+            //"flex-layout.row#searchbread",
+            //"flex-layout.row#productCountMobile",
+            //"flex-layout.row#fetchprevious",
+            //"flex-layout.row#contentmobile",
+            //"flex-layout.row#fetchmore"
+            "flex-layout.row#breadDepartment",
+            "flex-layout.row#expressYourself",
+            "flex-layout.row#breadDepartment",
+            "flex-layout.row#iframeDepartmentMobile",
+            "info-card#department",
+            "flex-layout.row#department-info-cards"
+        ],
+        "props": {
+            //           "pagination": "show-more",
+            //         "mobileLayout": {
+            //           "mode1": "small",
+            //         "mode2": "normal"
+            //}
+        }
+    },
+    "flex-layout.row#iframeDepartmentMobile": {
+        "children": [
+            "image#departmentMobile"
+        ],
+        "props": {
+            "blockClass": "wrapperIframeDepartment"
+        }
+    },
+    "image#departmentMobile": {
+        "props": {
+            "blockClass": "home-infocard-image",
+            "src": "https://aldoecuador.vteximg.com.br/arquivos/sil-editop_challenge.jpg",
+            "url": "https://www.aldoshoes.com/stepintolove/us/en_us/manifesto/index.html"
+        }
+    }
+}

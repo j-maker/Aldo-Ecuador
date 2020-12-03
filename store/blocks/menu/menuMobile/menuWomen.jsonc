@@ -1,0 +1,858 @@
+{
+    "link#categoryWomenMenuMobile": {
+        "props": {
+            "blockClass": "subCategoryMenuTopMobileLink",
+            "href": "/mujer",
+            "label": "Mujer"
+        }
+    },
+    "flex-layout.row#linkShopWomen": {
+        "children": [
+            "link#shopWomen"
+        ]
+    },
+    "link#shopWomen": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer",
+            "label": "Tienda Mujer"
+        }
+    },
+    "drawer#searchMenuMobile": {
+        "children": [
+            "flex-layout.row#categoryMenuMobile",
+            "flex-layout.col#drawerMenuSearch"
+        ],
+        "props": {
+            "blockClass": "drawerMenuSearchMobile"
+        }
+    },
+    "flex-layout.col#drawerMenuSearch": {
+        "children": [
+            "search-bar#menuMobile"
+        ],
+        "props": {
+            "blockClass": "drawerMenuSearchMobile"
+        }
+    },
+    "search-bar#menuMobile": {
+        "props": {
+            "blockClass": "drawerMenuSearchMobile",
+            "placeholder": "Buscar"
+        }
+    },
+    "drawer#subcategory-1": {
+        "props": {
+            "blockClass": "subCategory-1-MenuMobile",
+            "backdropMode": "none"
+        },
+        "children": [
+            "flex-layout.row#categoryMenuMobile",
+            "drawer#searchMenuMobileMen",
+            "flex-layout.row#new-new",
+            "flex-layout.row#newWomenTargetMenuMobile",
+            "flex-layout.row#new-womenNew",
+            "flex-layout.row#WrapperFooterMenu"
+        ]
+    },
+    "flex-layout.row#new-new": {
+        "children": [
+            "link#new-new"
+        ],
+        "props": {
+            "blockClass": "menuGeneralTitleLink"
+        }
+    },
+    "link#new-new": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+            "href": "/mujeres",
+            "label": "Nuevo"
+        }
+    },
+    "flex-layout.row#new-womenNew": {
+        "children": [
+            "link#new-womenNew"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#new-womenNew": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/new-arrival-mujer",
+            "label": "Nuevo en Mujeres"
+        }
+    },
+    "drawer#subcategory-2": {
+        "props": {
+            "blockClass": "subCategory-2-MenuMobile",
+            "backdropMode": "none"
+        },
+        "children": [
+            "flex-layout.row#categoryMenuMobile",
+            "drawer#searchMenuMobileMen",
+            "flex-layout.row#sale-sale",
+            "flex-layout.row#sale-footwear",
+            "flex-layout.row#sale-handbags",
+            "flex-layout.row#sale-clearance",
+            "flex-layout.row#sale-outlet",
+            "flex-layout.row#WrapperFooterMenu"
+        ]
+    },
+    "flex-layout.row#sale-sale": {
+        "children": [
+            "link#sale"
+        ],
+        "props": {
+            "blockClass": "menuGeneralTitleLink"
+        }
+    },
+    "link#sale": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+            "href": "/",
+            "label": "Rebajas"
+        }
+    },
+    "flex-layout.row#sale-footwear": {
+        "children": [
+            "link#footwearWomen"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#footwearWomen": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujeres/calzado",
+            "label": "Calzado"
+        }
+    },
+    "flex-layout.row#sale-handbags": {
+        "children": [
+            "link#sale-handbags"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#sale-handbags": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/bolsos",
+            "label": "Bolsos"
+        }
+    },
+    "flex-layout.row#sale-clearance": {
+        "children": [
+            "link#clearance"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#clearance": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Clearance"
+        }
+    },
+    "flex-layout.row#sale-outlet": {
+        "children": [
+            "link#outlet"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#outlet": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Outlet"
+        }
+    },
+    "drawer#subcategory-3": {
+        "props": {
+            "blockClass": "subCategory-3-MenuMobile",
+            "backdropMode": "none"
+        },
+        "children": [
+            "flex-layout.row#categoryMenuMobile",
+            "drawer#searchMenuMobileMen",
+            "flex-layout.row#footwear-footwear",
+            "flex-layout.row#footwear-sandals",
+            "flex-layout.row#footwear-heels",
+            "flex-layout.row#footwear-sneakers",
+            //"flex-layout.row#footwear-spadrilles",
+            //"flex-layout.row#footwear-flats",
+            //"flex-layout.row#footwear-mules",
+            "flex-layout.row#footwear-casuals",
+            "flex-layout.row#footwear-boots",
+            "flex-layout.row#footwear-wideWidth"
+            //"flex-layout.row#WrapperFooterMenu"
+        ]
+    },
+    "flex-layout.row#footwear-footwear": {
+        "children": [
+            "link#footwear"
+        ],
+        "props": {
+            "blockClass": "menuGeneralTitleLink"
+        }
+    },
+    "link#footwear": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+            "href": "/mujer/calzado",
+            "label": "Calzado"
+        }
+    },
+    "flex-layout.row#footwear-sandals": {
+        "children": [
+            "link#sandals"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#sandals": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/calzado/sandalilas",
+            "label": "Sandalias"
+        }
+    },
+    "flex-layout.row#footwear-heels": {
+        "children": [
+            "link#heels"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#heels": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/calzado/tacones",
+            "label": "Tacones"
+        }
+    },
+    "flex-layout.row#footwear-sneakers": {
+        "children": [
+            "link#sneakers"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#sneakers": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/calzado/deportivos",
+            "label": "Deportivos"
+        }
+    },
+    "flex-layout.row#footwear-spadrilles": {
+        "children": [
+            "link#spadrilles"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#spadrilles": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Por asignar"
+        }
+    },
+    "flex-layout.row#footwear-flats": {
+        "children": [
+            "link#flats"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#flats": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Por asignar"
+        }
+    },
+    "flex-layout.row#footwear-mules": {
+        "children": [
+            "link#mules"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#mules": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Por asignar"
+        }
+    },
+    "flex-layout.row#footwear-casuals": {
+        "children": [
+            "link#casuals"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#casuals": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/calzado/casuales",
+            "label": "Casuales"
+        }
+    },
+    "flex-layout.row#footwear-boots": {
+        "children": [
+            "link#boots"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#boots": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/calzado/botas",
+            "label": "Botas"
+        }
+    },
+    "flex-layout.row#footwear-wideWidth": {
+        "children": [
+            "link#wideWidth"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#wideWidth": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Ancho amplio"
+        }
+    },
+    "drawer#subcategory-4": {
+        "props": {
+            "blockClass": "subCategory-4-MenuMobile",
+            "backdropMode": "none"
+        },
+        "children": [
+            "flex-layout.row#categoryMenuMobile",
+            "drawer#searchMenuMobileMen",
+            "flex-layout.row#handbags-HandBags",
+            "flex-layout.row#handbags-ToteBags",
+            "flex-layout.row#handbags-CrossbodyBags",
+            "flex-layout.row#handbags-TopHanddleBags",
+            "flex-layout.row#handbags-BackPacks",
+            "flex-layout.row#handbags-FannyPacks",
+            "flex-layout.row#handbags-ClutchesEveningBags",
+            "flex-layout.row#handbags-WalletsWristlets",
+            "flex-layout.row#WrapperFooterMenu"
+        ]
+    },
+    "flex-layout.row#handbags-HandBags": {
+        "children": [
+            "link#HandBags"
+        ],
+        "props": {
+            "blockClass": "menuGeneralTitleLink"
+        }
+    },
+    "link#HandBags": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+            "href": "/mujer/carteras-y-bolsos",
+            "label": "Bolsos de mano"
+        }
+    },
+    "flex-layout.row#handbags-ToteBags": {
+        "children": [
+            "link#ToteBags"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#ToteBags": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/carteras-y-bolsos/bolsos-de-mano",
+            "label": "Bolsas de mano"
+        }
+    },
+    "flex-layout.row#handbags-CrossbodyBags": {
+        "children": [
+            "link#CrossbodyBags"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#CrossbodyBags": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Bolsos cruzados"
+        }
+    },
+    "flex-layout.row#handbags-TopHanddleBags": {
+        "children": [
+            "link#TopHanddleBags"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#TopHanddleBags": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Bolsas superiores"
+        }
+    },
+    "flex-layout.row#handbags-BackPacks": {
+        "children": [
+            "link#BackPacks"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#BackPacks": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/carteras-y-bolsos/mochilas",
+            "label": "Mochilas"
+        }
+    },
+    "flex-layout.row#handbags-FannyPacks": {
+        "children": [
+            "link#FannyPack"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#FannyPack": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/carteras-y-bolsos/riñoneras",
+            "label": "Riñoneras"
+        }
+    },
+    "flex-layout.row#handbags-ClutchesEveningBags": {
+        "children": [
+            "link#ClutchesEveningBags"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#ClutchesEveningBags": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Bolsos de noche"
+        }
+    },
+    "flex-layout.row#handbags-WalletsWristlets": {
+        "children": [
+            "link#WalletsWristlets"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#WalletsWristlets": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/carteras-y-bolsos/bolsos-de-mano",
+            "label": "Bolsos de mano"
+        }
+    },
+    "drawer#subcategory-5": {
+        "props": {
+            "blockClass": "subCategory-5-MenuMobile",
+            "backdropMode": "none"
+        },
+        "children": [
+            "flex-layout.row#categoryMenuMobile",
+            "drawer#searchMenuMobileMen",
+            "flex-layout.row#accessories-accessories",
+            "flex-layout.row#accessories-sunglasses",
+            "flex-layout.row#accessories-jewelry",
+            "flex-layout.row#accessories-hair-accessorios",
+            "flex-layout.row#accessories-belts",
+            "flex-layout.row#accessories-odds-and-ends",
+            "flex-layout.row#WrapperFooterMenu"
+        ]
+    },
+    "flex-layout.row#accessories-accessories": {
+        "children": [
+            "link#accessories"
+        ],
+        "props": {
+            "blockClass": "menuGeneralTitleLink"
+        }
+    },
+    "link#accessories": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+            "href": "/mujer/accesorios",
+            "label": "Accesorios"
+        }
+    },
+    "flex-layout.row#accessories-sunglasses": {
+        "children": [
+            "link#sunglasses"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#sunglasses": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/accesorios/gafas",
+            "label": "Gafas"
+        }
+    },
+    "flex-layout.row#accessories-jewelry": {
+        "children": [
+            "link#jewelry"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#jewelry": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Joyeria"
+        }
+    },
+    "flex-layout.row#accessories-hair-accessorios": {
+        "children": [
+            "link#hair-accessorios"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#hair-accessorios": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/accesorios/accesorios-de-cabello",
+            "label": "Accesorios de cabello"
+        }
+    },
+    "flex-layout.row#accessories-belts": {
+        "children": [
+            "link#belts"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#belts": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/mujer/accesorios/cinturones",
+            "label": "Cinturones"
+        }
+    },
+    "flex-layout.row#accessories-odds-and-ends": {
+        "children": [
+            "link#odds-and-ends"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#odds-and-ends": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Retazos"
+        }
+    },
+    "drawer#subcategory-6": {
+        "props": {
+            "blockClass": "subCategory-6-MenuMobile",
+            "backdropMode": "none"
+        },
+        "children": [
+            "flex-layout.row#categoryMenuMobile",
+            "drawer#searchMenuMobileMen",
+            "flex-layout.row#collections-collections",
+            "flex-layout.row#collections-the-cindirella",
+            "flex-layout.row#collections-aldoxrocky",
+            "flex-layout.row#collections-best-sellers",
+            //"flex-layout.row#collections-wedding",
+            //"flex-layout.row#collections-RPPL",
+            //"flex-layout.row#collections-online-exclusives",
+            "flex-layout.row#WrapperFooterMenu"
+        ]
+    },
+    "flex-layout.row#collections-collections": {
+        "children": [
+            "link#collections"
+        ],
+        "props": {
+            "blockClass": "menuGeneralTitleLink"
+        }
+    },
+    "link#collections": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+            "href": "/",
+            "label": "Colecciones"
+        }
+    },
+    "flex-layout.row#collections-the-cindirella": {
+        "children": [
+            "link#the-cindirella"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#the-cindirella": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Disney x Aldo: Colección de la Cenicienta"
+        }
+    },
+    "flex-layout.row#collections-aldoxrocky": {
+        "children": [
+            "link#aldoxrocky"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#aldoxrocky": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Aldo x Rocky Barnes"
+        }
+    },
+    "flex-layout.row#collections-best-sellers": {
+        "children": [
+            "link#best-sellers"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#best-sellers": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Super-ventas"
+        }
+    },
+    "flex-layout.row#collections-wedding": {
+        "children": [
+            "link#wedding"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#wedding": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Boda"
+        }
+    },
+    "flex-layout.row#collections-RPPL": {
+        "children": [
+            "link#RPPL"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#RPPL": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Zapatillas sostenibles"
+        }
+    },
+    "flex-layout.row#collections-online-exclusives": {
+        "children": [
+            "link#online-exclusives"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#online-exclusives": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Exclusivos Online"
+        }
+    },
+    "drawer#subcategory-7": {
+        "props": {
+            "blockClass": "subCategory-7-MenuMobile",
+            "backdropMode": "none"
+        },
+        "children": [
+            "flex-layout.row#categoryMenuMobile",
+            "drawer#searchMenuMobileMen",
+            "flex-layout.row#trending-trending",
+            "flex-layout.row#trending-square",
+            "flex-layout.row#trending-flatforms",
+            "flex-layout.row#trending-bags",
+            "flex-layout.row#trending-bright-color",
+            "flex-layout.row#trending-print",
+            "flex-layout.row#trending-neutrals",
+            "flex-layout.row#WrapperFooterMenu"
+        ]
+    },
+    "flex-layout.row#trending-trending": {
+        "children": [
+            "link#trending"
+        ],
+        "props": {
+            "blockClass": "menuGeneralTitleLink"
+        }
+    },
+    "link#trending": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLinkBack",
+            "href": "/",
+            "label": "Tendencias"
+        }
+    },
+    "flex-layout.row#trending-square": {
+        "children": [
+            "link#square"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#square": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Caída de tendencia: el talón geométrico"
+        }
+    },
+    "flex-layout.row#trending-flatforms": {
+        "children": [
+            "link#flatforms"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#flatforms": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Formas Planas"
+        }
+    },
+    "flex-layout.row#trending-bags": {
+        "children": [
+            "link#bags"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#bags": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Bolsos"
+        }
+    },
+    "flex-layout.row#trending-bright-color": {
+        "children": [
+            "link#bright-color"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#bright-color": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Colores Brillante"
+        }
+    },
+    "flex-layout.row#trending-print": {
+        "children": [
+            "link#print"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#print": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Estampados"
+        }
+    },
+    "flex-layout.row#trending-neutrals": {
+        "children": [
+            "link#neutrals"
+        ],
+        "props": {
+            "blockClass": "menuGeneralWrapperLink"
+        }
+    },
+    "link#neutrals": {
+        "props": {
+            "blockClass": "subCategoryMenuGeneralMobileLink",
+            "href": "/",
+            "label": "Neutrales"
+        }
+    },
+    "flex-layout.row#newWomenTargetMenuMobile": {
+        "children": [
+            "rich-text#newMenuMoblieTarget"
+        ],
+        "props": {
+            "blockClass": "newWomenTargetMenuMobile"
+        }
+    },
+    "rich-text#newMenuMoblieTarget": {
+        "props": {
+            "blockClass": "newMenuMoblieTargetTextWomen",
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "**Nuevo** \nDescubre estilos recientemente agregados"
+        }
+    }
+}

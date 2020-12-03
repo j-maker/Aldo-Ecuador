@@ -1,0 +1,58 @@
+{
+  "store.custom#helpCenterReturns": {
+    "blocks": [
+      "tab-layout#helpCenterReturns"
+    ]
+  },
+  "tab-layout#helpCenterReturns": {
+    "children": [
+      "tab-list#helpcenter",
+      "tab-content#helpcenter"
+    ],
+    "props": {
+      "blockClass": "helpcenter",
+      "defaultActiveTabId": "helpcenter5"
+    }
+  },
+  "tab-list.item#helpcenter5": {
+    "props": {
+      "blockClass": "listItemHelpCenter",
+      "tabId": "helpcenter5",
+      "label": "Devoluciones"
+    }
+  },
+  "tab-content.item#helpcenter5": {
+    "children": [
+      "flex-layout.row#topContentInfoHelpCenter",
+      "rich-text#textContent-3",
+      "rich-text#textContent-2",
+      "flex-layout.row#wrapperQuestionReturnsInfoHelpCenter",
+      "rich-text#InfoGeneralFooterTextTitle",
+      "flex-layout.row#WrapperInfoGeneralFooter"
+    ],
+    "props": {
+      "tabId": "helpcenter5"
+    }
+  },
+  //question
+  "flex-layout.row#wrapperQuestionReturnsInfoHelpCenter": {
+    "children": [
+      "flex-layout.col#wrapperQuestionReturnsInfoHelpCenter"
+    ],
+    "props": {
+      "blockClass": "WrapperRowQuestion"
+    }
+  },
+  "flex-layout.col#wrapperQuestionReturnsInfoHelpCenter": {
+    "children": [
+      "vtex.menu@2.x:menu#questionAccount-1",
+      "vtex.menu@2.x:menu#questionAccount-2",
+      "vtex.menu@2.x:menu#questionAccount-3",
+      "vtex.menu@2.x:menu#questionAccount-4",
+      "vtex.menu@2.x:menu#questionAccount-5"
+    ],
+    "props": {
+      "blockClass": "WrapperColQuestion"
+    }
+  }
+}
